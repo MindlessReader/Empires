@@ -1,3 +1,3 @@
 # Empires
 
-THE greatest Minecraft project in HISTORY!
+Empires by MindlessReader and atricard
