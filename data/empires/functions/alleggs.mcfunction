@@ -14,8 +14,8 @@ give @p vindicator_spawn_egg{display:{Name:"\"Concrete\":\"\""},EntityTag:{id:"m
 give @p horse_spawn_egg{display:{Name:"\"Crafting Table\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Crafting Table\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["craftingtable"]}}
 give @p horse_spawn_egg{display:{Name:"\"Anvil\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Anvil\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["anvil"]}}
 #House Detectors
-give @p husk_spawn_egg{display:{Name:"\"Tier 1 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 1 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t1housedetector"]}}
-give @p husk_spawn_egg{display:{Name:"\"Tier 2 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 2 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t2housedetector"]}}
-give @p husk_spawn_egg{display:{Name:"\"Tier 3 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 3 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t3housedetector"]}}
-give @p husk_spawn_egg{display:{Name:"\"Tier 4 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 4 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t4housedetector"]}}
-give @p husk_spawn_egg{display:{Name:"\"Tier 5 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 5 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t5housedetector"]}}
+give @p husk_spawn_egg{display:{Name:"\"Tier 1 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 1 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t1housedetector","detector"]}}
+give @p husk_spawn_egg{display:{Name:"\"Tier 2 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 2 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t2housedetector","detector"]}}
+give @p husk_spawn_egg{display:{Name:"\"Tier 3 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 3 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t3housedetector","detector"]}}
+give @p husk_spawn_egg{display:{Name:"\"Tier 4 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 4 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t4housedetector","detector"]}}
+give @p husk_spawn_egg{display:{Name:"\"Tier 5 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 5 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t5housedetector","detector"]}}
