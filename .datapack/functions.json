@@ -1,0 +1,1 @@
+{"empires":{"buildings":{"$func":["tier4house","tier1house","tier2house","tier3house","tier4house","tier5house"]},"$func":["alleggs","runscripts","start"],"blocks":{"$func":["anvil","cobblestone","concrete","craftingtable","mudbricks","oakplanks","stone"]},"startup":{"$func":["blocks","blocktiers","buildings"]}}}

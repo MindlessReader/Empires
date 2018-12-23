@@ -1,0 +1,2 @@
+execute at @e[tag=t3housedetector,scores={t3Block=100..,craftingtable=1..}] run scoreboard players add @p houses 1
+execute at @e[tag=t3housedetector,scores={t3Block=100..,craftingtable=1..}] run kill @e[tag=t3housedetector,scores={t3Block=100..,craftingtable=1..},distance=0..10]
