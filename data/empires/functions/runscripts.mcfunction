@@ -9,3 +9,6 @@ function empires:blocks/mudbricks
 function empires:blocks/concrete
 function empires:blocks/oakplanks
 function empires:blocks/cobblestone
+function empires:flight/flight
+function empires:flight/hover
+function empires:flight/enable

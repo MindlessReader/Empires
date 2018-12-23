@@ -1,0 +1,10 @@
+execute as @a[scores={flight=1},nbt={SelectedItem:{id:"minecraft:feather"}}] at @s run tp @s ^ ^ ^0.1
+execute as @a[scores={flight=2},nbt={SelectedItem:{id:"minecraft:feather"}}] at @s run tp @s ^ ^ ^0.2
+execute as @a[scores={flight=3},nbt={SelectedItem:{id:"minecraft:feather"}}] at @s run tp @s ^ ^ ^0.3
+execute as @a[scores={flight=4},nbt={SelectedItem:{id:"minecraft:feather"}}] at @s run tp @s ^ ^ ^0.4
+execute as @a[scores={flight=5},nbt={SelectedItem:{id:"minecraft:feather"}}] at @s run tp @s ^ ^ ^0.5
+execute as @a[scores={flight=6},nbt={SelectedItem:{id:"minecraft:feather"}}] at @s run tp @s ^ ^ ^0.6
+execute as @a[scores={flight=7},nbt={SelectedItem:{id:"minecraft:feather"}}] at @s run tp @s ^ ^ ^0.7
+execute as @a[scores={flight=8},nbt={SelectedItem:{id:"minecraft:feather"}}] at @s run tp @s ^ ^ ^0.8
+execute as @a[scores={flight=9},nbt={SelectedItem:{id:"minecraft:feather"}}] at @s run tp @s ^ ^ ^0.9
+execute as @a[scores={flight=10},nbt={SelectedItem:{id:"minecraft:feather"}}] at @s run tp @s ^ ^ ^1
