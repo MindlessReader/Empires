@@ -1,15 +1,14 @@
-function empires:blocks/stone
-function empires:blocks/craftingtable
-function empires:buildings/houses/tier1house
-function empires:buildings/houses/tier2house
-function empires:buildings/houses/tier3house
-function empires:buildings/houses/tier4house
-function empires:buildings/houses/tier5house
-function empires:blocks/mudbricks
-function empires:blocks/concrete
-function empires:blocks/oakplanks
-function empires:blocks/cobblestone
+#Blocks
+execute if entity @a[nbt={Inventory:[{id:"minecraft:ghast_spawn_egg"}]}] run function empires:blocks/t1blocks
+execute if entity @a[nbt={Inventory:[{id:"minecraft:sheep_spawn_egg"}]}] run function empires:blocks/t2blocks
+execute if entity @a[nbt={Inventory:[{id:"minecraft:turtle_spawn_egg"}]}] run function empires:blocks/t3blocks
+execute if entity @a[nbt={Inventory:[{id:"minecraft:skeleton_spawn_egg"}]}] run function empires:blocks/t4blocks
+execute if entity @a[nbt={Inventory:[{id:"minecraft:vindicator_spawn_egg"}]}] run function empires:blocks/t5blocks
+execute if entity @a[nbt={Inventory:[{id:"minecraft:horse_spawn_egg"}]}] run function empires:blocks/misc
 
+
+#House Detectors
+execute at @e[type=bat] if entity @a[distance=..20] run function empires:buildings/houses/hdetectors
 #Flight System
 function empires:flight/flight
 function empires:flight/hover
