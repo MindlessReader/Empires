@@ -28,6 +28,8 @@ give @p vindicator_spawn_egg{display:{Name:"\"Concrete\":\"\""},EntityTag:{id:"m
 #Misc
 give @p horse_spawn_egg{display:{Name:"\"Crafting Table\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Crafting Table\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["craftingtable"]}}
 give @p horse_spawn_egg{display:{Name:"\"Anvil\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Anvil\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["anvil"]}}
+give @p horse_spawn_egg{display:{Name:"\"Farmland\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Farmland\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["farmland"]}}
+give @p horse_spawn_egg{display:{Name:"\"Cauldron\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Cauldron\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["cauldron"]}}
 #House Detectors
 give @p husk_spawn_egg{display:{Name:"\"Tier 1 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 1 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t1housedetector","detector"]}}
 give @p husk_spawn_egg{display:{Name:"\"Tier 2 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 2 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t2housedetector","detector"]}}
