@@ -1,9 +1,15 @@
 #Tier 1 Blocks
 give @p ghast_spawn_egg{display:{Name:"\"Mud Bricks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Mud Bricks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["mudbricks"]}}
+give @p ghast_spawn_egg{display:{Name:"\"Gravel\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Gravel\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["gravel"]}}
+give @p ghast_spawn_egg{display:{Name:"\"Sand\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Sand\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["sand"]}}
+give @p ghast_spawn_egg{display:{Name:"\"Red Sand\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Red Sand\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["red_sand"]}}
+give @p ghast_spawn_egg{display:{Name:"\"Snow Block\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Snow Block\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["snow_block"]}}
 #Tier 2 Blocks
 give @p sheep_spawn_egg{display:{Name:"\"Stone\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Stone\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["stone"]}}
 give @p sheep_spawn_egg{display:{Name:"\"Cobblestone\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Cobblestone\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["cobblestone"]}}
 give @p sheep_spawn_egg{display:{Name:"\"Oak Planks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Oak Planks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["oakplanks"]}}
+give @p sheep_spawn_egg{display:{Name:"\"Terracotta\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Terracotta\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["terracotta"]}}
+give @p sheep_spawn_egg{display:{Name:"\"Hay Bale\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Hay Bale\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["hay_block"]}}
 #Tier 3 Blocks
 give @p turtle_spawn_egg{display:{Name:"\"Mud Bricks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Mud Bricks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["mudbricks"]}}
 #Tier 4 Blocks
