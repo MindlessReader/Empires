@@ -26,6 +26,7 @@ give @p skeleton_spawn_egg{display:{Name:"\"Polished Diorite\":\"\""},EntityTag:
 give @p skeleton_spawn_egg{display:{Name:"\"Polished Granite\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Polished Granite\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["polished_granite"]}}
 #Tier 5 Blocks
 give @p vindicator_spawn_egg{display:{Name:"\"Concrete\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Concrete\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["concrete"]}}
+give @p vindicator_spawn_egg{display:{Name:"\"Glass\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Glass\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["glass"]}}
 #Misc
 give @p horse_spawn_egg{display:{Name:"\"Crafting Table\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Crafting Table\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["craftingtable"]}}
 give @p horse_spawn_egg{display:{Name:"\"Anvil\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Anvil\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["anvil"]}}
