@@ -44,4 +44,5 @@ scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={
 scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] economy1
 scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] equipment1
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] population
-scoreboard players set @a[scores={turn=24000}] turn 1
+scoreboard players add @a[scores={turn=24000}] turnCount 1
+scoreboard players set @a[scores={turn=24000}] turn 0
