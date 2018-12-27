@@ -1,0 +1,6 @@
+give @p skeleton_spawn_egg{display:{Name:"\"Bricks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Bricks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["bricks"]}}
+give @p skeleton_spawn_egg{display:{Name:"\"Quartz Block\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Quartz Block\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["quartz_block"]}}
+give @p skeleton_spawn_egg{display:{Name:"\"Quartz Pillar\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Quartz Pillar\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["quartz_pillar"]}}
+give @p skeleton_spawn_egg{display:{Name:"\"Polished Andesite\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Polished Andesite\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["polished_andesite"]}}
+give @p skeleton_spawn_egg{display:{Name:"\"Polished Diorite\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Polished Diorite\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["polished_diorite"]}}
+give @p skeleton_spawn_egg{display:{Name:"\"Polished Granite\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Polished Granite\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["polished_granite"]}}
