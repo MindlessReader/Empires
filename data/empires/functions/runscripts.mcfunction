@@ -7,8 +7,10 @@ execute if entity @a[nbt={Inventory:[{id:"minecraft:vindicator_spawn_egg"}]}] ru
 execute if entity @a[nbt={Inventory:[{id:"minecraft:horse_spawn_egg"}]}] run function empires:blocks/misc
 
 
-#House Detectors
+#Detectors
 execute at @e[type=bat] if entity @a[distance=..20] run function empires:buildings/houses/hdetectors
+execute at @e[type=bat] if entity @a[distance=..20] run function empires:buildings/misc/.otherdetectors
+
 #Flight System
 function empires:flight/flight
 function empires:flight/hover

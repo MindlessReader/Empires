@@ -41,3 +41,4 @@ give @p husk_spawn_egg{display:{Name:"\"Tier 3 House Detector\":\"\""},EntityTag
 give @p husk_spawn_egg{display:{Name:"\"Tier 4 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 4 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t4housedetector","detector"]}}
 give @p husk_spawn_egg{display:{Name:"\"Tier 5 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 5 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t5housedetector","detector"]}}
 #Other Buildings
+give @p husk_spawn_egg{display:{Name:"\"Blacksmith Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Blacksmith Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["blacksmithdetector","detector"]}}
