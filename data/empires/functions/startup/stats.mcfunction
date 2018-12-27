@@ -25,3 +25,4 @@ scoreboard objectives add totalHousing dummy
 scoreboard objectives add zero dummy
 scoreboard objectives add three dummy
 scoreboard objectives add turn dummy
+scoreboard objectives add turnCount dummy
