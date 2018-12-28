@@ -10,3 +10,4 @@ give @p horse_spawn_egg{display:{Name:"\"Poppy\":\"\""},EntityTag:{id:"minecraft
 give @p horse_spawn_egg{display:{Name:"\"Dandelion\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Dandelion\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["dandelion"]}}
 give @p horse_spawn_egg{display:{Name:"\"Blue Orchid\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Blue Orchid\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["blue_orchid"]}}
 give @p horse_spawn_egg{display:{Name:"\"Allium\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Allium\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["allium"]}}
+give @p horse_spawn_egg{display:{Name:"\"Bookshelf\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Bookshelf\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["bookshelf"]}}

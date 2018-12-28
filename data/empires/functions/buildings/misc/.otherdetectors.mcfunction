@@ -6,3 +6,6 @@ function empires:buildings/misc/fishingboat
 function empires:buildings/misc/potter
 function empires:buildings/misc/field
 function empires:buildings/misc/lumbermill
+function empires:buildings/misc/workshop
+function empires:buildings/misc/academia
+function empires:buildings/misc/library

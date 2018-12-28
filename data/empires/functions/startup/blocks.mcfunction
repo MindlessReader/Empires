@@ -10,3 +10,4 @@ scoreboard objectives add sand dummy
 scoreboard objectives add leaves dummy
 scoreboard objectives add flowers dummy
 scoreboard objectives add haybale dummy
+scoreboard objectives add bookshelf dummy

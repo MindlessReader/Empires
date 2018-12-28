@@ -11,3 +11,6 @@ scoreboard objectives add fishingboat dummy
 scoreboard objectives add potter dummy
 scoreboard objectives add field dummy
 scoreboard objectives add lumbermill dummy
+scoreboard objectives add workshop dummy
+scoreboard objectives add library dummy
+scoreboard objectives add academia dummy

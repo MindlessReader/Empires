@@ -10,3 +10,4 @@ function empires:blocks/misc/flowers/blue_orchid
 function empires:blocks/misc/flowers/dandelion
 function empires:blocks/misc/flowers/poppy
 function empires:blocks/misc/oak_leaves
+function empires:blocks/misc/bookshelf
