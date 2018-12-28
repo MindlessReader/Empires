@@ -26,4 +26,7 @@ scoreboard objectives add zero dummy
 scoreboard objectives add three dummy
 scoreboard objectives add turn dummy
 scoreboard objectives add turnCount dummy
-scoreboard objectives add shop trigger
+scoreboard objectives add shopHouses trigger
+scoreboard objectives add shopTierBlocks trigger
+scoreboard objectives add shopBuildings1 trigger
+scoreboard objectives add shopDecoration trigger
