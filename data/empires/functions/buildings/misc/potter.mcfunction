@@ -1,0 +1,2 @@
+execute at @e[tag=potterdetector,tag=detector,scores={flower_pot=10..}] run scoreboard players add @p potter 1
+execute at @e[tag=potterdetector,tag=detector,scores={flower_pot=10..}] run kill @e[tag=potterdetector,tag=detector,scores={flower_pot=10..},distance=0..10]
