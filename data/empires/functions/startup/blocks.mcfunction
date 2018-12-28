@@ -3,5 +3,10 @@ scoreboard objectives add craftingtable dummy
 scoreboard objectives add anvil dummy
 scoreboard objectives add farmland dummy
 scoreboard objectives add cauldron dummy
+scoreboard objectives add flower_pot dummy
 scoreboard objectives add rail dummy
 scoreboard objectives add activator_rail dummy
+scoreboard objectives add sand dummy
+scoreboard objectives add leaves dummy
+scoreboard objectives add flowers dummy
+scoreboard objectives add haybale dummy

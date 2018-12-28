@@ -1,0 +1,2 @@
+execute at @e[tag=lumbermilldetector,tag=detector,scores={block=225..}] run scoreboard players add @p lumbermill 1
+execute at @e[tag=lumbermilldetector,tag=detector,scores={block=225..}] run kill @e[tag=lumbermilldetector,tag=detector,scores={block=225..},distance=0..10]
