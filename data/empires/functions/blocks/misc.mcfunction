@@ -5,3 +5,8 @@ function empires:blocks/misc/cauldron
 function empires:blocks/misc/flower_pot
 function empires:blocks/misc/rail
 function empires:blocks/misc/activator_rail
+function empires:blocks/misc/flowers/allium
+function empires:blocks/misc/flowers/blue_orchid
+function empires:blocks/misc/flowers/dandelion
+function empires:blocks/misc/flowers/poppy
+function empires:blocks/misc/oak_leaves
