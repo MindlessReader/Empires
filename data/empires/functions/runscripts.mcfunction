@@ -10,6 +10,7 @@ execute if entity @a[nbt={Inventory:[{id:"minecraft:horse_spawn_egg"}]}] run fun
 #Detectors
 execute at @e[type=bat] if entity @a[distance=..20] run function empires:buildings/houses/hdetectors
 execute at @e[type=bat] if entity @a[distance=..20] run function empires:buildings/misc/.otherdetectors
+execute at @e[type=bat] if entity @a[distance=..20] run function empires:buildings/temples/.templedetectors
 
 #Flight System
 function empires:flight/flight

@@ -4,6 +4,12 @@ give @p husk_spawn_egg{display:{Name:"\"Tier 2 House Detector\":\"\""},EntityTag
 give @p husk_spawn_egg{display:{Name:"\"Tier 3 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 3 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t3housedetector","detector"]}}
 give @p husk_spawn_egg{display:{Name:"\"Tier 4 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 4 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t4housedetector","detector"]}}
 give @p husk_spawn_egg{display:{Name:"\"Tier 5 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 5 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t5housedetector","detector"]}}
+#Temple Detectors
+give @p husk_spawn_egg{display:{Name:"\"Tier 1 Temple Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 1 Temple Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t1templedetector","detector"]}}
+give @p husk_spawn_egg{display:{Name:"\"Tier 2 Temple Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 2 Temple Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t2templedetector","detector"]}}
+give @p husk_spawn_egg{display:{Name:"\"Tier 3 Temple Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 3 Temple Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t3templedetector","detector"]}}
+give @p husk_spawn_egg{display:{Name:"\"Tier 4 Temple Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 4 Temple Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t4templedetector","detector"]}}
+give @p husk_spawn_egg{display:{Name:"\"Tier 5 Temple Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 5 Temple Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t5templedetector","detector"]}}
 #Other Buildings
 give @p husk_spawn_egg{display:{Name:"\"Blacksmith Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Blacksmith Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["blacksmithdetector","detector"]}}
 give @p husk_spawn_egg{display:{Name:"\"Zen Garden Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Zen Garden Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["zengardendetector","detector"]}}

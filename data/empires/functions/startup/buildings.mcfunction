@@ -14,3 +14,8 @@ scoreboard objectives add lumbermill dummy
 scoreboard objectives add workshop dummy
 scoreboard objectives add library dummy
 scoreboard objectives add academia dummy
+scoreboard objectives add t1temple dummy
+scoreboard objectives add t2temple dummy
+scoreboard objectives add t3temple dummy
+scoreboard objectives add t4temple dummy
+scoreboard objectives add t5temple dummy
