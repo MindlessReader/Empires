@@ -13,7 +13,13 @@ scoreboard objectives add fishingboat dummy
 scoreboard objectives add potter dummy
 scoreboard objectives add field dummy
 scoreboard objectives add lumbermill dummy
+<<<<<<< HEAD
 #Temples
+=======
+scoreboard objectives add workshop dummy
+scoreboard objectives add library dummy
+scoreboard objectives add academia dummy
+>>>>>>> f5645d78dc838b7df6991ad87d054dbf8a810147
 scoreboard objectives add t1temple dummy
 scoreboard objectives add t2temple dummy
 scoreboard objectives add t3temple dummy

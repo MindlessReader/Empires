@@ -15,6 +15,13 @@ scoreboard objectives add resourcecoal dummy
 scoreboard objectives add resourcedyes dummy
 scoreboard objectives add resourcesilk dummy
 scoreboard objectives add resourcespices dummy
+scoreboard objectives add givewood dummy
+scoreboard objectives add giveiron dummy
+scoreboard objectives add givestone dummy
+scoreboard objectives add givecoal dummy
+scoreboard objectives add givedyes dummy
+scoreboard objectives add givesilk dummy
+scoreboard objectives add givespices dummy
 scoreboard objectives add production dummy
 scoreboard objectives add engineeringpt dummy
 scoreboard objectives add expansionpt dummy
@@ -32,3 +39,4 @@ scoreboard objectives add shopHouses trigger
 scoreboard objectives add shopTierBlocks trigger
 scoreboard objectives add shopBuildings1 trigger
 scoreboard objectives add shopDecoration trigger
+scoreboard objectives add displaybossbar dummy

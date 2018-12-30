@@ -1,0 +1,2 @@
+execute at @e[tag=librarydetector,tag=detector,scores={bookshelf=75..}] run scoreboard players add @p library 1
+execute at @e[tag=librarydetector,tag=detector,scores={bookshelf=75..}] run kill @e[tag=librarydetector,tag=detector,scores={bookshelf=75..},distance=0..10]
