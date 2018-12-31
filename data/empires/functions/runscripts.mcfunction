@@ -16,3 +16,6 @@ execute at @e[type=bat] if entity @a[distance=..20] run function empires:buildin
 function empires:flight/flight
 function empires:flight/hover
 function empires:flight/enable
+
+#Shops
+function empires:shops/shoptierblocks
