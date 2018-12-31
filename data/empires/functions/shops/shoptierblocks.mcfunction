@@ -86,3 +86,33 @@ execute as @a[scores={shopTierBlocks=304,money=5..}] at @s run scoreboard player
 execute as @a[scores={shopTierBlocks=304,money=4..}] at @s run tellraw @p {"text":"[Shop] You bought (50) Cut Red Sandstone.","color":"yellow","italic":"true"}
 execute as @a[scores={shopTierBlocks=304,money=5..}] at @s run scoreboard players reset @p shopTierBlocks
 
+#Tier 4 Blocks
+execute as @a[scores={shopTierBlocks=400,money=6..}] at @s run give @p skeleton_spawn_egg{display:{Name:"\"Bricks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Bricks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["bricks"]}} 25
+execute as @a[scores={shopTierBlocks=400,money=6..}] at @s run scoreboard players remove @p money 6
+execute as @a[scores={shopTierBlocks=400,money=6..}] at @s run tellraw @p {"text":"[Shop] You bought (25) Bricks.","color":"yellow","italic":"true"}
+execute as @a[scores={shopTierBlocks=400,money=6..}] at @s run scoreboard players reset @p shopTierBlocks
+
+execute as @a[scores={shopTierBlocks=401,money=6..}] at @s run give @p skeleton_spawn_egg{display:{Name:"\"Quartz Block\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Quartz Block\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["quartz_block"]}} 25
+execute as @a[scores={shopTierBlocks=401,money=6..}] at @s run scoreboard players remove @p money 6
+execute as @a[scores={shopTierBlocks=401,money=6..}] at @s run tellraw @p {"text":"[Shop] You bought (25) Quartz Block.","color":"yellow","italic":"true"}
+execute as @a[scores={shopTierBlocks=401,money=6..}] at @s run scoreboard players reset @p shopTierBlocks
+
+execute as @a[scores={shopTierBlocks=402,money=6..}] at @s run give @p skeleton_spawn_egg{display:{Name:"\"Quartz Pillar\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Quartz Pillar\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["quartz_pillar"]}} 25
+execute as @a[scores={shopTierBlocks=402,money=6..}] at @s run scoreboard players remove @p money 6
+execute as @a[scores={shopTierBlocks=402,money=6..}] at @s run tellraw @p {"text":"[Shop] You bought (25) Quartz Pillar.","color":"yellow","italic":"true"}
+execute as @a[scores={shopTierBlocks=402,money=6..}] at @s run scoreboard players reset @p shopTierBlocks
+
+execute as @a[scores={shopTierBlocks=403,money=6..}] at @s run give @p skeleton_spawn_egg{display:{Name:"\"Polished Andesite\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Polished Andesite\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["polished_andesite"]}} 25
+execute as @a[scores={shopTierBlocks=403,money=6..}] at @s run scoreboard players remove @p money 6
+execute as @a[scores={shopTierBlocks=403,money=6..}] at @s run tellraw @p {"text":"[Shop] You bought (25) Polished Andesite.","color":"yellow","italic":"true"}
+execute as @a[scores={shopTierBlocks=403,money=6..}] at @s run scoreboard players reset @p shopTierBlocks
+
+execute as @a[scores={shopTierBlocks=404,money=6..}] at @s run give @p skeleton_spawn_egg{display:{Name:"\"Polished Diorite\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Polished Diorite\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["polished_diorite"]}} 25
+execute as @a[scores={shopTierBlocks=404,money=6..}] at @s run scoreboard players remove @p money 6
+execute as @a[scores={shopTierBlocks=404,money=6..}] at @s run tellraw @p {"text":"[Shop] You bought (25) Polished Diorite.","color":"yellow","italic":"true"}
+execute as @a[scores={shopTierBlocks=404,money=6..}] at @s run scoreboard players reset @p shopTierBlocks
+
+execute as @a[scores={shopTierBlocks=405,money=6..}] at @s run give @p skeleton_spawn_egg{display:{Name:"\"Polished Granite\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Polished Granite\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["polished_granite"]}} 25
+execute as @a[scores={shopTierBlocks=405,money=6..}] at @s run scoreboard players remove @p money 6
+execute as @a[scores={shopTierBlocks=405,money=6..}] at @s run tellraw @p {"text":"[Shop] You bought (25) Polished Granite.","color":"yellow","italic":"true"}
+execute as @a[scores={shopTierBlocks=405,money=6..}] at @s run scoreboard players reset @p shopTierBlocks
