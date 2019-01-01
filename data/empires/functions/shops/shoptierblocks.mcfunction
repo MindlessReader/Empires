@@ -94,4 +94,26 @@ execute as @a[scores={shopTierBlocks=405,money=6..}] at @s run give @p skeleton_
 execute as @a[scores={shopTierBlocks=405,money=6..}] at @s run scoreboard players remove @p money 6
 execute as @a[scores={shopTierBlocks=405,money=6..}] at @s run tellraw @p {"text":"[Shop] You bought (25) Polished Granite.","color":"yellow","italic":"true"}
 
+#Tier 5 Blocks
+execute as @a[scores={shopTierBlocks=500,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Concrete\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Concrete\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["concrete"]}} 50
+execute as @a[scores={shopTierBlocks=500,money=10..}] at @s run scoreboard players remove @p money 10
+execute as @a[scores={shopTierBlocks=500,money=10..}] at @s run tellraw @p {"text":"[Shop] You bought (50) Concrete.","color":"yellow","italic":"true"}5
+
+execute as @a[scores={shopTierBlocks=501,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Glass\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Glass\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["glass"]}} 25
+execute as @a[scores={shopTierBlocks=501,money=10..}] at @s run scoreboard players remove @p money 10
+execute as @a[scores={shopTierBlocks=501,money=10..}] at @s run tellraw @p {"text":"[Shop] You bought (25) Glass.","color":"yellow","italic":"true"}5
+
+execute as @a[scores={shopTierBlocks=502,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Red Velvet Carpet\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Red Velvet Carpet\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["red_carpet"]}} 25
+execute as @a[scores={shopTierBlocks=502,money=10..}] at @s run scoreboard players remove @p money 10
+execute as @a[scores={shopTierBlocks=502,money=10..}] at @s run tellraw @p {"text":"[Shop] You bought (25) Red Velvet Carpet.","color":"yellow","italic":"true"}5
+
+execute as @a[scores={shopTierBlocks=503,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Purple Velvet Carpet\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Purple Velvet Carpet\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["purple_carpet"]}} 25
+execute as @a[scores={shopTierBlocks=503,money=10..}] at @s run scoreboard players remove @p money 10
+execute as @a[scores={shopTierBlocks=503,money=10..}] at @s run tellraw @p {"text":"[Shop] You bought (25) Purple Velvet Carpet.","color":"yellow","italic":"true"}5
+
+execute as @a[scores={shopTierBlocks=504,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Redstone Lamp\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Redstone Lamp\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["redstone_lamp"]}} 25
+execute as @a[scores={shopTierBlocks=504,money=10..}] at @s run scoreboard players remove @p money 10
+execute as @a[scores={shopTierBlocks=504,money=10..}] at @s run tellraw @p {"text":"[Shop] You bought (25) Redstone Lamp.","color":"yellow","italic":"true"}
+
+#End
 execute as @a[scores={shopTierBlocks=1..}] at @s run scoreboard players reset @p shopTierBlocks
