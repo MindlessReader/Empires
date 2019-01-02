@@ -67,7 +67,7 @@ execute as @a[scores={shopTierBlocks=303,money=5..}] at @s run tellraw @p {"text
 
 execute as @a[scores={shopTierBlocks=304,money=5..}] at @s run give @p turtle_spawn_egg{display:{Name:"\"Cut Red Sandstone\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Cut Red Sandstone\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["cut_red_sandstone"]}} 50
 execute as @a[scores={shopTierBlocks=304,money=5..}] at @s run scoreboard players remove @p money 5
-execute as @a[scores={shopTierBlocks=304,money=4..}] at @s run tellraw @p {"text":"[Shop] You bought (50) Cut Red Sandstone.","color":"yellow","italic":"true"}
+execute as @a[scores={shopTierBlocks=304,money=5..}] at @s run tellraw @p {"text":"[Shop] You bought (50) Cut Red Sandstone.","color":"yellow","italic":"true"}
 
 #Tier 4 Blocks
 execute as @a[scores={shopTierBlocks=400,money=6..}] at @s run give @p skeleton_spawn_egg{display:{Name:"\"Bricks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Bricks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["bricks"]}} 25

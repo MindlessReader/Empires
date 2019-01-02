@@ -19,3 +19,5 @@ function empires:flight/enable
 
 #Shops
 function empires:shops/shoptierblocks
+function empires:shops/shopdecoration
+function empires:shops/shopbuildings
