@@ -45,6 +45,7 @@ execute as @a[scores={shopBuildings1=10,production=32..}] at @s run tellraw @p {
 
 
 
+
 #End
 scoreboard players reset @a[scores={shopBuildings1=1..}] shopBuildings1
 scoreboard players enable @a shopBuildings1
