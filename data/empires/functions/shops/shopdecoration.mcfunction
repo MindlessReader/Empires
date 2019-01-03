@@ -1,7 +1,7 @@
 #Stairs and Slabs
-execute as @a[scores={shopDecoration=0,money=3..}] at @s run give @p oak_stairs 50
-execute as @a[scores={shopDecoration=0,money=3..}] at @s run scoreboard players remove @p money 3
-execute as @a[scores={shopDecoration=0,money=3..}] at @s run tellraw @p {"text":"[Shop] You bought (50) Oak Stairs.","color":"yellow","italic":"true"}
+execute as @a[scores={shopDecoration=100,money=3..}] at @s run give @p oak_stairs 50
+execute as @a[scores={shopDecoration=100,money=3..}] at @s run scoreboard players remove @p money 3
+execute as @a[scores={shopDecoration=100,money=3..}] at @s run tellraw @p {"text":"[Shop] You bought (50) Oak Stairs.","color":"yellow","italic":"true"}
 execute as @a[scores={shopDecoration=1,money=3..}] at @s run give @p oak_slab 50
 execute as @a[scores={shopDecoration=1,money=3..}] at @s run scoreboard players remove @p money 3
 execute as @a[scores={shopDecoration=1,money=3..}] at @s run tellraw @p {"text":"[Shop] You bought (50) Oak Slab.","color":"yellow","italic":"true"}
@@ -112,3 +112,4 @@ execute as @a[scores={shopDecoration=30,money=1..}] at @s run tellraw @p {"text"
 
 #End
 scoreboard players reset @a[scores={shopDecoration=0..}] shopDecoration
+scoreboard players enable @a shopDecoration
