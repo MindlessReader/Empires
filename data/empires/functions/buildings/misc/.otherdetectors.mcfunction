@@ -9,3 +9,8 @@ function empires:buildings/misc/lumbermill
 function empires:buildings/misc/workshop
 function empires:buildings/misc/academia
 function empires:buildings/misc/library
+function empires:buildings/misc/primitivemine
+function empires:buildings/misc/mine
+function empires:buildings/misc/port
+function empires:buildings/misc/factory
+function empires:buildings/misc/granary
