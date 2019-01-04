@@ -17,5 +17,11 @@ function empires:flight/flight
 function empires:flight/hover
 function empires:flight/enable
 
+#Stats
+function empires:statcalculations/mastercalc
+
 #Shops
 function empires:shops/shoptierblocks
+function empires:shops/shopdecoration
+function empires:shops/shopbuildings
+function empires:shops/shopmisc
