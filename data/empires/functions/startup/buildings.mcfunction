@@ -5,7 +5,7 @@ scoreboard objectives add t3houses dummy
 scoreboard objectives add t4houses dummy
 scoreboard objectives add t5houses dummy
 #Buildings
-scoreboard objectives add blacksmiths dummy
+scoreboard objectives add blacksmith dummy
 scoreboard objectives add zengarden dummy
 scoreboard objectives add garden dummy
 scoreboard objectives add watermill dummy
