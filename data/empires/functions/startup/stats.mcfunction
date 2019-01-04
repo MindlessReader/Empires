@@ -39,4 +39,5 @@ scoreboard objectives add shopHouses trigger
 scoreboard objectives add shopTierBlocks trigger
 scoreboard objectives add shopBuildings1 trigger
 scoreboard objectives add shopDecoration trigger
-scoreboard objectives add displaybossbar dummy
+scoreboard objectives add shopMisc trigger
+scoreboard objectives add displaybossbar trigger
