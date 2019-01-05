@@ -15,13 +15,6 @@ scoreboard objectives add resourcecoal dummy
 scoreboard objectives add resourcedyes dummy
 scoreboard objectives add resourcesilk dummy
 scoreboard objectives add resourcespices dummy
-scoreboard objectives add givewood dummy
-scoreboard objectives add giveiron dummy
-scoreboard objectives add givestone dummy
-scoreboard objectives add givecoal dummy
-scoreboard objectives add givedyes dummy
-scoreboard objectives add givesilk dummy
-scoreboard objectives add givespices dummy
 scoreboard objectives add production dummy
 scoreboard objectives add engineeringpt dummy
 scoreboard objectives add expansionpt dummy
@@ -33,6 +26,9 @@ scoreboard objectives add popPH dummy
 scoreboard objectives add totalHousing dummy
 scoreboard objectives add zero dummy
 scoreboard objectives add three dummy
+scoreboard objectives add five dummy
+scoreboard objectives add workshopPH dummy
+scoreboard objectives add blacksmithPH dummy
 scoreboard objectives add turn dummy
 scoreboard objectives add turnCount dummy
 scoreboard objectives add shopHouses trigger

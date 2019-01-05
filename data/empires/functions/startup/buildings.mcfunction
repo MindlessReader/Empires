@@ -22,6 +22,8 @@ scoreboard objectives add port dummy
 scoreboard objectives add factory dummy
 scoreboard objectives add plantation dummy
 scoreboard objectives add granary dummy
+scoreboard objectives add harbor dummy
+scoreboard objectives add market dummy
 #Temples
 
 scoreboard objectives add t1temple dummy

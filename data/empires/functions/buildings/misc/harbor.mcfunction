@@ -1,0 +1,2 @@
+execute at @e[tag=harbordetector,tag=detector,scores={block=200..}] run scoreboard players add @p harbor 1
+execute at @e[tag=harbordetector,tag=detector,scores={block=200..}] run kill @e[tag=harbordetector,tag=detector,scores={block=200..},distance=0..10]
