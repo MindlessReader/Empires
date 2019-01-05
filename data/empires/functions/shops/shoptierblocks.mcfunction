@@ -113,4 +113,5 @@ execute as @a[scores={shopTierBlocks=504}] at @s run tellraw @p {"text":"[Shop] 
 
 #End
 execute as @a[scores={shopTierBlocks=1..}] at @s run scoreboard players reset @p shopTierBlocks
+execute at @a[scores={shopTierBlocks=1..}] run playsound minecraft:item.armor.equip_iron master @a
 scoreboard players enable @a shopTierBlocks

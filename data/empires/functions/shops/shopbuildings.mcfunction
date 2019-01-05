@@ -103,11 +103,11 @@ execute as @a[scores={shopBuildings1=114}] at @s run tellraw @p {"text":"[Shop] 
 
 execute as @a[scores={shopBuildings1=115,production=10..}] at @s run give @p husk_spawn_egg{display:{Name:"\"Granary Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Granary Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["granarydetector","detector"]}}
 execute as @a[scores={shopBuildings1=115,production=10..}] at @s run scoreboard players remove @p production 10
-execute as @a[scores={shopBuildings1=115] at @s run tellraw @p {"text":"[Shop] You bought (1) Granary.","color":"yellow","italic":"true"}
+execute as @a[scores={shopBuildings1=115}] at @s run tellraw @p {"text":"[Shop] You bought (1) Granary.","color":"yellow","italic":"true"}
 
-
-
-
+execute as @a[scores={shopBuildings1=116,production=50..}] at @s run give @p husk_spawn_egg{display:{Name:"\"Harbor Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Harbor Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["harbordetector","detector"]}}
+execute as @a[scores={shopBuildings1=116,production=50..}] at @s run scoreboard players remove @p production 50
+execute as @a[scores={shopBuildings1=116}] at @s run tellraw @p {"text":"[Shop] You bought (1) Granary.","color":"yellow","italic":"true"}
 #End
 scoreboard players reset @a[scores={shopBuildings1=1..}] shopBuildings1
 execute at @a[scores={shopBuildings1=1..}] run playsound minecraft:item.armor.equip_iron master @a

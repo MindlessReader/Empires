@@ -19,6 +19,7 @@ function empires:flight/enable
 
 #Stats
 function empires:statcalculations/mastercalc
+function empires:statcalculations/add
 
 #Shops
 function empires:shops/shoptierblocks
