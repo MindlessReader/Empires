@@ -111,4 +111,3 @@ execute as @a[scores={shopBuildings1=115] at @s run tellraw @p {"text":"[Shop] Y
 #End
 scoreboard players reset @a[scores={shopBuildings1=1..}] shopBuildings1
 execute at @a[scores={shopBuildings1=1..}] run playsound minecraft:item.armor.equip_iron master @a
-scoreboard players enable @a shopBuildings1

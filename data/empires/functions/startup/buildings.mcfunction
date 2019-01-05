@@ -20,6 +20,8 @@ scoreboard objectives add primitivemine dummy
 scoreboard objectives add mine dummy
 scoreboard objectives add port dummy
 scoreboard objectives add factory dummy
+scoreboard objectives add plantation dummy
+scoreboard objectives add granary dummy
 #Temples
 
 scoreboard objectives add t1temple dummy

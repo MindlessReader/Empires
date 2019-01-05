@@ -21,7 +21,8 @@ function empires:flight/enable
 function empires:statcalculations/mastercalc
 
 #Shops
-function empires:shops/shoptierblocks
-function empires:shops/shopdecoration
-function empires:shops/shopbuildings
-function empires:shops/shopmisc
+function empires:shops/enable
+execute unless entity @a[scores={shopTierBlocks=0}] run function empires:shops/shoptierblocks
+execute unless entity @a[scores={shopMisc=0}] run function empires:shops/shopdecoration
+execute unless entity @a[scores={shopDecoration=0}] run function empires:shops/shopbuildings
+execute unless entity @a[scores={shopBuildings1=0}] run function empires:shops/shopmisc

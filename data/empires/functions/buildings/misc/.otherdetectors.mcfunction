@@ -14,3 +14,4 @@ function empires:buildings/misc/mine
 function empires:buildings/misc/port
 function empires:buildings/misc/factory
 function empires:buildings/misc/granary
+function empires:buildings/misc/plantation
