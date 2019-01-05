@@ -192,12 +192,26 @@ scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={tu
 scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] mine
+scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
+scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
+scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
+scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
+scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
+scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
+scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
+scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
+scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
+scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
+
+
 #    Equipment
 scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] potter
 scoreboard players operation @a[scores={turn=24000,resourcecoal=1..] equipmentpt += @a[scores={turn=24000,resourcecoal=1..}] blacksmith
 
 
 #Production
+#   Potter
+scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] potter
 #   Blacksmith
 scoreboard players operation @a[scores={turn=24000,resourcecoal=1..}] production += @a[scores={turn=24000,resourcecoal=1..}] blacksmith
 scoreboard players operation @a[scores={turn=24000,resourcecoal=1..}] production += @a[scores={turn=24000,resourcecoal=1..}] blacksmith
