@@ -1,7 +1,4 @@
 #Stairs and Slabs
-execute as @a[scores={shopDecoration=100,money=3..}] at @s run give @p oak_stairs 50
-execute as @a[scores={shopDecoration=100,money=3..}] at @s run scoreboard players remove @p money 3
-execute as @a[scores={shopDecoration=100}] at @s run tellraw @p {"text":"[Shop] You bought (50) Oak Stairs.","color":"yellow","italic":"true"}
 execute as @a[scores={shopDecoration=1,money=3..}] at @s run give @p oak_slab 50
 execute as @a[scores={shopDecoration=1,money=3..}] at @s run scoreboard players remove @p money 3
 execute as @a[scores={shopDecoration=1}] at @s run tellraw @p {"text":"[Shop] You bought (50) Oak Slab.","color":"yellow","italic":"true"}
@@ -45,23 +42,14 @@ execute as @a[scores={shopDecoration=12,money=3..}] at @s run give @p quartz_sla
 execute as @a[scores={shopDecoration=12,money=3..}] at @s run scoreboard players remove @p money 3
 execute as @a[scores={shopDecoration=12}] at @s run tellraw @p {"text":"[Shop] You bought (50) Quartz Slab.","color":"yellow","italic":"true"}
 
-execute as @a[scores={shopDecoration=13,money=3..}] at @s run give @p brick_stairs 50
-execute as @a[scores={shopDecoration=13,money=3..}] at @s run scoreboard players remove @p money 3
-execute as @a[scores={shopDecoration=13}] at @s run tellraw @p {"text":"[Shop] You bought (50) Brick Stairs.","color":"yellow","italic":"true"}
 execute as @a[scores={shopDecoration=14,money=3..}] at @s run give @p brick_slab 50
 execute as @a[scores={shopDecoration=14,money=3..}] at @s run scoreboard players remove @p money 3
 execute as @a[scores={shopDecoration=14}] at @s run tellraw @p {"text":"[Shop] You bought (50) Brick Slab.","color":"yellow","italic":"true"}
 
-execute as @a[scores={shopDecoration=15,money=3..}] at @s run give @p cobblestone_stairs 50
-execute as @a[scores={shopDecoration=15,money=3..}] at @s run scoreboard players remove @p money 3
-execute as @a[scores={shopDecoration=15}] at @s run tellraw @p {"text":"[Shop] You bought (50) Cobblestone Stairs.","color":"yellow","italic":"true"}
 execute as @a[scores={shopDecoration=16,money=3..}] at @s run give @p cobblestone_slab
 execute as @a[scores={shopDecoration=16,money=3..}] at @s run scoreboard players remove @p money 3
 execute as @a[scores={shopDecoration=16}] at @s run tellraw @p {"text":"[Shop] You bought (50) Cobblestone Slab.","color":"yellow","italic":"true"}
 
-execute as @a[scores={shopDecoration=17,money=2..}] at @s run give @p sandstone_stairs
-execute as @a[scores={shopDecoration=17,money=2..}] at @s run scoreboard players remove @p money 2
-execute as @a[scores={shopDecoration=17}] at @s run tellraw @p {"text":"[Shop] You bought (50) Sandstone Stairs.","color":"yellow","italic":"true"}
 execute as @a[scores={shopDecoration=18,money=2..}] at @s run give @p sandstone_slab
 execute as @a[scores={shopDecoration=18,money=2..}] at @s run scoreboard players remove @p money 2
 execute as @a[scores={shopDecoration=18}] at @s run tellraw @p {"text":"[Shop] You bought (50) Sandstone Slab.","color":"yellow","italic":"true"}
@@ -111,6 +99,5 @@ execute as @a[scores={shopDecoration=30,money=1..}] at @s run scoreboard players
 execute as @a[scores={shopDecoration=30}] at @s run tellraw @p {"text":"[Shop] You bought (50) Torch.","color":"yellow","italic":"true"}
 
 #End
-scoreboard players reset @a[scores={shopDecoration=0..}] shopDecoration
 execute at @a[scores={shopDecoration=1..}] run playsound minecraft:item.armor.equip_iron master @a
-scoreboard players enable @a shopDecoration
+scoreboard players reset @a[scores={shopDecoration=1..}] shopDecoration

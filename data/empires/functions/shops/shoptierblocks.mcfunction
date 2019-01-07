@@ -44,6 +44,14 @@ execute as @a[scores={shopTierBlocks=204,money=4..}] at @s run give @p sheep_spa
 execute as @a[scores={shopTierBlocks=204,money=4..}] at @s run scoreboard players remove @p money 4
 execute as @a[scores={shopTierBlocks=204}] at @s run tellraw @p {"text":"[Shop] You bought (50) Terracotta.","color":"yellow","italic":"true"}
 
+execute as @a[scores={shopTierBlocks=205,money=3..}] at @s run give @p sheep_spawn_egg{display:{Name:"\"Cobblestone Stairs\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Cobblestone Stairs\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["cobblestone_stairs"]}} 25
+execute as @a[scores={shopTierBlocks=205,money=3..}] at @s run scoreboard players remove @p money 3
+execute as @a[scores={shopTierBlocks=205}] at @s run tellraw @p {"text":"[Shop] You bought (25) Cobblestone Stairs.","color":"yellow","italic":"true"}
+
+execute as @a[scores={shopTierBlocks=206,money=3..}] at @s run give @p sheep_spawn_egg{display:{Name:"\"Oak Stairs\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Oak Stairs\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["oak_stairs"]}} 25
+execute as @a[scores={shopTierBlocks=206,money=3..}] at @s run scoreboard players remove @p money 3
+execute as @a[scores={shopTierBlocks=206}] at @s run tellraw @p {"text":"[Shop] You bought (25) Oak Stairs.","color":"yellow","italic":"true"}
+
 #Tier 3 Blocks
 execute as @a[scores={shopTierBlocks=300,money=5..}] at @s run give @p turtle_spawn_egg{display:{Name:"\"Stone Bricks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Stone Bricks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["stone_bricks"]}} 50
 execute as @a[scores={shopTierBlocks=300,money=5..}] at @s run scoreboard players remove @p money 5
@@ -64,6 +72,14 @@ execute as @a[scores={shopTierBlocks=303}] at @s run tellraw @p {"text":"[Shop] 
 execute as @a[scores={shopTierBlocks=304,money=5..}] at @s run give @p turtle_spawn_egg{display:{Name:"\"Cut Red Sandstone\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Cut Red Sandstone\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["cut_red_sandstone"]}} 50
 execute as @a[scores={shopTierBlocks=304,money=5..}] at @s run scoreboard players remove @p money 5
 execute as @a[scores={shopTierBlocks=304}] at @s run tellraw @p {"text":"[Shop] You bought (50) Cut Red Sandstone.","color":"yellow","italic":"true"}
+
+execute as @a[scores={shopTierBlocks=305,money=5..}] at @s run give @p turtle_spawn_egg{display:{Name:"\"Sandstone Stairs\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Sandstone Stairs\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["sandstone_stairs"]}} 50
+execute as @a[scores={shopTierBlocks=305,money=5..}] at @s run scoreboard players remove @p money 5 
+execute as @a[scores={shopTierBlocks=305}] at @s run tellraw @p {"text":"[Shop] You bought (50) Sandstone Stairs.","color":"yellow","italic":"true"}
+
+execute as @a[scores={shopTierBlocks=306,money=5..}] at @s run give @p turtle_spawn_egg{display:{Name:"\"Red Sandstone Stairs\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Red Sandstone Stairs\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["red_sandstone_stairs"]}} 50
+execute as @a[scores={shopTierBlocks=306,money=5..}] at @s run scoreboard players remove @p money 5 
+execute as @a[scores={shopTierBlocks=306}] at @s run tellraw @p {"text":"[Shop] You bought (50) Red Sandstone Stairs.","color":"yellow","italic":"true"}
 
 #Tier 4 Blocks
 execute as @a[scores={shopTierBlocks=400,money=6..}] at @s run give @p skeleton_spawn_egg{display:{Name:"\"Bricks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Bricks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["bricks"]}} 25
@@ -90,6 +106,10 @@ execute as @a[scores={shopTierBlocks=405,money=6..}] at @s run give @p skeleton_
 execute as @a[scores={shopTierBlocks=405,money=6..}] at @s run scoreboard players remove @p money 6
 execute as @a[scores={shopTierBlocks=405}] at @s run tellraw @p {"text":"[Shop] You bought (25) Polished Granite.","color":"yellow","italic":"true"}
 
+execute as @a[scores={shopTierBlocks=400,money=6..}] at @s run give @p skeleton_spawn_egg{display:{Name:"\"Brick Stairs\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Brick Stairs\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["brick_stairs"]}} 25
+execute as @a[scores={shopTierBlocks=400,money=6..}] at @s run scoreboard players remove @p money 6
+execute as @a[scores={shopTierBlocks=400}] at @s run tellraw @p {"text":"[Shop] You bought (25) Bricks.","color":"yellow","italic":"true"}
+
 #Tier 5 Blocks
 execute as @a[scores={shopTierBlocks=500,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Concrete\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Concrete\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["concrete"]}} 50
 execute as @a[scores={shopTierBlocks=500,money=10..}] at @s run scoreboard players remove @p money 10
@@ -112,6 +132,5 @@ execute as @a[scores={shopTierBlocks=504,money=10..}] at @s run scoreboard playe
 execute as @a[scores={shopTierBlocks=504}] at @s run tellraw @p {"text":"[Shop] You bought (25) Redstone Lamp.","color":"yellow","italic":"true"}
 
 #End
-execute as @a[scores={shopTierBlocks=1..}] at @s run scoreboard players reset @p shopTierBlocks
 execute at @a[scores={shopTierBlocks=1..}] run playsound minecraft:item.armor.equip_iron master @a
-scoreboard players enable @a shopTierBlocks
+scoreboard players reset @a[scores={shopTierBlocks=1..}] shopTierBlocks

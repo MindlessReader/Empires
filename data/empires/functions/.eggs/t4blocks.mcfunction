@@ -4,3 +4,4 @@ give @p skeleton_spawn_egg{display:{Name:"\"Quartz Pillar\":\"\""},EntityTag:{id
 give @p skeleton_spawn_egg{display:{Name:"\"Polished Andesite\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Polished Andesite\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["polished_andesite"]}}
 give @p skeleton_spawn_egg{display:{Name:"\"Polished Diorite\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Polished Diorite\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["polished_diorite"]}}
 give @p skeleton_spawn_egg{display:{Name:"\"Polished Granite\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Polished Granite\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["polished_granite"]}}
+give @p skeleton_spawn_egg{display:{Name:"\"Brick Stairs\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Brick Stairs\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["brick_stairs"]}}

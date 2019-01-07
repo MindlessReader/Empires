@@ -56,6 +56,5 @@ execute as @a[scores={shopMisc=113,money=10..}] at @s run scoreboard players rem
 execute as @a[scores={shopMisc=113}] at @s run tellraw @p {"text":"[Shop] You bought (25) Bookshelf.","color":"yellow","italic":"true"}
 
 #End
-scoreboard players reset @a[scores={shopMisc=1..}] shopMisc
 execute at @a[scores={shopMisc=1..}] run playsound minecraft:item.armor.equip_iron master @a
-scoreboard players enable @a shopMisc
+scoreboard players reset @a[scores={shopMisc=1..}] shopMisc
