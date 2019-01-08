@@ -57,4 +57,3 @@ execute as @a[scores={shopMisc=113}] at @s run tellraw @p {"text":"[Shop] You bo
 
 #End
 scoreboard players reset @a[scores={shopMisc=1..}] shopMisc
-execute at @a[scores={shopMisc=1..}] run playsound minecraft:item.armor.equip_iron master @a
