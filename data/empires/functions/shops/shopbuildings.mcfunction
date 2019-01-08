@@ -45,7 +45,7 @@ execute as @a[scores={shopBuildings1=100,production=10..}] at @s run give @p hus
 execute as @a[scores={shopBuildings1=100,production=10..}] at @s run scoreboard players remove @p production 10
 execute as @a[scores={shopBuildings1=100}] at @s run tellraw @p {"text":"[Shop] You bought (1) Blacksmith.","color":"yellow","italic":"true"}
 
-execute as @a[scores={shopBuildings1=101,production=10..}] at @s run Fgive @p husk_spawn_egg{display:{Name:"\"Zen Garden Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Zen Garden Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["zengardendetector","detector"]}}
+execute as @a[scores={shopBuildings1=101,production=10..}] at @s run give @p husk_spawn_egg{display:{Name:"\"Zen Garden Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Zen Garden Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["zengardendetector","detector"]}}
 execute as @a[scores={shopBuildings1=101,production=10..}] at @s run scoreboard players remove @p production 10
 execute as @a[scores={shopBuildings1=101}] at @s run tellraw @p {"text":"[Shop] You bought (1) Zen Garden.","color":"yellow","italic":"true"}
 
