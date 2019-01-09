@@ -132,9 +132,4 @@ execute as @a[scores={shopTierBlocks=504,money=10..}] at @s run scoreboard playe
 execute as @a[scores={shopTierBlocks=504}] at @s run tellraw @p {"text":"[Shop] You bought (25) Redstone Lamp.","color":"yellow","italic":"true"}
 
 #End
-<<<<<<< HEAD
-execute at @a[scores={shopTierBlocks=1..}] run playsound minecraft:item.armor.equip_iron master @a
 scoreboard players reset @a[scores={shopTierBlocks=1..}] shopTierBlocks
-=======
-execute as @a[scores={shopTierBlocks=1..}] at @s run scoreboard players reset @p shopTierBlocks
->>>>>>> bdf1cc39186670a7c978ad4c4c167e0a746feeff
