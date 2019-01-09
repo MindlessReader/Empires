@@ -46,18 +46,18 @@ execute as @a[scores={shopDecoration=14,money=3..}] at @s run give @p brick_slab
 execute as @a[scores={shopDecoration=14,money=3..}] at @s run scoreboard players remove @p money 3
 execute as @a[scores={shopDecoration=14}] at @s run tellraw @p {"text":"[Shop] You bought (50) Brick Slab.","color":"yellow","italic":"true"}
 
-execute as @a[scores={shopDecoration=16,money=3..}] at @s run give @p cobblestone_slab
+execute as @a[scores={shopDecoration=16,money=3..}] at @s run give @p cobblestone_slab 50
 execute as @a[scores={shopDecoration=16,money=3..}] at @s run scoreboard players remove @p money 3
 execute as @a[scores={shopDecoration=16}] at @s run tellraw @p {"text":"[Shop] You bought (50) Cobblestone Slab.","color":"yellow","italic":"true"}
 
-execute as @a[scores={shopDecoration=18,money=2..}] at @s run give @p sandstone_slab
+execute as @a[scores={shopDecoration=18,money=2..}] at @s run give @p sandstone_slab 50
 execute as @a[scores={shopDecoration=18,money=2..}] at @s run scoreboard players remove @p money 2
 execute as @a[scores={shopDecoration=18}] at @s run tellraw @p {"text":"[Shop] You bought (50) Sandstone Slab.","color":"yellow","italic":"true"}
 
-execute as @a[scores={shopDecoration=19,money=2..}] at @s run give @p stone_brick_stairs
+execute as @a[scores={shopDecoration=19,money=2..}] at @s run give @p stone_brick_stairs 50
 execute as @a[scores={shopDecoration=19,money=2..}] at @s run scoreboard players remove @p money 2
 execute as @a[scores={shopDecoration=19}] at @s run tellraw @p {"text":"[Shop] You bought (50)  Stairs.","color":"yellow","italic":"true"}
-execute as @a[scores={shopDecoration=20,money=2..}] at @s run give @p stone_brick_slab
+execute as @a[scores={shopDecoration=20,money=2..}] at @s run give @p stone_brick_slab 50
 execute as @a[scores={shopDecoration=20,money=2..}] at @s run scoreboard players remove @p money 2
 execute as @a[scores={shopDecoration=20}] at @s run tellraw @p {"text":"[Shop] You bought (50)  Slab.","color":"yellow","italic":"true"}
 #Doors
