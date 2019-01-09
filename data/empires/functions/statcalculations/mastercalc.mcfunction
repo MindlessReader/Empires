@@ -83,7 +83,7 @@ scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=240
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] plantation
 #Balancing
 scoreboard players operation @a[scores={turn=24000}] food -= @a[scores={turn=24000}] population
-scoreboard players operation @a[scores={turn=24000,food=..-1}] population +=@a[scores={turn=24000,food=..-1}] food
+scoreboard players operation @a[scores={turn=24000,food=..0}] population += @a[scores={turn=24000,food=..0}] food
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] food
 scoreboard players operation @a[scores={turn=24000}] food < @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] food > @a[scores={turn=24000}] zero
@@ -299,8 +299,7 @@ scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={tu
 
 #    Equipment
 scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] potter
-scoreboard players operation @a[scores={turn=24000,resourcecoal=1..] equipmentpt += @a[scores={turn=24000,resourcecoal=1..}] blacksmith
-
+scoreboard players operation @a[scores={turn=24000,resourcecoal=1..}] equipmentpt += @a[scores={turn=24000,resourcecoal=1..}] blacksmith
 
 #Production
 #   Potter
