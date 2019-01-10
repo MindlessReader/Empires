@@ -99,5 +99,5 @@ execute as @a[scores={shopDecoration=30,money=1..}] at @s run scoreboard players
 execute as @a[scores={shopDecoration=30}] at @s run tellraw @p {"text":"[Shop] You bought (50) Torch.","color":"yellow","italic":"true"}
 
 #End
-scoreboard players reset @a[scores={shopDecoration=0..}] shopDecoration
 execute at @a[scores={shopDecoration=1..}] run playsound minecraft:item.armor.equip_iron master @a
+scoreboard players reset @a[scores={shopDecoration=1..}] shopDecoration

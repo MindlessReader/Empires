@@ -37,3 +37,4 @@ scoreboard objectives add shopBuildings1 trigger
 scoreboard objectives add shopDecoration trigger
 scoreboard objectives add shopMisc trigger
 scoreboard objectives add displaybossbar trigger
+scoreboard objectives add convert trigger

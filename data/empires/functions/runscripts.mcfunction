@@ -27,3 +27,4 @@ execute unless entity @a[scores={shopTierBlocks=0}] run function empires:shops/s
 execute unless entity @a[scores={shopMisc=0}] run function empires:shops/shopdecoration
 execute unless entity @a[scores={shopDecoration=0}] run function empires:shops/shopbuildings
 execute unless entity @a[scores={shopBuildings1=0}] run function empires:shops/shopmisc
+function empires:shops/convert

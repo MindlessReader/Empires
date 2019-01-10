@@ -25,7 +25,6 @@ scoreboard objectives add granary dummy
 scoreboard objectives add harbor dummy
 scoreboard objectives add market dummy
 #Temples
-
 scoreboard objectives add t1temple dummy
 scoreboard objectives add t2temple dummy
 scoreboard objectives add t3temple dummy

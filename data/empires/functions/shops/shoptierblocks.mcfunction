@@ -132,4 +132,4 @@ execute as @a[scores={shopTierBlocks=504,money=10..}] at @s run scoreboard playe
 execute as @a[scores={shopTierBlocks=504}] at @s run tellraw @p {"text":"[Shop] You bought (25) Redstone Lamp.","color":"yellow","italic":"true"}
 
 #End
-execute as @a[scores={shopTierBlocks=1..}] at @s run scoreboard players reset @p shopTierBlocks
+scoreboard players reset @a[scores={shopTierBlocks=1..}] shopTierBlocks

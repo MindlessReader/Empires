@@ -17,7 +17,7 @@ execute as @a[scores={shopBuildings1=4}] at @s run tellraw @p {"text":"[Shop] Yo
 
 execute as @a[scores={shopBuildings1=5,production=10..}] at @s run give @p husk_spawn_egg{display:{Name:"\"Tier 5 House Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 5 House Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t5housedetector","detector"]}}
 execute as @a[scores={shopBuildings1=5,production=10..}] at @s run scoreboard players remove @p production 10
-execute as @a[scores={shopBuildings1=5}] at @s run tellraw @p {"text":"[Shop] You bought (1) Tier Fie House.","color":"yellow","italic":"true"}
+execute as @a[scores={shopBuildings1=5}] at @s run tellraw @p {"text":"[Shop] You bought (1) Tier Five House.","color":"yellow","italic":"true"}
 
 #Temples
 execute as @a[scores={shopBuildings1=6,production=2..}] at @s run give @p husk_spawn_egg{display:{Name:"\"Tier 1 Temple Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Tier 1 Temple Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["t1templedetector","detector"]}}
@@ -108,5 +108,6 @@ execute as @a[scores={shopBuildings1=115}] at @s run tellraw @p {"text":"[Shop] 
 execute as @a[scores={shopBuildings1=116,production=50..}] at @s run give @p husk_spawn_egg{display:{Name:"\"Harbor Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Harbor Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["harbordetector","detector"]}}
 execute as @a[scores={shopBuildings1=116,production=50..}] at @s run scoreboard players remove @p production 50
 execute as @a[scores={shopBuildings1=116}] at @s run tellraw @p {"text":"[Shop] You bought (1) Granary.","color":"yellow","italic":"true"}
+
 #End
 scoreboard players reset @a[scores={shopBuildings1=1..}] shopBuildings1
