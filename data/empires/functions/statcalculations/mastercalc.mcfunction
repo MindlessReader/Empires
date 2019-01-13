@@ -2,6 +2,7 @@
 scoreboard players set @a[scores={turn=24000}] zero 0
 scoreboard players set @a[scores={turn=24000}] three 3
 scoreboard players set @a[scores={turn=24000}] five 5
+scoreboard players reset @a[scores={turn=24000}] housesTotalPH
 scoreboard players operation @a[scores={turn=24000}] population += @a[scores={turn=24000}] port
 scoreboard players operation @a[scores={turn=24000}] housesTotalPH += @a[scores={turn=24000}] t1houses
 scoreboard players operation @a[scores={turn=24000}] housesTotalPH += @a[scores={turn=24000}] t2houses
@@ -9,8 +10,7 @@ scoreboard players operation @a[scores={turn=24000}] housesTotalPH += @a[scores=
 scoreboard players operation @a[scores={turn=24000}] housesTotalPH += @a[scores={turn=24000}] t4houses
 scoreboard players operation @a[scores={turn=24000}] housesTotalPH += @a[scores={turn=24000}] t5houses
 scoreboard players operation @a[scores={turn=24000}] housesTotalPH *= @a[scores={turn=24000}] three
-scoreboard players operation @a[scores={turn=24000}] housesTotalPH > @a[scores={turn=24000}] population
-scoreboard players reset @a[scores={turn=24000}] housesTotalPH
+scoreboard players operation @a[scores={turn=24000}] population < @a[scores={turn=24000}] housesTotalPH
 
 
 #Food
@@ -85,15 +85,41 @@ scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=240
 scoreboard players operation @a[scores={turn=24000}] food -= @a[scores={turn=24000}] population
 scoreboard players operation @a[scores={turn=24000,food=..0}] population += @a[scores={turn=24000,food=..0}] food
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] food
+scoreboard players reset @a[scores={turn=24000}] granaryPH
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] food < @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] food > @a[scores={turn=24000}] zero
+scoreboard players reset @a[scores={turn=24000}] granaryPH
 
 
 #Money
 scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] primitivemine
-scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
-scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
@@ -102,7 +128,7 @@ scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24
 #   Tax
 scoreboard players reset @a[scores={turn=24000}] popPH
 scoreboard players operation @a[scores={turn=24000}] popPH += @a[scores={turn=24000}] population
-scoreboard players operation @a[scores={turn=24000}] popPH *= @a[scores={turn=24000}] taxamount
+scoreboard players operation @a[scores={turn=24000,taxamount=1..}] popPH /= @a[scores={turn=24000,taxamount=1..}] taxamount
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] popPH
 scoreboard players operation @a[scores={turn=24000}] happiness -= @a[scores={turn=24000}] popPH
 scoreboard players reset @a[scores={turn=24000}] popPH
@@ -251,6 +277,7 @@ scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
 #   Balancing
 scoreboard players operation @a[scores={turn=24000}] happiness -= @a[scores={turn=24000}] population
+scoreboard players operation @a[scores={turn=24000,happiness=..0}] population += @a[scores={turn=24000,happiness=..0}] happiness
 scoreboard players operation @a[scores={turn=24000}] happiness > @a[scores={turn=24000}] zero
 scoreboard players operation @a[scores={turn=24000}] happiness < @a[scores={turn=24000}] population
 
@@ -258,7 +285,7 @@ scoreboard players operation @a[scores={turn=24000}] happiness < @a[scores={turn
 
 #Technology Points
 #    Engineering
-scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] engineer1
+scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] blacksmith
 #    Expansion
 scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] port
 scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] harbor
@@ -302,7 +329,7 @@ scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={tu
 
 #    Equipment
 scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] potter
-scoreboard players operation @a[scores={turn=24000,resourcecoal=1..}] equipmentpt += @a[scores={turn=24000,resourcecoal=1..}] blacksmith
+scoreboard players operation @a[scores={turn=24000,resourcecoal=5..}] equipmentpt += @a[scores={turn=24000,resourcecoal=5..}] blacksmith
 
 #Production
 scoreboard players reset @a[scores={turn=24000,turnCount=..3}] production 
@@ -362,6 +389,9 @@ scoreboard players operation @a[scores={turn=24000}] resourcecoal += @a[scores={
 scoreboard players operation @a[scores={turn=24000}] resourcecoal += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] resourcecoal += @a[scores={turn=24000}] mine
 
+
+#End
+scoreboard players operation @a[scores={turn=24000}] population > @a[scores={turn=24000}] zero
 
 #Turn
 scoreboard players add @a[scores={turn=24000..}] turnCount 1
