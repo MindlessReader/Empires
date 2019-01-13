@@ -18,4 +18,3 @@ advancement grant @a[scores={economicpt=2000..}] only empires:mercantilism
 advancement grant @a[scores={equipmentpt=100..}] only empires:wheel
 advancement grant @a[scores={equipmentpt=1000..}] only empires:machinery
 advancement grant @a[scores={equipmentpt=2000..}] only empires:steampower
-

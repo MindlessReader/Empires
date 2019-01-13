@@ -107,7 +107,7 @@ execute as @a[scores={shopBuildings1=115}] at @s run tellraw @p {"text":"[Shop] 
 
 execute as @a[scores={shopBuildings1=116,production=50..},advancements={empires:navigation=true}] at @s run give @p husk_spawn_egg{display:{Name:"\"Harbor Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Harbor Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["harbordetector","detector"]}}
 execute as @a[scores={shopBuildings1=116,production=50..},advancements={empires:navigation=true}] at @s run scoreboard players remove @p production 50
-execute as @a[scores={shopBuildings1=116}] at @s run tellraw @p {"text":"[Shop] You bought (1) Granary.","color":"yellow","italic":"true"}
+execute as @a[scores={shopBuildings1=116}] at @s run tellraw @p {"text":"[Shop] You bought (1) Harbor.","color":"yellow","italic":"true"}
 
 #End
 scoreboard players reset @a[scores={shopBuildings1=1..}] shopBuildings1

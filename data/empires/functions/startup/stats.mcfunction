@@ -22,6 +22,7 @@ scoreboard objectives add totalHousing dummy
 scoreboard objectives add zero dummy
 scoreboard objectives add three dummy
 scoreboard objectives add five dummy
+scoreboard objectives add granaryPH dummy
 scoreboard objectives add turn dummy
 scoreboard objectives add turnCount dummy
 scoreboard objectives add shopTierBlocks trigger
