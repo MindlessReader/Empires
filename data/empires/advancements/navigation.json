@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Navigation"
+        },
+        "description": {
+            "text": "Description"
+        },
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "navigation": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "empires:sailing"
+}

@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Philosophy"
+        },
+        "description": {
+            "text": "Description"
+        },
+        "icon": {
+            "item": "minecraft:chorus_fruit"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "philosophy": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "empires:writing"
+}

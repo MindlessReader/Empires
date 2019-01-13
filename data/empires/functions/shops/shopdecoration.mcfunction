@@ -31,7 +31,7 @@ execute as @a[scores={shopDecoration=9,money=3..}] at @s run give @p dark_oak_sl
 execute as @a[scores={shopDecoration=9,money=3..}] at @s run scoreboard players remove @p money 3
 execute as @a[scores={shopDecoration=9}] at @s run tellraw @p {"text":"[Shop] You bought (50) Dark Oak Slab.","color":"yellow","italic":"true"}
 
-execute as @a[scores={shopDecoration=10,money=2..}] at @s run give @p smooth_stone_slab 50
+execute as @a[scores={shopDecoration=10,money=2..}] at @s run give @p stone_slab 50
 execute as @a[scores={shopDecoration=10,money=2..}] at @s run scoreboard players remove @p money 2
 execute as @a[scores={shopDecoration=10}] at @s run tellraw @p {"text":"[Shop] You bought (50)  Slab.","color":"yellow","italic":"true"}
 
@@ -90,9 +90,9 @@ execute as @a[scores={shopDecoration=28,money=1..}] at @s run give @p ladder 25
 execute as @a[scores={shopDecoration=28,money=1..}] at @s run scoreboard players remove @p money 1
 execute as @a[scores={shopDecoration=28}] at @s run tellraw @p {"text":"[Shop] You bought (25) Ladder.","color":"yellow","italic":"true"}
 
-execute as @a[scores={shopDecoration=29,money=1..}] at @s run give @p oak_sign 3
+execute as @a[scores={shopDecoration=29,money=1..}] at @s run give @p sign 3
 execute as @a[scores={shopDecoration=29,money=1..}] at @s run scoreboard players remove @p money 1
-execute as @a[scores={shopDecoration=29}] at @s run tellraw @p {"text":"[Shop] You bought (3) Oak Sign.","color":"yellow","italic":"true"}
+execute as @a[scores={shopDecoration=29}] at @s run tellraw @p {"text":"[Shop] You bought (3) Sign.","color":"yellow","italic":"true"}
 
 execute as @a[scores={shopDecoration=30,money=1..}] at @s run give @p torch 50
 execute as @a[scores={shopDecoration=30,money=1..}] at @s run scoreboard players remove @p money 1
