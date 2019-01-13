@@ -1,4 +1,3 @@
-scoreboard players add @a[tag=empiresEnabled] turn 1
 scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] food 0
 scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] foodStorage 0
 scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] population 0
@@ -17,7 +16,7 @@ scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] expans
 scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] expressionpt 0
 scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] economicpt 0
 scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] equipmentpt 0
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] taxamount 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] taxamount 1
 scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] popPH 0
 scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] totalHousing 0
 scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] zero 0

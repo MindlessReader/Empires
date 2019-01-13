@@ -18,9 +18,11 @@ function empires:flight/hover
 function empires:flight/enable
 
 #Stats
-function empires:statcalculations/mastercalc
+scoreboard players add @a[tag=empiresEnabled] turn 1
+execute as @a[tag=empiresEnabled] at @s run title @p actionbar [{"text":"Engineering:(","color":"reset"},{"score":{"name":"@p","objective":"engineeringpt"},"color":"dark_green","bold":"true"},{"text":") Expand:("},{"score":{"name":"@p","objective":"expansionpt"},"color":"dark_green","bold":"true"},{"text":") Express:("},{"score":{"name":"@p","objective":"expressionpt"},"color":"dark_green","bold":"true"},{"text":") Economic:("},{"score":{"name":"@p","objective":"economicpt"},"color":"dark_green","bold":"true"},{"text":") Equipment:("},{"score":{"name":"@p","objective":"equipmentpt"},"color":"dark_green","bold":"true"},{"text":")"}]
+execute if entity @a[scores={turn=24000}] run function empires:statcalculations/mastercalc
 function empires:statcalculations/add
-function empires:statcalculations/tech
+execute if entity @a[scores={turn=24000}] run function empires:statcalculations/tech
 
 #Shops
 function empires:shops/enable
