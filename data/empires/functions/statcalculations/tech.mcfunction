@@ -19,4 +19,3 @@ advancement grant @a[scores={equipmentpt=100..}] only empires:wheel
 advancement grant @a[scores={equipmentpt=1000..}] only empires:machinery
 advancement grant @a[scores={equipmentpt=2000..}] only empires:steampower
 
-execute as @a[tag=empiresEnabled] at @s run title @p actionbar [{"text":"Engineering:(","color":"reset"},{"score":{"name":"@p","objective":"engineeringpt"},"color":"dark_green","bold":"true"},{"text":") Expand:("},{"score":{"name":"@p","objective":"expansionpt"},"color":"dark_green","bold":"true"},{"text":") Express:("},{"score":{"name":"@p","objective":"expressionpt"},"color":"dark_green","bold":"true"},{"text":") Economic:("},{"score":{"name":"@p","objective":"economicpt"},"color":"dark_green","bold":"true"},{"text":") Equipment:("},{"score":{"name":"@p","objective":"equipmentpt"},"color":"dark_green","bold":"true"},{"text":")"}]
