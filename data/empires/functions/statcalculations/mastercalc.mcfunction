@@ -90,7 +90,7 @@ scoreboard players operation @a[scores={turn=24000}] food > @a[scores={turn=2400
 
 
 #Money
-scoreboard players operation @a[scores={turn=24000,resourcecoal=5..}] money += @a[scores={turn=24000,resourcecoal=5..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] primitivemine
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
@@ -100,7 +100,10 @@ scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24
 
 
 #   Tax
+scoreboard players reset @a[scores={turn=24000}] popPH
+scoreboard players operation @a[scores={turn=24000}] popPH += @a[scores={turn=24000}] population
 scoreboard players operation @a[scores={turn=24000}] popPH *= @a[scores={turn=24000}] taxamount
+scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] popPH
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] popPH
 scoreboard players reset @a[scores={turn=24000}] popPH
 
@@ -309,52 +312,48 @@ scoreboard players operation @a[scores={turn=24000}] popPH /= @a[scores={turn=24
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] popPH
 scoreboard players reset @a[scores={turn=24000}] popPH
 
+#start of production
+scoreboard players reset @a[scores={turn=24000}] production
 #   Potter
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] potter
 #   Blacksmith
-scoreboard players operation @a[scores={turn=24000,resourcecoal=1..}] production += @a[scores={turn=24000,resourcecoal=1..}] blacksmith
-scoreboard players operation @a[scores={turn=24000,resourcecoal=1..}] production += @a[scores={turn=24000,resourcecoal=1..}] blacksmith
-scoreboard players set @a[scores={turn=24000}] blacksmithPH 0
-scoreboard players operation @a[scores={turn=24000,blacksmith=1..,resourcecoal=1..}] blacksmithPH += @a[scores={turn=24000,blacksmith=1..,resourcecoal=1..}] blacksmith
-scoreboard players operation @a[scores={turn=24000,blacksmith=1..,resourcecoal=1..}] resourcecoal -= @a[scores={turn=24000,blacksmith=1..,resourcecoal=1..}] blacksmithPH
-scoreboard players set @a[scores={turn=24000}] blacksmithPH 0
+scoreboard players operation @a[scores={turn=24000,resourcecoal=5..}] production += @a[scores={turn=24000,resourcecoal=5..}] blacksmith
+scoreboard players operation @a[scores={turn=24000,resourcecoal=5..}] production += @a[scores={turn=24000,resourcecoal=5..}] blacksmith
+scoreboard players operation @a[scores={turn=24000,resourcecoal=5..}] production += @a[scores={turn=24000,resourcecoal=5..}] blacksmith
 #   Workshop
-scoreboard players operation @a[scores={turn=24000,resourcecoal=5..}] production += @a[scores={turn=24000,resourcecoal=5..}] workshop
-scoreboard players operation @a[scores={turn=24000,resourcecoal=5..}] production += @a[scores={turn=24000,resourcecoal=5..}] workshop
-scoreboard players operation @a[scores={turn=24000,resourcecoal=5..}] production += @a[scores={turn=24000,resourcecoal=5..}] workshop
-scoreboard players operation @a[scores={turn=24000,resourcecoal=5..}] production += @a[scores={turn=24000,resourcecoal=5..}] workshop
-scoreboard players operation @a[scores={turn=24000,resourcecoal=5..}] production += @a[scores={turn=24000,resourcecoal=5..}] workshop
-scoreboard players set @a[scores={turn=24000}] workshopPH 0
-scoreboard players operation @a[scores={turn=24000,workshop=1..,resourcecoal=5..}] workshopPH += @a[scores={turn=24000,workshop=1..,resourcecoal=5..}] workshop
-scoreboard players operation @a[scores={turn=24000,workshop=1..,resourcecoal=5..}] workshopPH *= @a[scores={turn=24000,workshop=1..,resourcecoal=5..}] five
-scoreboard players operation @a[scores={turn=24000,workshop=1..,resourcecoal=5..}] resourcecoal -= @a[scores={turn=24000,workshop=1..,resourcecoal=5..}] workshopPH
-scoreboard players set @a[scores={turn=24000}] workshopPH 0
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] production += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] production += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] production += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] production += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] production += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] production += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] production += @a[scores={turn=24000,resourcecoal=20..}] workshop
 #   Mines
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] primitivemine
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] mine
 #Factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
-scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
+scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
 
 
 #Resources

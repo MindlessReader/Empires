@@ -16,14 +16,12 @@ scoreboard objectives add expansionpt dummy
 scoreboard objectives add expressionpt dummy
 scoreboard objectives add economicpt dummy
 scoreboard objectives add equipmentpt dummy
-scoreboard objectives add taxamount dummy
+scoreboard objectives add taxamount trigger
 scoreboard objectives add popPH dummy
 scoreboard objectives add totalHousing dummy
 scoreboard objectives add zero dummy
 scoreboard objectives add three dummy
 scoreboard objectives add five dummy
-scoreboard objectives add workshopPH dummy
-scoreboard objectives add blacksmithPH dummy
 scoreboard objectives add turn dummy
 scoreboard objectives add turnCount dummy
 scoreboard objectives add shopTierBlocks trigger
