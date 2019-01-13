@@ -302,7 +302,7 @@ scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={t
 scoreboard players operation @a[scores={turn=24000,resourcecoal=1..}] equipmentpt += @a[scores={turn=24000,resourcecoal=1..}] blacksmith
 
 #Production
-scoreboard players reset @a[scores={turn=24000}] production 
+scoreboard players reset @a[scores={turn=24000,turnCount=..3}] production 
 scoreboard players reset @a[scores={turn=24000}] popPH
 scoreboard players operation @a[scores={turn=24000}] popPH += @a[scores={turn=24000}] population
 scoreboard players operation @a[scores={turn=24000}] popPH /= @a[scores={turn=24000}] three

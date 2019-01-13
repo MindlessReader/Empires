@@ -1,0 +1,1 @@
+advancement grant @a[scores={expressionpt=250}] only 
