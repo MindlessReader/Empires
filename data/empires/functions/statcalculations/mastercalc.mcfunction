@@ -125,15 +125,6 @@ scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
 
 
-#   Tax
-scoreboard players reset @a[scores={turn=24000}] popPH
-scoreboard players operation @a[scores={turn=24000}] popPH += @a[scores={turn=24000}] population
-scoreboard players operation @a[scores={turn=24000,taxamount=1..}] popPH /= @a[scores={turn=24000,taxamount=1..}] taxamount
-scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] popPH
-scoreboard players operation @a[scores={turn=24000}] happiness -= @a[scores={turn=24000}] popPH
-scoreboard players reset @a[scores={turn=24000}] popPH
-
-
 #Happiness
 #   Zen Garden
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] zengarden
@@ -275,7 +266,16 @@ scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
-#   Balancing
+
+#Tax
+scoreboard players reset @a[scores={turn=24000}] popPH
+scoreboard players operation @a[scores={turn=24000}] popPH += @a[scores={turn=24000}] population
+scoreboard players operation @a[scores={turn=24000,taxamount=1..}] popPH /= @a[scores={turn=24000,taxamount=1..}] taxamount
+scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] popPH
+scoreboard players operation @a[scores={turn=24000}] happiness -= @a[scores={turn=24000}] popPH
+scoreboard players reset @a[scores={turn=24000}] popPH
+
+#Happiness Balancing
 scoreboard players operation @a[scores={turn=24000}] happiness -= @a[scores={turn=24000}] population
 scoreboard players operation @a[scores={turn=24000,happiness=..0}] population += @a[scores={turn=24000,happiness=..0}] happiness
 scoreboard players operation @a[scores={turn=24000}] happiness > @a[scores={turn=24000}] zero
@@ -286,6 +286,10 @@ scoreboard players operation @a[scores={turn=24000}] happiness < @a[scores={turn
 #Technology Points
 #    Engineering
 scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] blacksmith
+scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] lumbermill
+scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] lumbermill
+scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] watermill
+
 #    Expansion
 scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] port
 scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] harbor

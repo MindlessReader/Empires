@@ -1,12 +1,8 @@
 scoreboard objectives add food dummy
-scoreboard objectives add foodStorage dummy
 scoreboard objectives add population dummy
 scoreboard objectives add happiness dummy
 scoreboard objectives add ports dummy
-scoreboard objectives add houses dummy
 scoreboard objectives add housesTotalPH dummy
-scoreboard objectives add amenities dummy
-scoreboard objectives add farms dummy
 scoreboard objectives add money dummy
 scoreboard objectives add resourcecoal dummy
 scoreboard objectives add resourcespices dummy
