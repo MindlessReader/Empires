@@ -8,12 +8,7 @@ scoreboard objectives add housesTotalPH dummy
 scoreboard objectives add amenities dummy
 scoreboard objectives add farms dummy
 scoreboard objectives add money dummy
-scoreboard objectives add resourcewood dummy
-scoreboard objectives add resourceiron dummy
-scoreboard objectives add resourcestone dummy
 scoreboard objectives add resourcecoal dummy
-scoreboard objectives add resourcedyes dummy
-scoreboard objectives add resourcesilk dummy
 scoreboard objectives add resourcespices dummy
 scoreboard objectives add production dummy
 scoreboard objectives add engineeringpt dummy

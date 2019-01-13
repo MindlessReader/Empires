@@ -302,6 +302,13 @@ scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={t
 scoreboard players operation @a[scores={turn=24000,resourcecoal=1..}] equipmentpt += @a[scores={turn=24000,resourcecoal=1..}] blacksmith
 
 #Production
+scoreboard players reset @a[scores={turn=24000}] production 
+scoreboard players reset @a[scores={turn=24000}] popPH
+scoreboard players operation @a[scores={turn=24000}] popPH += @a[scores={turn=24000}] population
+scoreboard players operation @a[scores={turn=24000}] popPH /= @a[scores={turn=24000}] three
+scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] popPH
+scoreboard players reset @a[scores={turn=24000}] popPH
+
 #   Potter
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] potter
 #   Blacksmith
@@ -351,7 +358,6 @@ scoreboard players operation @a[scores={turn=24000}] production += @a[scores={tu
 
 
 #Resources
-scoreboard players operation @a[scores={turn=24000}] resourcewood += @a[scores={turn=24000}] lumbermill
 scoreboard players operation @a[scores={turn=24000}] resourcestone += @a[scores={turn=24000}] primitivemine
 scoreboard players operation @a[scores={turn=24000}] resourcestone += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] resourcecoal += @a[scores={turn=24000}] mine
