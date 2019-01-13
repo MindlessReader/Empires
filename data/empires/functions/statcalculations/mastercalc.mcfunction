@@ -104,7 +104,7 @@ scoreboard players reset @a[scores={turn=24000}] popPH
 scoreboard players operation @a[scores={turn=24000}] popPH += @a[scores={turn=24000}] population
 scoreboard players operation @a[scores={turn=24000}] popPH *= @a[scores={turn=24000}] taxamount
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] popPH
-scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] popPH
+scoreboard players operation @a[scores={turn=24000}] happiness -= @a[scores={turn=24000}] popPH
 scoreboard players reset @a[scores={turn=24000}] popPH
 
 
