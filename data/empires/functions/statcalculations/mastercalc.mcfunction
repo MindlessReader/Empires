@@ -367,5 +367,5 @@ scoreboard players operation @a[scores={turn=24000}] resourceiron += @a[scores={
 
 
 #Turn
-scoreboard players add @a[scores={turn=24000}] turnCount 1
-scoreboard players set @a[scores={turn=24000}] turn 0
+scoreboard players add @a[scores={turn=24000..}] turnCount 1
+scoreboard players set @a[scores={turn=24000..}] turn 0

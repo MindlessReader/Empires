@@ -26,7 +26,6 @@ scoreboard objectives add workshopPH dummy
 scoreboard objectives add blacksmithPH dummy
 scoreboard objectives add turn dummy
 scoreboard objectives add turnCount dummy
-scoreboard objectives add shopHouses trigger
 scoreboard objectives add shopTierBlocks trigger
 scoreboard objectives add shopBuildings1 trigger
 scoreboard objectives add shopDecoration trigger
