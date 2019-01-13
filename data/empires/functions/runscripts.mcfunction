@@ -20,6 +20,7 @@ function empires:flight/enable
 #Stats
 function empires:statcalculations/mastercalc
 function empires:statcalculations/add
+function empires:statcalculations/tech
 
 #Shops
 function empires:shops/enable
