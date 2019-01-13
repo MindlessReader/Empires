@@ -47,7 +47,7 @@ execute as @a[scores={shopTierBlocks=204}] at @s run tellraw @p {"text":"[Shop] 
 execute as @a[scores={shopTierBlocks=205,money=3..},advancements={empires:masonry=true}] at @s run give @p sheep_spawn_egg{display:{Name:"\"Cobblestone Stairs\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Cobblestone Stairs\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["cobblestone_stairs"]}} 25
 execute as @a[scores={shopTierBlocks=205,money=3..},advancements={empires:masonry=true}] at @s run scoreboard players remove @p money 3
 execute as @a[scores={shopTierBlocks=205}] at @s run tellraw @p {"text":"[Shop] You bought (25) Cobblestone Stairs.","color":"yellow","italic":"true"}
-,advancements={empires:construction=true}
+
 execute as @a[scores={shopTierBlocks=206,money=3..},advancements={empires:construction=true}] at @s run give @p sheep_spawn_egg{display:{Name:"\"Oak Stairs\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Oak Stairs\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["oak_stairs"]}} 25
 execute as @a[scores={shopTierBlocks=206,money=3..},advancements={empires:construction=true}] at @s run scoreboard players remove @p money 3
 execute as @a[scores={shopTierBlocks=206}] at @s run tellraw @p {"text":"[Shop] You bought (25) Oak Stairs.","color":"yellow","italic":"true"}

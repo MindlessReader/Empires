@@ -1,58 +1,56 @@
 scoreboard players add @a[tag=empiresEnabled] turn 1
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] food 
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] foodStorage
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] population
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] happiness
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] ports
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] houses
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] housesTotalPH
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] amenities
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] farms
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] money
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] resourcecoal
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] resourcespices
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] production
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] engineeringpt
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] expansionpt
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] expressionpt
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] economicpt
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] equipmentpt
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] taxamount
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] popPH
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] totalHousing
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] zero
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] three
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] five
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] workshopPH
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] blacksmithPH
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] turn
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] turnCount
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t1houses
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t2houses
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t3houses
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t4houses
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t5houses
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] blacksmith
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] zengarden
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] garden
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] watermill
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] fishingboat
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] potter
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] field
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] lumbermill
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] workshop
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] library
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] academia
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] primitivemine
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] mine
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] port
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] factory
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] plantation
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] granary
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] harbor
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] market
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t1temple
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t2temple
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t3temple
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t4temple
-scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t5temple
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] food 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] foodStorage 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] population 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] happiness 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] ports 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] houses 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] housesTotalPH 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] amenities 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] farms 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] money 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] resourcecoal 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] resourcespices 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] production 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] engineeringpt 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] expansionpt 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] expressionpt 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] economicpt 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] equipmentpt 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] taxamount 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] popPH 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] totalHousing 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] zero 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] three 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] five 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] workshopPH 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] blacksmithPH 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t1houses 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t2houses 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t3houses 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t4houses 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t5houses 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] blacksmith 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] zengarden 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] garden 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] watermill 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] fishingboat 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] potter 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] field 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] lumbermill 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] workshop 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] library 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] academia 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] primitivemine 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] mine 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] port 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] factory 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] plantation 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] granary 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] harbor 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] market 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t1temple 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t2temple 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t3temple 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t4temple 0
+scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t5temple 0

@@ -358,12 +358,10 @@ scoreboard players operation @a[scores={turn=24000}] production += @a[scores={tu
 
 
 #Resources
-scoreboard players operation @a[scores={turn=24000}] resourcestone += @a[scores={turn=24000}] primitivemine
-scoreboard players operation @a[scores={turn=24000}] resourcestone += @a[scores={turn=24000}] mine
+scoreboard players operation @a[scores={turn=24000}] resourcecoal += @a[scores={turn=24000}] primitivemine
 scoreboard players operation @a[scores={turn=24000}] resourcecoal += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] resourcecoal += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] resourcecoal += @a[scores={turn=24000}] mine
-scoreboard players operation @a[scores={turn=24000}] resourceiron += @a[scores={turn=24000}] mine
 
 
 #Turn
