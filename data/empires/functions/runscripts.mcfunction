@@ -26,10 +26,10 @@ execute if entity @a[scores={turn=24000}] run function empires:statcalculations/
 
 #Shops
 function empires:shops/enable
-execute unless entity @a[scores={shopTierBlocks=0}] run function empires:shops/shoptierblocks
-execute unless entity @a[scores={shopMisc=0}] run function empires:shops/shopmisc
-execute unless entity @a[scores={shopDecoration=0}] run function empires:shops/shopdecoration
-execute unless entity @a[scores={shopBuildings1=0}] run function empires:shops/shopbuildings
+run function empires:shops/shoptierblocks
+run function empires:shops/shopmisc
+run function empires:shops/shopdecoration
+run function empires:shops/shopbuildings
 function empires:shops/convert
 
 #Displays
