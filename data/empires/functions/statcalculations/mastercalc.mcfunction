@@ -384,6 +384,12 @@ scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] productio
 scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
 scoreboard players operation @a[scores={turn=24000,resourcecoal=50..}] production += @a[scores={turn=24000,resourcecoal=50..}] factory
 
+#Production Limiting
+scoreboard players operation @a[scores={turn=24000}] popPH += @a[scores={turn=24000}] population
+scoreboard players operation @a[scores={turn=24000}] popPH += @a[scores={turn=24000}] population
+scoreboard players operation @a[scores={turn=24000}] production < @a[scores={turn=24000}] popPH
+scoreboard players reset @a[scores={turn=24000}] popPH
+
 
 #Resources
 scoreboard players operation @a[scores={turn=24000}] resourcecoal += @a[scores={turn=24000}] primitivemine
