@@ -2,6 +2,12 @@
 execute as @a[scores={convert=1,money=1..}] at @s run scoreboard players remove @p money 1
 execute as @a[scores={convert=1,money=1..}] at @s run give @p minecraft:gold_nugget{display:{Name:"{\"text\":\"Drachma\",\"color\":\"gold\",\"underlined\":\"true\"}"},HideFlags:1,Enchantments:[{id:"minecraft:power",lvl:10}]} 1
 
+execute as @a[scores={convert=2,money=10..}] at @s run scoreboard players remove @p money 10
+execute as @a[scores={convert=2,money=10..}] at @s run give @p minecraft:gold_nugget{display:{Name:"{\"text\":\"Drachma\",\"color\":\"gold\",\"underlined\":\"true\"}"},HideFlags:1,Enchantments:[{id:"minecraft:power",lvl:10}]} 10
+
+execute as @a[scores={convert=3,money=64..}] at @s run scoreboard players remove @p money 64
+execute as @a[scores={convert=3,money=64..}] at @s run give @p minecraft:gold_nugget{display:{Name:"{\"text\":\"Drachma\",\"color\":\"gold\",\"underlined\":\"true\"}"},HideFlags:1,Enchantments:[{id:"minecraft:power",lvl:10}]} 64
+
 execute as @a[scores={convert=4,resourcecoal=1..}] at @s run scoreboard players remove @p resourcecoal 1
 execute as @a[scores={convert=4,resourcecoal=1..}] at @s run give @p coal{display:{Name:"{\"text\":\"Coal Resource\",\"color\":\"dark_red\",\"underlined\":\"true\"}"},HideFlags:1,Enchantments:[{id:"minecraft:protection",lvl:1}]} 1
 
@@ -14,6 +20,12 @@ execute as @a[scores={convert=8,food=1..}] at @s run give @p wheat{display:{Name
 #items to scores
 scoreboard players add @a[scores={convert=9},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] money 1
 clear @a[scores={convert=9},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] gold_nugget 1
+
+scoreboard players add @a[scores={convert=16},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] money 10
+clear @a[scores={convert=16},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] gold_nugget 10
+
+scoreboard players add @a[scores={convert=17},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] money 64
+clear @a[scores={convert=17},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] gold_nugget 64
 
 scoreboard players add @a[scores={convert=10},nbt={Inventory:[{id:"minecraft:wheat"}]}] food 1
 clear @a[scores={convert=10},nbt={Inventory:[{id:"minecraft:wheat"}]}] wheat 1

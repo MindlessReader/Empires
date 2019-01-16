@@ -4,3 +4,4 @@ scoreboard players enable @a shopDecoration
 scoreboard players enable @a shopBuildings1
 scoreboard players enable @a convert
 scoreboard players enable @a taxamount
+scoreboard players enable @a displaybossbar

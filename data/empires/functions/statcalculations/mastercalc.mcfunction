@@ -343,8 +343,6 @@ scoreboard players operation @a[scores={turn=24000}] popPH /= @a[scores={turn=24
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] popPH
 scoreboard players reset @a[scores={turn=24000}] popPH
 
-#start of production
-scoreboard players reset @a[scores={turn=24000}] production
 #   Potter
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] potter
 #   Blacksmith
