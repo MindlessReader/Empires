@@ -7,16 +7,16 @@ execute as @a[scores={shopMisc=101,money=5..}] at @s run give @p horse_spawn_egg
 execute as @a[scores={shopMisc=101,money=5..}] at @s run scoreboard players remove @p money 5
 execute as @a[scores={shopMisc=101}] at @s run tellraw @p {"text":"[Shop] You bought (10) Crafting Table.","color":"yellow","italic":"true"}
 
-execute as @a[scores={shopMisc=102,money=10..},advancements={empires:metalworking=true}] at @s run give @p horse_spawn_egg{display:{Name:"\"Anvil\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Anvil\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["anvil"]}} 1
-execute as @a[scores={shopMisc=102,money=10..},advancements={empires:metalworking=true}] at @s run scoreboard players remove @p money 10
+execute as @a[scores={shopMisc=102,money=100..},advancements={empires:metalworking=true}] at @s run give @p horse_spawn_egg{display:{Name:"\"Anvil\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Anvil\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["anvil"]}} 1
+execute as @a[scores={shopMisc=102,money=100..},advancements={empires:metalworking=true}] at @s run scoreboard players remove @p money 100
 execute as @a[scores={shopMisc=102}] at @s run tellraw @p {"text":"[Shop] You bought (1) Anvil.","color":"yellow","italic":"true"}
 
 execute as @a[scores={shopMisc=103,money=3..}] at @s run give @p horse_spawn_egg{display:{Name:"\"Farmland\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Farmland\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["farmland"]}} 30
 execute as @a[scores={shopMisc=103,money=3..}] at @s run scoreboard players remove @p money 3
 execute as @a[scores={shopMisc=103}] at @s run tellraw @p {"text":"[Shop] You bought (30) Farmland.","color":"yellow","italic":"true"}
 
-execute as @a[scores={shopMisc=104,money=5..},advancements={empires:metalworking=true}] at @s run give @p horse_spawn_egg{display:{Name:"\"Cauldron\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Cauldron\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["cauldron"]}} 1
-execute as @a[scores={shopMisc=104,money=5..},advancements={empires:metalworking=true}] at @s run scoreboard players remove @p money 5
+execute as @a[scores={shopMisc=104,money=50..},advancements={empires:metalworking=true}] at @s run give @p horse_spawn_egg{display:{Name:"\"Cauldron\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Cauldron\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["cauldron"]}} 1
+execute as @a[scores={shopMisc=104,money=50..},advancements={empires:metalworking=true}] at @s run scoreboard players remove @p money 50
 execute as @a[scores={shopMisc=104}] at @s run tellraw @p {"text":"[Shop] You bought (1) Cauldron.","color":"yellow","italic":"true"}
 
 execute as @a[scores={shopMisc=105,money=1..}] at @s run give @p horse_spawn_egg{display:{Name:"\"Pot\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Pot\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["flower_pot"]}} 10

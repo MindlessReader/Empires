@@ -1,3 +1,6 @@
+#Scoreboards
+execute as @a store result score @s drachmacount run clear @s minecraft:gold_nugget 0
+
 #scores to items
 execute as @a[scores={convert=1,money=1..}] at @s run scoreboard players remove @p money 1
 execute as @a[scores={convert=1,money=1..}] at @s run give @p minecraft:gold_nugget{display:{Name:"{\"text\":\"Drachma\",\"color\":\"gold\",\"underlined\":\"true\"}"},HideFlags:1,Enchantments:[{id:"minecraft:power",lvl:10}]} 1
@@ -21,11 +24,11 @@ execute as @a[scores={convert=8,food=1..}] at @s run give @p wheat{display:{Name
 scoreboard players add @a[scores={convert=9},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] money 1
 clear @a[scores={convert=9},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] gold_nugget 1
 
-scoreboard players add @a[scores={convert=16},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] money 10
-clear @a[scores={convert=16},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] gold_nugget 10
+scoreboard players add @a[scores={convert=16,drachmacount=10..},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] money 10
+clear @a[scores={convert=16,drachmacount=10..},nbt={Inventory:[{id:"minecraft:gold_nugget"},]}] gold_nugget 10
 
-scoreboard players add @a[scores={convert=17},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] money 64
-clear @a[scores={convert=17},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] gold_nugget 64
+scoreboard players add @a[scores={convert=17,drachmacount=64..},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] money 64
+clear @a[scores={convert=17,drachmacount=64..},nbt={Inventory:[{id:"minecraft:gold_nugget"}]}] gold_nugget 64
 
 scoreboard players add @a[scores={convert=10},nbt={Inventory:[{id:"minecraft:wheat"}]}] food 1
 clear @a[scores={convert=10},nbt={Inventory:[{id:"minecraft:wheat"}]}] wheat 1

@@ -34,3 +34,5 @@ function empires:shops/convert
 
 #Displays
 function empires:display/displays
+function empires:display/sidebar
+scoreboard players enable @a sidebar

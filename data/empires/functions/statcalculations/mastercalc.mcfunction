@@ -31,6 +31,18 @@ scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=240
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
 #    Fishing Boat
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] fishingboat
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] fishingboat
@@ -111,7 +123,7 @@ scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] food < @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] food < @a[scores={turn=24000}] granaryPH
 scoreboard players operation @a[scores={turn=24000}] food > @a[scores={turn=24000}] zero
 scoreboard players reset @a[scores={turn=24000}] granaryPH
 
@@ -119,7 +131,23 @@ scoreboard players reset @a[scores={turn=24000}] granaryPH
 #Money
 scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
 scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] money += @a[scores={turn=24000,resourcecoal=20..}] workshop
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] primitivemine
+scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
+scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
+scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] money += @a[scores={turn=24000}] mine
@@ -148,11 +176,7 @@ scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] garden
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] garden
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] garden
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] garden
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] garden
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] garden
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] garden
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] garden
+
 #   Library
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] library
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] library
@@ -181,6 +205,12 @@ scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t1temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t1temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t1temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t1temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t1temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t1temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t1temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t1temple
+
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
@@ -191,6 +221,17 @@ scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2temple
+
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
@@ -206,6 +247,22 @@ scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3temple
+
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
@@ -226,6 +283,69 @@ scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4temple
+
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5temple
@@ -286,11 +406,17 @@ scoreboard players operation @a[scores={turn=24000}] happiness < @a[scores={turn
 #Technology Points
 #    Engineering
 scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] blacksmith
+scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] blacksmith
+scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] lumbermill
+scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] lumbermill
 scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] lumbermill
 scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] lumbermill
 scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] watermill
+scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] watermill
 
 #    Expansion
+scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] port
 scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] port
 scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] harbor
 scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] harbor
@@ -333,7 +459,11 @@ scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={tu
 
 #    Equipment
 scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] potter
-scoreboard players operation @a[scores={turn=24000,resourcecoal=5..}] equipmentpt += @a[scores={turn=24000,resourcecoal=5..}] blacksmith
+scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] workshop
+scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] workshop
+scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] workshop
+scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] workshop
+scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] workshop
 
 #Production
 scoreboard players reset @a[scores={turn=24000,turnCount=..3}] production 
@@ -357,7 +487,8 @@ scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] productio
 scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] production += @a[scores={turn=24000,resourcecoal=20..}] workshop
 scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] production += @a[scores={turn=24000,resourcecoal=20..}] workshop
 scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] production += @a[scores={turn=24000,resourcecoal=20..}] workshop
-#   Mines
+scoreboard players operation @a[scores={turn=24000,resourcecoal=20..}] production += @a[scores={turn=24000,resourcecoal=20..}] workshop
+ #   Mines
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] primitivemine
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] mine
 scoreboard players operation @a[scores={turn=24000}] production += @a[scores={turn=24000}] mine
