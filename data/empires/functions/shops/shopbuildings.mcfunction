@@ -42,11 +42,11 @@ execute as @a[scores={shopBuildings1=10,production=32..}] at @s run scoreboard p
 
 #Others
 execute as @a[scores={shopBuildings1=100,production=10..},advancements={empires:metalworking=true}] at @s run give @p husk_spawn_egg{display:{Name:"\"Blacksmith Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Blacksmith Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["blacksmithdetector","detector"]}}
-execute as @a[scores={shopBuildings1=100,production=10..}] at @s run tellraw @p {"text":"[Shop] You bought (1) Blacksmith.","color":"yellow","italic":"true"}
+execute as @a[scores={shopBuildings1=100,production=10..},advancements={empires:metalworking=true}] at @s run tellraw @p {"text":"[Shop] You bought (1) Blacksmith.","color":"yellow","italic":"true"}
 execute as @a[scores={shopBuildings1=100,production=10..},advancements={empires:metalworking=true}] at @s run scoreboard players remove @p production 10
 
 execute as @a[scores={shopBuildings1=101,production=10..},advancements={empires:philosophy=true}] at @s run give @p husk_spawn_egg{display:{Name:"\"Zen Garden Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Zen Garden Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["zengardendetector","detector"]}}
-execute as @a[scores={shopBuildings1=101,production=10..}] at @s run tellraw @p {"text":"[Shop] You bought (1) Zen Garden.","color":"yellow","italic":"true"}
+execute as @a[scores={shopBuildings1=101,production=10..},advancements={empires:philosophy=true}] at @s run tellraw @p {"text":"[Shop] You bought (1) Zen Garden.","color":"yellow","italic":"true"}
 execute as @a[scores={shopBuildings1=101,production=10..},advancements={empires:philosophy=true}] at @s run scoreboard players remove @p production 10
 
 execute as @a[scores={shopBuildings1=102,production=5..}] at @s run give @p husk_spawn_egg{display:{Name:"\"Garden Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Garden Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["gardendetector","detector"]}}
@@ -54,7 +54,7 @@ execute as @a[scores={shopBuildings1=102,production=5..}] at @s run tellraw @p {
 execute as @a[scores={shopBuildings1=102,production=5..}] at @s run scoreboard players remove @p production 5
 
 execute as @a[scores={shopBuildings1=103,production=15..},advancements={empires:wheel=true}] at @s run give @p husk_spawn_egg{display:{Name:"\"Watermill Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Watermill Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["watermilldetector","detector"]}}
-execute as @a[scores={shopBuildings1=103,production=15..}] at @s run tellraw @p {"text":"[Shop] You bought (1) Watermill.","color":"yellow","italic":"true"}
+execute as @a[scores={shopBuildings1=103,production=15..},advancements={empires:wheel=true}] at @s run tellraw @p {"text":"[Shop] You bought (1) Watermill.","color":"yellow","italic":"true"}
 execute as @a[scores={shopBuildings1=103,production=15..},advancements={empires:wheel=true}] at @s run scoreboard players remove @p production 15
 
 execute as @a[scores={shopBuildings1=104,production=10..}] at @s run give @p husk_spawn_egg{display:{Name:"\"Fishing Boat Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Fishing Boat Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["fishingboatdetector","detector"]}}
@@ -90,7 +90,7 @@ execute as @a[scores={shopBuildings1=111,production=5..}] at @s run tellraw @p {
 execute as @a[scores={shopBuildings1=111,production=5..}] at @s run scoreboard players remove @p production 5
 
 execute as @a[scores={shopBuildings1=112,production=10..},advancements={empires:metalworking=true}] at @s run give @p husk_spawn_egg{display:{Name:"\"Mine Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Mine Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["minedetector","detector"]}}
-execute as @a[scores={shopBuildings1=112,production=10..}] at @s run tellraw @p {"text":"[Shop] You bought (1) Mine.","color":"yellow","italic":"true"}
+execute as @a[scores={shopBuildings1=112,production=10..},advancements={empires:metalworking=true}] at @s run tellraw @p {"text":"[Shop] You bought (1) Mine.","color":"yellow","italic":"true"}
 execute as @a[scores={shopBuildings1=112,production=10..},advancements={empires:metalworking=true}] at @s run scoreboard players remove @p production 10
 
 execute as @a[scores={shopBuildings1=113,production=5..}] at @s run give @p husk_spawn_egg{display:{Name:"\"Port Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Port Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["portdetector","detector"]}}
@@ -108,6 +108,10 @@ execute as @a[scores={shopBuildings1=115,production=10..}] at @s run scoreboard 
 execute as @a[scores={shopBuildings1=116,production=50..},advancements={empires:navigation=true}] at @s run give @p husk_spawn_egg{display:{Name:"\"Harbor Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Harbor Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["harbordetector","detector"]}}
 execute as @a[scores={shopBuildings1=116,production=50..},advancements={empires:navigation=true}] at @s run tellraw @p {"text":"[Shop] You bought (1) Harbor.","color":"yellow","italic":"true"}
 execute as @a[scores={shopBuildings1=116,production=50..},advancements={empires:navigation=true}] at @s run scoreboard players remove @p production 50
+
+execute as @a[scores={shopBuildings1=117,production=50..},advancements={empires:colonialism=true}] at @s run give @p husk_spawn_egg{display:{Name:"\"Plantation Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Plantation Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["plantationdetector","detector"]}}
+execute as @a[scores={shopBuildings1=117,production=50..},advancements={empires:colonialism=true}] at @s run tellraw @p {"text":"[Shop] You bought (1) Plantation.","color":"yellow","italic":"true"}
+execute as @a[scores={shopBuildings1=117,production=50..},advancements={empires:colonialism=true}] at @s run scoreboard players remove @p production 50
 
 #End
 scoreboard players reset @a[scores={shopBuildings1=1..}] shopBuildings1
