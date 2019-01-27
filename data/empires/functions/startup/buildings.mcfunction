@@ -1,5 +1,5 @@
 #Houses
-scoreboard objectives add house dummy
+scoreboard objectives add houses dummy
 
 #Buildings
 scoreboard objectives add blacksmith dummy
