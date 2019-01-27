@@ -1,2 +1,0 @@
-execute at @e[tag=primitiveminedetector,tag=detector,scores={activator_rail=10..}] run scoreboard players add @p primitivemine 1
-execute at @e[tag=primitiveminedetector,tag=detector,scores={activator_rail=10..}] run kill @e[tag=primitiveminedetector,tag=detector,scores={activator_rail=10..},distance=0..10]

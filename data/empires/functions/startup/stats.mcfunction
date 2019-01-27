@@ -7,11 +7,6 @@ scoreboard objectives add money dummy
 scoreboard objectives add resourcecoal dummy
 scoreboard objectives add resourcespices dummy
 scoreboard objectives add production dummy
-scoreboard objectives add engineeringpt dummy
-scoreboard objectives add expansionpt dummy
-scoreboard objectives add expressionpt dummy
-scoreboard objectives add economicpt dummy
-scoreboard objectives add equipmentpt dummy
 scoreboard objectives add taxamount trigger
 scoreboard objectives add popPH dummy
 scoreboard objectives add totalHousing dummy
@@ -29,3 +24,37 @@ scoreboard objectives add displaybossbar trigger
 scoreboard objectives add convert trigger
 scoreboard objectives add drachmacount dummy
 scoreboard objectives add sidebar trigger
+
+scoreboard objectives add techpottery dummy
+scoreboard objectives add techwheel dummy
+scoreboard objectives add techmachinery dummy
+scoreboard objectives add techprinting dummy
+scoreboard objectives add techsteampower dummy
+
+scoreboard objectives add techagriculture dummy
+scoreboard objectives add techarchery dummy
+scoreboard objectives add techgunpowder dummy
+scoreboard objectives add techballistics dummy
+scoreboard objectives add techirrigation dummy
+scoreboard objectives add techwriting dummy
+scoreboard objectives add techfertilizer dummy
+scoreboard objectives add techphilosophy dummy
+scoreboard objectives add techhumanism dummy
+scoreboard objectives add techdrama dummy
+scoreboard objectives add techhorsebackriding dummy
+scoreboard objectives add techrecreation dummy
+
+scoreboard objectives add techsailing dummy
+scoreboard objectives add technavigation dummy
+scoreboard objectives add techcartography dummy
+scoreboard objectives add techcolonialism dummy
+scoreboard objectives add techmercantilism dummy
+scoreboard objectives add techindustrialization dummy
+
+scoreboard objectives add techmining dummy
+scoreboard objectives add techstonemasonry dummy
+scoreboard objectives add techconstruction dummy
+scoreboard objectives add techbronzeworking dummy
+scoreboard objectives add techironworking dummy
+scoreboard objectives add techcurrency dummy
+scoreboard objectives add techguilds dummy
