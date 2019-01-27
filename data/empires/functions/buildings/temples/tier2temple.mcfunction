@@ -1,2 +1,0 @@
-execute at @e[tag=t2templedetector,scores={t2Block=200..}] run scoreboard players add @p t2temple 1
-execute at @e[tag=t2templedetector,scores={t2Block=200..}] run kill @e[tag=t2templedetector,scores={t2Block=200..},distance=0..10]

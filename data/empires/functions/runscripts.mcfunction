@@ -1,5 +1,41 @@
 #Blocks
-function empires:blocks
+function empires:blocks/blocks/acaciaplanks
+function empires:blocks/blocks/birchplanks
+function empires:blocks/blocks/bricks
+function empires:blocks/blocks/cobblestone
+function empires:blocks/blocks/cobblestone_stairs
+function empires:blocks/blocks/concrete
+function empires:blocks/blocks/cut_red_sandstone
+function empires:blocks/blocks/cut_sandstone
+function empires:blocks/blocks/darkoakplanks
+function empires:blocks/blocks/end_stone
+function empires:blocks/blocks/glass
+function empires:blocks/blocks/gravel
+function empires:blocks/blocks/hay_block
+function empires:blocks/blocks/mudbricks
+function empires:blocks/blocks/oak_log
+function empires:blocks/blocks/oak_stairs
+function empires:blocks/blocks/oakplanks
+function empires:blocks/blocks/polished_andesite
+function empires:blocks/blocks/polished_diorite
+function empires:blocks/blocks/polished_granite
+function empires:blocks/blocks/purple_carpet
+function empires:blocks/blocks/quartz_block
+function empires:blocks/blocks/quartz_pillar
+function empires:blocks/blocks/red_carpet
+function empires:blocks/blocks/red_sand
+function empires:blocks/blocks/red_sandstone
+function empires:blocks/blocks/red_sandstone_stairs
+function empires:blocks/blocks/redstone_lamp
+function empires:blocks/blocks/sand
+function empires:blocks/blocks/sandstone
+function empires:blocks/blocks/sandstone_stairs
+function empires:blocks/blocks/snow_block
+function empires:blocks/blocks/spruceplanks
+function empires:blocks/blocks/stone
+function empires:blocks/blocks/stone_bricks
+function empires:blocks/blocks/terracotta
+function empires:blocks/misc
 
 
 #Detectors
@@ -14,7 +50,6 @@ function empires:flight/enable
 
 #Stats
 scoreboard players add @a[tag=empiresEnabled] turn 1
-execute as @a[tag=empiresEnabled] at @s run title @p actionbar [{"text":"Engineering:(","color":"reset"},{"score":{"name":"@p","objective":"engineeringpt"},"color":"dark_green","bold":"true"},{"text":") Expand:("},{"score":{"name":"@p","objective":"expansionpt"},"color":"dark_green","bold":"true"},{"text":") Express:("},{"score":{"name":"@p","objective":"expressionpt"},"color":"dark_green","bold":"true"},{"text":") Economic:("},{"score":{"name":"@p","objective":"economicpt"},"color":"dark_green","bold":"true"},{"text":") Equipment:("},{"score":{"name":"@p","objective":"equipmentpt"},"color":"dark_green","bold":"true"},{"text":")"}]
 execute if entity @a[scores={turn=24000}] run function empires:statcalculations/mastercalc
 function empires:statcalculations/add
 function empires:statcalculations/tech
@@ -31,3 +66,10 @@ function empires:shops/convert
 function empires:display/displays
 execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,sort=nearest] ~ ~ ~ ~8 ~
 effect give @e[tag=detector] minecraft:invisibility 1 1 true
+scoreboard players add @e[tag=globe] globedisplay 1
+scoreboard players add @e[tag=detector] globedisplay 1
+execute at @e[tag=detector,scores={globedisplay=10}] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["globe"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"0464c495-0291-440a-9c19-ba0ff1797561",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ0OGU3NWZmNTVjYjU3NTMzYzdiOTA0YmU4ODdhMzc0OTI1ZjkzODMyZjdhZTE2Yjc5MjM5ODdlOTcwIn19fQ=="}]}}}}]}
+execute at @e[tag=detector] run scoreboard players reset @e[tag=globe,distance=0..1] globedisplay
+kill @e[tag=globe,scores={globedisplay=10}]
+execute at @e[tag=globe] run particle minecraft:crit ^ ^1.75 ^1 0 0 0 0 1 force
+execute at @e[tag=globe] run particle minecraft:crit ^ ^1.75 ^-1 0 0 0 0 1 force

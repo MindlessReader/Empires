@@ -22,6 +22,7 @@ scoreboard objectives add shopDecoration trigger
 scoreboard objectives add shopMisc trigger
 scoreboard objectives add displaybossbar trigger
 scoreboard objectives add convert trigger
+scoreboard objectives add globedisplay dummy
 
 scoreboard objectives add techpottery dummy
 scoreboard objectives add techwheel dummy
