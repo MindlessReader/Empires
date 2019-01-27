@@ -1,0 +1,2 @@
+execute at @e[tag=lighthousedetector,tag=detector,scores={block=150..}] run scoreboard players add @p lighthouse 1
+execute at @e[tag=lighthousedetector,tag=detector,scores={block=150..}] run kill @e[tag=lighthousedetector,tag=detector,scores={block=150..},distance=0..10]

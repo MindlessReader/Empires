@@ -1,7 +1,0 @@
-function empires:blocks/tier3blocks/stone_bricks
-function empires:blocks/tier3blocks/sandstone
-function empires:blocks/tier3blocks/cut_sandstone
-function empires:blocks/tier3blocks/red_sandstone
-function empires:blocks/tier3blocks/cut_red_sandstone
-function empires:blocks/tier3blocks/sandstone_stairs
-function empires:blocks/tier3blocks/red_sandstone_stairs

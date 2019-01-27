@@ -1,0 +1,2 @@
+execute at @e[tag=commercialhubdetector,tag=detector,scores={block=300..}] run scoreboard players add @p commercialhub 1
+execute at @e[tag=commercialhubdetector,tag=detector,scores={block=300..}] run kill @e[tag=commercialhubdetector,tag=detector,scores={block=300..},distance=0..10]
