@@ -1,10 +1,5 @@
 #Blocks
-execute if entity @a[nbt={Inventory:[{id:"minecraft:ghast_spawn_egg"}]}] run function empires:blocks/t1blocks
-execute if entity @a[nbt={Inventory:[{id:"minecraft:sheep_spawn_egg"}]}] run function empires:blocks/t2blocks
-execute if entity @a[nbt={Inventory:[{id:"minecraft:turtle_spawn_egg"}]}] run function empires:blocks/t3blocks
-execute if entity @a[nbt={Inventory:[{id:"minecraft:skeleton_spawn_egg"}]}] run function empires:blocks/t4blocks
-execute if entity @a[nbt={Inventory:[{id:"minecraft:vindicator_spawn_egg"}]}] run function empires:blocks/t5blocks
-execute if entity @a[nbt={Inventory:[{id:"minecraft:horse_spawn_egg"}]}] run function empires:blocks/misc
+function empires:blocks
 
 
 #Detectors
@@ -34,3 +29,5 @@ function empires:shops/convert
 
 #Displays
 function empires:display/displays
+execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,sort=nearest] ~ ~ ~ ~8 ~
+effect give @e[tag=detector] minecraft:invisibility 1 1 true

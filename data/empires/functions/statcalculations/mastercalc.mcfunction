@@ -111,7 +111,7 @@ scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] food < @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] food < @a[scores={turn=24000}] granaryPH
 scoreboard players operation @a[scores={turn=24000}] food > @a[scores={turn=24000}] zero
 scoreboard players reset @a[scores={turn=24000}] granaryPH
 
@@ -159,22 +159,7 @@ scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] library
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] library
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] library
-#   Houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t1houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t2houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t3houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t4houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5houses
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t5houses
+
 #   Temples
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t1temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] t1temple
