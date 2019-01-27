@@ -38,6 +38,7 @@ scoreboard objectives add techballistics dummy
 scoreboard objectives add techirrigation dummy
 scoreboard objectives add techwriting dummy
 scoreboard objectives add techfertilizer dummy
+scoreboard objectives add techcroprotation dummy
 scoreboard objectives add techphilosophy dummy
 scoreboard objectives add techhumanism dummy
 scoreboard objectives add techdrama dummy

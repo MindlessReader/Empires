@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "archery": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked by Field"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Archery (50)"
+        }
+    },
+    "parent": "empires:agriculture"
+}

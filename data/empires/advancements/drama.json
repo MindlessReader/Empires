@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "drama": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked by Library"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Drama (110)"
+        }
+    },
+    "parent": "empires:writing"
+}
