@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "humanism": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked by Academia"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:beetroot_soup"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Humanism (255)"
+        }
+    },
+    "parent": "empires:philosophy"
+}

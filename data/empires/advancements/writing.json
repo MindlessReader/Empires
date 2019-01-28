@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "writing": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked by Granary"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:popped_chorus_fruit"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Writing (65)"
+        }
+    },
+    "parent": "empires:irrigation"
+}

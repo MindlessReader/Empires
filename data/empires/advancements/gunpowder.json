@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "gunpowder": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked by Fletcher"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:gunpowder"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Gunpowder (175)"
+        }
+    },
+    "parent": "empires:archery"
+}
