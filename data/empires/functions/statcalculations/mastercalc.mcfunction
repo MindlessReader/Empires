@@ -4,17 +4,14 @@ scoreboard players set @a[scores={turn=24000}] three 3
 scoreboard players set @a[scores={turn=24000}] five 5
 scoreboard players reset @a[scores={turn=24000}] housesTotalPH
 scoreboard players operation @a[scores={turn=24000}] population += @a[scores={turn=24000}] port
-scoreboard players operation @a[scores={turn=24000}] housesTotalPH += @a[scores={turn=24000}] t1houses
-scoreboard players operation @a[scores={turn=24000}] housesTotalPH += @a[scores={turn=24000}] t2houses
-scoreboard players operation @a[scores={turn=24000}] housesTotalPH += @a[scores={turn=24000}] t3houses
-scoreboard players operation @a[scores={turn=24000}] housesTotalPH += @a[scores={turn=24000}] t4houses
-scoreboard players operation @a[scores={turn=24000}] housesTotalPH += @a[scores={turn=24000}] t5houses
+scoreboard players operation @a[scores={turn=24000}] housesTotalPH += @a[scores={turn=24000}] houses
 scoreboard players operation @a[scores={turn=24000}] housesTotalPH *= @a[scores={turn=24000}] three
 scoreboard players operation @a[scores={turn=24000}] population < @a[scores={turn=24000}] housesTotalPH
 
 
 #Food
 #   Field
+scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] field
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] field
 #   Garden
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] garden
@@ -44,10 +41,6 @@ scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=240
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] watermill
 #    Fishing Boat
-scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] fishingboat
-scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] fishingboat
-scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] fishingboat
-scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] fishingboat
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] fishingboat
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] fishingboat
 scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=24000}] fishingboat
@@ -96,23 +89,7 @@ scoreboard players operation @a[scores={turn=24000}] food += @a[scores={turn=240
 #Balancing
 scoreboard players operation @a[scores={turn=24000}] food -= @a[scores={turn=24000}] population
 scoreboard players operation @a[scores={turn=24000,food=..0}] population += @a[scores={turn=24000,food=..0}] food
-scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] food
 scoreboard players reset @a[scores={turn=24000}] granaryPH
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
-scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
@@ -388,67 +365,39 @@ scoreboard players operation @a[scores={turn=24000}] happiness < @a[scores={turn
 
 
 
-#Technology Points
-#    Engineering
-scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] blacksmith
-scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] blacksmith
-scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] lumbermill
-scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] lumbermill
-scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] lumbermill
-scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] lumbermill
-scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] watermill
-scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] watermill
-scoreboard players operation @a[scores={turn=24000}] engineeringpt += @a[scores={turn=24000}] watermill
+#Technology
+scoreboard players operation @a[scores={turn=24000}] techwheel += @a[scores={turn=24000}] potter 
+scoreboard players operation @a[scores={turn=24000}] techmachinery += @a[scores={turn=24000}] watermill 
+scoreboard players operation @a[scores={turn=24000}] techprinting += @a[scores={turn=24000}] lumbermill
+scoreboard players operation @a[scores={turn=24000}] techsteampower += @a[scores={turn=24000}] lumbermill 
 
-#    Expansion
-scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] port
-scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] port
-scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] harbor
-scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] harbor
-scoreboard players operation @a[scores={turn=24000}] expansionpt += @a[scores={turn=24000}] harbor
-#    Expression
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] field
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] library
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] library
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] library
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] library
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] library
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] academia
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] academia
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] academia
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] academia
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] academia
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] academia
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] academia
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] academia
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] academia
-scoreboard players operation @a[scores={turn=24000}] expressionpt += @a[scores={turn=24000}] academia
-#    Economic
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] primitivemine
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] mine
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] mine
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] mine
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] mine
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] mine
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
-scoreboard players operation @a[scores={turn=24000}] economicpt += @a[scores={turn=24000}] market
+scoreboard players operation @a[scores={turn=24000}] techarchery += @a[scores={turn=24000}] field
+scoreboard players operation @a[scores={turn=24000}] techirrigation += @a[scores={turn=24000}] field
+scoreboard players operation @a[scores={turn=24000}] techhorsebackriding += @a[scores={turn=24000}] field
+scoreboard players operation @a[scores={turn=24000}] techgunpowder += @a[scores={turn=24000}] fletcher
+scoreboard players operation @a[scores={turn=24000}] techballistics += @a[scores={turn=24000}] armory
+scoreboard players operation @a[scores={turn=24000}] techwriting += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] techfertilizer += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] techcroprotation += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] techphilosophy += @a[scores={turn=24000}] library
+scoreboard players operation @a[scores={turn=24000}] techdrama += @a[scores={turn=24000}] library
+scoreboard players operation @a[scores={turn=24000}] techhumanism += @a[scores={turn=24000}] academia
+scoreboard players operation @a[scores={turn=24000}] techrecreation += @a[scores={turn=24000}] stable
+
+scoreboard players operation @a[scores={turn=24000}] technavigation += @a[scores={turn=24000}] port
+scoreboard players operation @a[scores={turn=24000}] techcartography += @a[scores={turn=24000}] lighthouse
+scoreboard players operation @a[scores={turn=24000}] techcolonialism += @a[scores={turn=24000}] harbor
+scoreboard players operation @a[scores={turn=24000}] techmercantilism += @a[scores={turn=24000}] plantation
+scoreboard players operation @a[scores={turn=24000}] techindustrialization += @a[scores={turn=24000}] shippingyard
+
+scoreboard players operation @a[scores={turn=24000}] techstonemasonry += @a[scores={turn=24000}] mine
+scoreboard players operation @a[scores={turn=24000}] techbronzeworking += @a[scores={turn=24000}] mine 
+scoreboard players operation @a[scores={turn=24000}] techconstruction += @a[scores={turn=24000}] walls
+scoreboard players operation @a[scores={turn=24000}] techironworking += @a[scores={turn=24000}] workshop
+scoreboard players operation @a[scores={turn=24000}] techcurrency += @a[scores={turn=24000}] workshop
+scoreboard players operation @a[scores={turn=24000}] techguilds += @a[scores={turn=24000}] market
 
 
-#    Equipment
-scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] potter
-scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] workshop
-scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] workshop
-scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] workshop
-scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] workshop
-scoreboard players operation @a[scores={turn=24000}] equipmentpt += @a[scores={turn=24000}] workshop
 
 #Production
 scoreboard players reset @a[scores={turn=24000,turnCount=..3}] production 
