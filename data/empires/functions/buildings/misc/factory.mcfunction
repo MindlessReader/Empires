@@ -1,2 +1,2 @@
-execute at @e[tag=factorydetector,tag=detector,scores={block=1000..}] run scoreboard players add @p factory 1
+execute at @e[tag=factorydetector,tag=detector,scores={block=1000..}] run scoreboard players add @e[tag=city,sort=nearest] factory 1\
 execute at @e[tag=factorydetector,tag=detector,scores={block=1000..}] run kill @e[tag=factorydetector,tag=detector,scores={block=1000..},distance=0..10]

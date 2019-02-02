@@ -1,2 +1,2 @@
-execute at @e[tag=forgedetector,tag=detector,scores={block=200..,anvil=1..}] run scoreboard players add @p forge 1
+execute at @e[tag=forgedetector,tag=detector,scores={block=200..,anvil=1..}] run scoreboard players add @e[tag=city,sort=nearest] forge 1
 execute at @e[tag=forgedetector,tag=detector,scores={block=200..,anvil=1..}] run kill @e[tag=forgedetector,tag=detector,scores={block=200..,anvil=1..},distance=0..10]

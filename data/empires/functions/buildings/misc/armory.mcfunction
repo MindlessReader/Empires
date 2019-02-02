@@ -1,2 +1,2 @@
-execute at @e[tag=armorydetector,tag=detector,scores={block=200..}] run scoreboard players add @p armory 1
+execute at @e[tag=armorydetector,tag=detector,scores={block=200..}] run scoreboard players add @e[tag=city,sort=nearest] armory 1
 execute at @e[tag=armorydetector,tag=detector,scores={block=200..}] run kill @e[tag=armorydetector,tag=detector,scores={block=200..},distance=0..10]
