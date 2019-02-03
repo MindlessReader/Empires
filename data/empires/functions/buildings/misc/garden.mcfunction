@@ -1,2 +1,2 @@
-execute at @e[tag=gardendetector,tag=detector,scores={flowers=15..,leaves=15..}] run scoreboard players add @e[tag=city,sort=nearest] garden 1
+execute at @e[tag=gardendetector,tag=detector,scores={flowers=15..,leaves=15..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] garden 1
 execute at @e[tag=gardendetector,tag=detector,scores={flowers=15..,leaves=15..}] run kill @e[tag=gardendetector,tag=detector,scores={flowers=15..,leaves=15..},distance=0..10]

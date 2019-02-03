@@ -1,2 +1,2 @@
-execute at @e[tag=stabledetector,tag=detector,scores={block=150..}] run scoreboard players add @e[tag=city,sort=nearest] stable 1
+execute at @e[tag=stabledetector,tag=detector,scores={block=150..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] stable 1
 execute at @e[tag=stabledetector,tag=detector,scores={block=150..}] run kill @e[tag=stabledetector,tag=detector,scores={block=150..},distance=0..10]

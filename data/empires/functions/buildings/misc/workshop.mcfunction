@@ -1,2 +1,2 @@
-execute at @e[tag=workshopdetector,tag=detector,scores={craftingtable=4..,flower_pot=10..,block=200..}] run scoreboard players add @e[tag=city,sort=nearest] workshop 1
+execute at @e[tag=workshopdetector,tag=detector,scores={craftingtable=4..,flower_pot=10..,block=200..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] workshop 1
 execute at @e[tag=workshopdetector,tag=detector,scores={craftingtable=4..,flower_pot=10..,block=200..}] run kill @e[tag=workshopdetector,tag=detector,scores={craftingtable=4..,flower_pot=10..,block=200..},distance=0..10]
