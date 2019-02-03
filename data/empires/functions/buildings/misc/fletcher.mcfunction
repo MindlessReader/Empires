@@ -1,2 +1,2 @@
-execute at @e[tag=fletcherdetector,tag=detector,scores={block=100..}] run scoreboard players add @p fletcher 1
+execute at @e[tag=fletcherdetector,tag=detector,scores={block=100..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] fletcher 1
 execute at @e[tag=fletcherdetector,tag=detector,scores={block=100..}] run kill @e[tag=fletcherdetector,tag=detector,scores={block=100..},distance=0..10]
