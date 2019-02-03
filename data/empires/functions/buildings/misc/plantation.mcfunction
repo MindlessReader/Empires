@@ -1,2 +1,2 @@
-execute at @e[tag=plantationdetector,tag=detector,scores={block=200..,farmland=1000..}] run scoreboard players add @p plantation 1
+execute at @e[tag=plantationdetector,tag=detector,scores={block=200..,farmland=1000..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] plantation 1
 execute at @e[tag=plantationdetector,tag=detector,scores={block=200..,farmland=1000..}] run kill @e[tag=plantationdetector,tag=detector,scores={block=200..,farmland=1000..},distance=0..40]

@@ -1,2 +1,0 @@
-execute at @e[tag=blacksmithdetector,tag=detector,scores={anvil=1..,cauldron=1..}] run scoreboard players add @p blacksmith 1
-execute at @e[tag=blacksmithdetector,tag=detector,scores={anvil=1..,cauldron=1..}] run kill @e[tag=blacksmithdetector,tag=detector,scores={anvil=1..,cauldron=1..},distance=0..10]

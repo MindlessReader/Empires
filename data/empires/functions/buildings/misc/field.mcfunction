@@ -1,2 +1,2 @@
-execute at @e[tag=fielddetector,tag=detector,scores={farmland=30..}] run scoreboard players add @p field 1
+execute at @e[tag=fielddetector,tag=detector,scores={farmland=30..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] field 1
 execute at @e[tag=fielddetector,tag=detector,scores={farmland=30..}] run kill @e[tag=fielddetector,tag=detector,scores={farmland=30..},distance=0..10]

@@ -17,7 +17,7 @@
         },
         "show_toast": true,
         "title": {
-            "text": "Machinery 225"
+            "text": "Machinery (225)"
         }
     },
     "parent": "empires:wheel"

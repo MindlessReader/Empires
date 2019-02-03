@@ -42,7 +42,7 @@ scoreboard objectives add techcroprotation dummy
 scoreboard objectives add techphilosophy dummy
 scoreboard objectives add techhumanism dummy
 scoreboard objectives add techdrama dummy
-scoreboard objectives add techhorsebackriding dummy
+scoreboard objectives add techhorseriding dummy
 scoreboard objectives add techrecreation dummy
 
 scoreboard objectives add techsailing dummy
@@ -50,12 +50,12 @@ scoreboard objectives add technavigation dummy
 scoreboard objectives add techcartography dummy
 scoreboard objectives add techcolonialism dummy
 scoreboard objectives add techmercantilism dummy
-scoreboard objectives add techindustrialization dummy
+scoreboard objectives add techindustry dummy
 
 scoreboard objectives add techmining dummy
 scoreboard objectives add techstonemasonry dummy
 scoreboard objectives add techconstruction dummy
-scoreboard objectives add techbronzeworking dummy
+scoreboard objectives add techbronze dummy
 scoreboard objectives add techironworking dummy
 scoreboard objectives add techcurrency dummy
 scoreboard objectives add techguilds dummy

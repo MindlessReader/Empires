@@ -8,7 +8,7 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Plantation"
+            "text": "Unlocked by Plantation"
         },
         "frame": "task",
         "hidden": false,

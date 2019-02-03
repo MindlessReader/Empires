@@ -1,2 +1,2 @@
-execute at @e[tag=zengardendetector,tag=detector,scores={sand=125..}] run scoreboard players add @p zengarden 1
+execute at @e[tag=zengardendetector,tag=detector,scores={sand=125..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] zengarden 1
 execute at @e[tag=zengardendetector,tag=detector,scores={sand=125..}] run kill @e[tag=zengardendetector,tag=detector,scores={sand=125..},distance=0..10]
