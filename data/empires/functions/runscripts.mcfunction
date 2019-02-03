@@ -80,10 +80,3 @@ execute at @e[tag=detector] run scoreboard players reset @e[tag=globe,distance=0
 kill @e[tag=globe,scores={globedisplay=10}]
 execute at @e[tag=globe] run particle minecraft:crit ^ ^1.75 ^1 0 0 0 0 1 force
 execute at @e[tag=globe] run particle minecraft:crit ^ ^1.75 ^-1 0 0 0 0 1 force
-
-#Advancements
-advancement revoke @a from minecraft:story/root
-advancement revoke @a from minecraft:adventure/root
-advancement revoke @a from minecraft:end/root
-advancement revoke @a from minecraft:husbandry/root
-advancement revoke @a from minecraft:nether/root

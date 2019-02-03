@@ -39,8 +39,4 @@ scoreboard objectives add forge dummy
 scoreboard objectives add commercialhub dummy
 
 #Temples
-scoreboard objectives add t1temple dummy
-scoreboard objectives add t2temple dummy
-scoreboard objectives add t3temple dummy
-scoreboard objectives add t4temple dummy
-scoreboard objectives add t5temple dummy
+scoreboard objectives add temple dummy
