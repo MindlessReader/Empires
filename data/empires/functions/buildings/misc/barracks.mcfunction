@@ -1,0 +1,2 @@
+execute at @e[tag=barracksdetector,tag=detector,scores={block=200..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] barracks 1
+execute at @e[tag=barracksdetector,tag=detector,scores={block=200..}] run kill @e[tag=barracksdetector,tag=detector,scores={block=200..},distance=0..10]

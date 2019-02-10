@@ -1,7 +1,7 @@
 {
  
     "criteria": {
-        "archery": {
+        "statemilitary": {
             "trigger": "minecraft:impossible"
         }
     },
@@ -13,11 +13,11 @@
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:bow"
+            "item": "minecraft:wooden_sword"
         },
         "show_toast": true,
         "title": {
-            "text": "Archery (50)"
+            "text": "State Military (50)"
         }
     },
     "parent": "empires:agriculture"
