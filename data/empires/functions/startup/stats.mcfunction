@@ -26,6 +26,7 @@ scoreboard objectives add shopcities trigger
 scoreboard objectives add particledisplay trigger
 scoreboard objectives add drachmacount dummy
 scoreboard objectives add sidebar trigger
+scoreboard objectives add transferCity trigger
 
 scoreboard objectives add techpottery dummy
 scoreboard objectives add techwheel dummy

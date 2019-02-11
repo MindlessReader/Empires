@@ -173,7 +173,6 @@ function empires:shops/shopdecoration
 function empires:shops/shopbuildings
 function empires:shops/cities
 function empires:shops/convert
-
 #Displays
 execute at @e[tag=city] as @e[tag=city] run tp @e[tag=city,limit=1,sort=nearest] ~ ~ ~ ~8 ~
 execute at @e[tag=particlestoggled,tag=city,team=aqua] run particle dust 0.122 0.973 1.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
@@ -196,7 +195,10 @@ function empires:display/displays
 function empires:display/sidebar
 scoreboard players enable @a sidebar
 execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,sort=nearest] ~ ~ ~ ~8 ~
-effect give @e[tag=detector] minecraft:invisibility 1 1 true
+
+#Random Stuff (Pls sort)
+scoreboard players enable @a transferCity
+
 
 scoreboard players add @e[tag=globe] globedisplay 1
 scoreboard players add @e[tag=detector] globedisplay 1
