@@ -130,6 +130,7 @@ scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] granaryPH += @a[scores={turn=24000}] granary
+scoreboard players operation @a[scores={turn=24000}] houses += @a[scores={turn=24000}] granary
 scoreboard players operation @a[scores={turn=24000}] food < @a[scores={turn=24000}] granaryPH
 scoreboard players operation @a[scores={turn=24000}] food > @a[scores={turn=24000}] zero
 scoreboard players reset @a[scores={turn=24000}] granaryPH
@@ -298,6 +299,11 @@ scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={tur
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] library
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] library
 #   Temples
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] temple
+scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] temple
 scoreboard players operation @a[scores={turn=24000}] happiness += @a[scores={turn=24000}] temple
@@ -478,7 +484,7 @@ scoreboard players operation @a[scores={turn=24000}] happiness < @a[scores={turn
 scoreboard players operation @a[scores={turn=24000}] techwheel += @a[scores={turn=24000}] potter 
 scoreboard players operation @a[scores={turn=24000}] techmachinery += @a[scores={turn=24000}] watermill 
 scoreboard players operation @a[scores={turn=24000}] techprinting += @a[scores={turn=24000}] lumbermill
-scoreboard players operation @a[scores={turn=24000}] techsteampower += @a[scores={turn=24000}] lumbermill 
+scoreboard players operation @a[scores={turn=24000}] techsteampower += @a[scores={turn=24000}] windmill
 
 scoreboard players operation @a[scores={turn=24000}] techarchery += @a[scores={turn=24000}] field
 scoreboard players operation @a[scores={turn=24000}] techirrigation += @a[scores={turn=24000}] field
@@ -509,7 +515,7 @@ scoreboard players operation @a[scores={turn=24000}] techguilds += @a[scores={tu
 
 
 #Production
-scoreboard players reset @a[scores={turn=24000,turnCount=..3}] production 
+scoreboard players reset @a[scores={turn=24000}] production 
 scoreboard players reset @a[scores={turn=24000}] popPH
 scoreboard players operation @a[scores={turn=24000}] popPH += @a[scores={turn=24000}] population
 scoreboard players operation @a[scores={turn=24000}] popPH /= @a[scores={turn=24000}] three
