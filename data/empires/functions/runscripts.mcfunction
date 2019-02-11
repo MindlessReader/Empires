@@ -1,3 +1,110 @@
+execute if entity @a[team=aqua] run scoreboard players add @e[team=aqua,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=aqua] turn = @e[tag=empire,team=aqua] turn
+execute if entity @a[team=black] run scoreboard players add @e[team=black,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=black] turn = @e[tag=empire,team=black] turn
+execute if entity @a[team=blue] run scoreboard players add @e[team=blue,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=blue] turn = @e[tag=empire,team=blue] turn
+execute if entity @a[team=darkaqua] run scoreboard players add @e[team=darkaqua,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=darkaqua] turn = @e[tag=empire,team=darkaqua] turn
+execute if entity @a[team=darkblue] run scoreboard players add @e[team=darkblue,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=darkblue] turn = @e[tag=empire,team=darkblue] turn
+execute if entity @a[team=darkgray] run scoreboard players add @e[team=darkgray,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=darkgray] turn = @e[tag=empire,team=darkgray] turn
+execute if entity @a[team=darkgreen] run scoreboard players add @e[team=darkgreen,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=darkgreen] turn = @e[tag=empire,team=darkgreen] turn
+execute if entity @a[team=darkpurple] run scoreboard players add @e[team=darkpurple,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=darkpurple] turn = @e[tag=empire,team=darkpurple] turn
+execute if entity @a[team=darkred] run scoreboard players add @e[team=darkred,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=darkred] turn = @e[tag=empire,team=darkred] turn
+execute if entity @a[team=gold] run scoreboard players add @e[team=gold,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=gold] turn = @e[tag=empire,team=gold] turn
+execute if entity @a[team=gray] run scoreboard players add @e[team=gray,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=gray] turn = @e[tag=empire,team=gray] turn
+execute if entity @a[team=green] run scoreboard players add @e[team=green,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=green] turn = @e[tag=empire,team=green] turn
+execute if entity @a[team=lightpurple] run scoreboard players add @e[team=lightpurple,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=lightpurple] turn = @e[tag=empire,team=lightpurple] turn
+execute if entity @a[team=red] run scoreboard players add @e[team=red,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=red] turn = @e[tag=empire,team=red] turn
+execute if entity @a[team=yellow] run scoreboard players add @e[team=yellow,tag=empire,tag=enabled] turn 1
+scoreboard players operation @e[tag=city,team=yellow] turn = @e[tag=empire,team=yellow] turn
+
+scoreboard players operation @a[team=aqua] turn = @e[tag=empire,team=aqua] turn
+scoreboard players operation @a[team=black] turn = @e[tag=empire,team=black] turn
+scoreboard players operation @a[team=blue] turn = @e[tag=empire,team=blue] turn
+scoreboard players operation @a[team=darkaqua] turn = @e[tag=empire,team=darkaqua] turn
+scoreboard players operation @a[team=darkblue] turn = @e[tag=empire,team=darkblue] turn
+scoreboard players operation @a[team=darkgray] turn = @e[tag=empire,team=darkgray] turn
+scoreboard players operation @a[team=darkgreen] turn = @e[tag=empire,team=darkgreen] turn
+scoreboard players operation @a[team=darkpurple] turn = @e[tag=empire,team=darkpurple] turn
+scoreboard players operation @a[team=darkred] turn = @e[tag=empire,team=darkred] turn
+scoreboard players operation @a[team=gold] turn = @e[tag=empire,team=gold] turn
+scoreboard players operation @a[team=gray] turn = @e[tag=empire,team=gray] turn
+scoreboard players operation @a[team=green] turn = @e[tag=empire,team=green] turn
+scoreboard players operation @a[team=lightpurple] turn = @e[tag=empire,team=lightpurple] turn
+scoreboard players operation @a[team=red] turn = @e[tag=empire,team=red] turn
+scoreboard players operation @a[team=yellow] turn = @e[tag=empire,team=yellow] turn
+
+#Technology
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techwheel += @e[tag=empire,scores={turn=24000}] potter 
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techmachinery += @e[tag=empire,scores={turn=24000}] watermill 
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techprinting += @e[tag=empire,scores={turn=24000}] lumbermill
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techsteampower += @e[tag=empire,scores={turn=24000}] windmill
+
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techmilitary += @e[tag=empire,scores={turn=24000}] field
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techirrigation += @e[tag=empire,scores={turn=24000}] field
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techhorseriding += @e[tag=empire,scores={turn=24000}] field
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techgunpowder += @e[tag=empire,scores={turn=24000}] fletcher
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techballistics += @e[tag=empire,scores={turn=24000}] armory
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techwriting += @e[tag=empire,scores={turn=24000}] granary
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techfertilizer += @e[tag=empire,scores={turn=24000}] granary
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techcroprotation += @e[tag=empire,scores={turn=24000}] granary
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techphilosophy += @e[tag=empire,scores={turn=24000}] library
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techdrama += @e[tag=empire,scores={turn=24000}] library
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techhumanism += @e[tag=empire,scores={turn=24000}] academia
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techrecreation += @e[tag=empire,scores={turn=24000}] stable
+
+scoreboard players operation @e[tag=empire,scores={turn=24000}] technavigation += @e[tag=empire,scores={turn=24000}] port
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techcartography += @e[tag=empire,scores={turn=24000}] lighthouse
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techcolonialism += @e[tag=empire,scores={turn=24000}] harbor
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techmercantilism += @e[tag=empire,scores={turn=24000}] plantation
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techindustry += @e[tag=empire,scores={turn=24000}] shippingyard
+
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techstonemasonry += @e[tag=empire,scores={turn=24000}] mine
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techbronze += @e[tag=empire,scores={turn=24000}] mine 
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techconstruction += @e[tag=empire,scores={turn=24000}] walls
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techironworking += @e[tag=empire,scores={turn=24000}] workshop
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techcurrency += @e[tag=empire,scores={turn=24000}] workshop
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techguilds += @e[tag=empire,scores={turn=24000}] market
+
+execute as @e[tag=empire,scores={turn=24000,techwheel=75..}] run advancement grant @a[scores={turn=24000}] only empires:wheel
+execute as @e[tag=empire,scores={turn=24000,techmachinery=225..}] run advancement grant @a[scores={turn=24000}] only empires:machinery
+execute as @e[tag=empire,scores={turn=24000,techprinting=220..}] run advancement grant @a[scores={turn=24000}] only empires:printing
+execute as @e[tag=empire,scores={turn=24000,techsteampower=300..}] run advancement grant @a[scores={turn=24000}] only empires:steampower
+execute as @e[tag=empire,scores={turn=24000,techhorseriding=45..}] run advancement grant @a[scores={turn=24000}] only empires:horsebackriding
+execute as @e[tag=empire,scores={turn=24000,techrecreation=125..}] run advancement grant @a[scores={turn=24000}] only empires:recreation
+execute as @e[tag=empire,scores={turn=24000,techmilitary=50..}] run advancement grant @a[scores={turn=24000}] only empires:statemilitary
+execute as @e[tag=empire,scores={turn=24000,techgunpowder=175..}] run advancement grant @a[scores={turn=24000}] only empires:gunpowder
+execute as @e[tag=empire,scores={turn=24000,techballisitics=225..}] run advancement grant @a[scores={turn=24000}] only empires:ballistics
+execute as @e[tag=empire,scores={turn=24000,techirrigation=75..}] run advancement grant @a[scores={turn=24000}] only empires:irrigation
+execute as @e[tag=empire,scores={turn=24000,techwriting=65..}] run advancement grant @a[scores={turn=24000}] only empires:writing
+execute as @e[tag=empire,scores={turn=24000,techfertilizer=255..}] run advancement grant @a[scores={turn=24000}] only empires:fertilizer
+execute as @e[tag=empire,scores={turn=24000,techcroprotation=500..}] run advancement grant @a[scores={turn=24000}] only empires:croprotation
+execute as @e[tag=empire,scores={turn=24000,techphilosphy=125..}] run advancement grant @a[scores={turn=24000}] only empires:philosophy
+execute as @e[tag=empire,scores={turn=24000,techdrama=120..}] run advancement grant @a[scores={turn=24000}] only empires:drama
+execute as @e[tag=empire,scores={turn=24000,techhumanism=265..}] run advancement grant @a[scores={turn=24000}] only empires:humanism
+execute as @e[tag=empire,scores={turn=24000,technavigation=75..}] run advancement grant @a[scores={turn=24000}] only empires:navigation
+execute as @e[tag=empire,scores={turn=24000,techcartography=225..}] run advancement grant @a[scores={turn=24000}] only empires:cartography
+execute as @e[tag=empire,scores={turn=24000,techcolonialism=425..}] run advancement grant @a[scores={turn=24000}] only empires:colonialism
+execute as @e[tag=empire,scores={turn=24000,techmercantilism=100..}] run advancement grant @a[scores={turn=24000}] only empires:mercantilism
+execute as @e[tag=empire,scores={turn=24000,techindustrialization=225..}] run advancement grant @a[scores={turn=24000}] only empires:industrialization
+execute as @e[tag=empire,scores={turn=24000,techstonemasonry=50..}] run advancement grant @a[scores={turn=24000}] only empires:stonemasonry
+execute as @e[tag=empire,scores={turn=24000,techconstruction=150..}] run advancement grant @a[scores={turn=24000}] only empires:construction
+execute as @e[tag=empire,scores={turn=24000,techbronze=55..}] run advancement grant @a[scores={turn=24000}] only empires:bronzeworking
+execute as @e[tag=empire,scores={turn=24000,techironworking=115..}] run advancement grant @a[scores={turn=24000}] only empires:ironworking
+execute as @e[tag=empire,scores={turn=24000,techcurrency=65..}] run advancement grant @a[scores={turn=24000}] only empires:currency
+execute as @e[tag=empire,scores={turn=24000,techguilds=275..}] run advancement grant @a[scores={turn=24000}] only empires:guilds
+
 #Blocks
 function empires:blocks/blocks/acaciaplanks
 function empires:blocks/blocks/acacia_stairs
@@ -45,27 +152,45 @@ function empires:blocks/misc
 #Detectors
 execute at @e[type=bat,tag=detector] if entity @a[distance=..20] run function empires:buildings/houses/hdetectors
 execute at @e[type=bat,tag=detector] if entity @a[distance=..50] run function empires:buildings/misc/.otherdetectors
-execute at @e[type=bat,tag=detector] if entity @a[distance=..30] run function empires:buildings/temples/.templedetectors
-
+execute at @e[type=bat,tag=detector] if entity @a[distance=..30] run function empires:buildings/temples/temple
 #Flight System
 function empires:flight/flight
 function empires:flight/hover
 function empires:flight/enable
 
 #Stats
-scoreboard players add @a[tag=empiresEnabled] turn 1
-execute if entity @a[scores={turn=24000}] run function empires:statcalculations/mastercalc
+execute if entity @e[tag=empire,scores={turn=24000}] run function empires:statcalculations/mastercalc
 function empires:statcalculations/add
 function empires:statcalculations/tech
 
+#Cities
+function empires:cities/particletoggle
 #Shops
 function empires:shops/enable
 function empires:shops/shoptierblocks
 function empires:shops/shopmisc
 function empires:shops/shopdecoration
 function empires:shops/shopbuildings
+function empires:shops/cities
 function empires:shops/convert
 #Displays
+execute at @e[tag=city] as @e[tag=city] run tp @e[tag=city,limit=1,sort=nearest] ~ ~ ~ ~8 ~
+execute at @e[tag=particlestoggled,tag=city,team=aqua] run particle dust 0.122 0.973 1.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=black] run particle dust 0.000 0.000 0.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=blue] run particle dust 0.031 0.420 1.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=darkaqua] run particle dust 0.035 0.678 0.592 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=darkblue] run particle dust 0.071 0.027 0.678 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=darkgray] run particle dust 0.220 0.220 0.220 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=darkgreen] run particle dust 0.149 0.400 0.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=darkpurple] run particle dust 0.392 0.016 0.769 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=darkred] run particle dust 0.702 0.008 0.008 4 ^ ^1 ^75 0 0 0 0 1 force
+execute at @e[tag=particlestoggled,tag=city,team=gold] run particle dust 0.941 0.753 0.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=gray] run particle dust 0.780 0.780 0.780 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=green] run particle dust 0.314 1.000 0.020 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=lightpurple] run particle dust 1.000 0.000 0.933 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=red] run particle dust 1.000 0.000 0.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=yellow] run particle dust 0.933 1.000 0.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
+
 function empires:display/displays
 function empires:display/sidebar
 scoreboard players enable @a sidebar
