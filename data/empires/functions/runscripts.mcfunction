@@ -65,13 +65,15 @@ function empires:shops/shopmisc
 function empires:shops/shopdecoration
 function empires:shops/shopbuildings
 function empires:shops/convert
-
 #Displays
 function empires:display/displays
 function empires:display/sidebar
 scoreboard players enable @a sidebar
 execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,sort=nearest] ~ ~ ~ ~8 ~
-effect give @e[tag=detector] minecraft:invisibility 1 1 true
+
+#Random Stuff (Pls sort)
+scoreboard players enable @a transferCity
+
 
 scoreboard players add @e[tag=globe] globedisplay 1
 scoreboard players add @e[tag=detector] globedisplay 1

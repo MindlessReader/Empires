@@ -24,6 +24,7 @@ scoreboard objectives add displaybossbar trigger
 scoreboard objectives add convert trigger
 scoreboard objectives add drachmacount dummy
 scoreboard objectives add sidebar trigger
+scoreboard objectives add transferCity trigger
 
 scoreboard objectives add techpottery dummy
 scoreboard objectives add techwheel dummy
