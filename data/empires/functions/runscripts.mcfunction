@@ -174,6 +174,7 @@ function empires:shops/shopbuildings
 function empires:shops/cities
 function empires:shops/convert
 #Displays
+execute at @a run title @p actionbar [{"score":{"name":"@p","objective":"money"},"color":"gold"},{"text":"₯ ","color":"gold","bold":"true"},{"score":{"name":"@p","objective":"production"},"color":"dark_aqua"},{"text":"⚒","color":"dark_aqua","bold":"true"}]
 execute at @e[tag=city] as @e[tag=city] run tp @e[tag=city,limit=1,sort=nearest] ~ ~ ~ ~8 ~
 execute at @e[tag=particlestoggled,tag=city,team=aqua] run particle dust 0.122 0.973 1.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
 execute at @e[tag=particlestoggled,tag=city,team=black] run particle dust 0.000 0.000 0.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
