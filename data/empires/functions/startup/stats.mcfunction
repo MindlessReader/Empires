@@ -1,11 +1,11 @@
 scoreboard objectives add food dummy
+scoreboard objectives add sanitation dummy
+scoreboard objectives add disease dummy
 scoreboard objectives add population dummy
 scoreboard objectives add happiness dummy
 scoreboard objectives add ports dummy
 scoreboard objectives add housesTotalPH dummy
 scoreboard objectives add money dummy
-scoreboard objectives add resourcecoal dummy
-scoreboard objectives add resourcespices dummy
 scoreboard objectives add production dummy
 scoreboard objectives add taxamount trigger
 scoreboard objectives add popPH dummy
