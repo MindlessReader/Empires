@@ -1,0 +1,14 @@
+{
+    "criteria":{
+    "biome": {
+    "trigger":"minecraft:location",
+    "conditions":{
+    "biome":"minecraft:savanna"
+    }
+    }
+    },
+    "rewards":{
+    "function":"empires:biomes/savanna"
+    },
+    "parent":"empires:biome"
+    }
