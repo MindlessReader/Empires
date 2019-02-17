@@ -29,3 +29,19 @@ team modify green color green
 team modify lightpurple color light_purple
 team modify red color red
 team modify yellow color yellow
+
+team modify aqua seeFriendlyInvisibles false
+team modify black seeFriendlyInvisibles false
+team modify blue seeFriendlyInvisibles false
+team modify darkaqua seeFriendlyInvisibles false
+team modify darkblue seeFriendlyInvisibles false
+team modify darkgray seeFriendlyInvisibles false
+team modify darkgreen seeFriendlyInvisibles false
+team modify darkpurple seeFriendlyInvisibles false
+team modify darkred seeFriendlyInvisibles false
+team modify gold seeFriendlyInvisibles false
+team modify gray seeFriendlyInvisibles false
+team modify green seeFriendlyInvisibles false
+team modify lightpurple seeFriendlyInvisibles false
+team modify red seeFriendlyInvisibles false
+team modify yellow seeFriendlyInvisibles false

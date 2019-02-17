@@ -26,7 +26,26 @@ scoreboard objectives add shopcities trigger
 scoreboard objectives add particledisplay trigger
 scoreboard objectives add drachmacount dummy
 scoreboard objectives add sidebar trigger
+
 scoreboard objectives add transferCity trigger
+
+scoreboard objectives add playerBiome dummy
+scoreboard objectives add citybiometimer dummy
+
+scoreboard objectives add mesaCity dummy
+scoreboard objectives add beachCity dummy
+scoreboard objectives add birchforestCity dummy
+scoreboard objectives add darkforestCity dummy
+scoreboard objectives add desertCity dummy
+scoreboard objectives add forestCity dummy
+scoreboard objectives add jungleCity dummy
+scoreboard objectives add mountainsCity dummy
+scoreboard objectives add plainsCity dummy
+scoreboard objectives add riverCity dummy
+scoreboard objectives add savannaCity dummy
+scoreboard objectives add swampCity dummy
+scoreboard objectives add taigaCity dummy
+
 
 scoreboard objectives add techpottery dummy
 scoreboard objectives add techwheel dummy
@@ -62,51 +81,3 @@ scoreboard objectives add techbronze dummy
 scoreboard objectives add techironworking dummy
 scoreboard objectives add techcurrency dummy
 scoreboard objectives add techguilds dummy
-
-team add aqua
-team add black
-team add blue
-team add darkaqua
-team add darkblue
-team add darkgray
-team add darkgreen
-team add darkpurple
-team add darkred
-team add gold
-team add gray
-team add green
-team add lightpurple
-team add red
-team add yellow
-
-team modify aqua color aqua
-team modify black color black
-team modify blue color blue
-team modify darkaqua color dark_aqua
-team modify darkblue color dark_blue
-team modify darkgray color dark_gray
-team modify darkgreen color dark_green
-team modify darkpurple color dark_purple
-team modify darkred color dark_red
-team modify gold color gold
-team modify gray color gray
-team modify green color green
-team modify lightpurple color light_purple
-team modify red color red
-team modify yellow color yellow
-
-team modify aqua seeFriendlyInvisibles false
-team modify black seeFriendlyInvisibles false
-team modify blue seeFriendlyInvisibles false
-team modify darkaqua seeFriendlyInvisibles false
-team modify darkblue seeFriendlyInvisibles false
-team modify darkgray seeFriendlyInvisibles false
-team modify darkgreen seeFriendlyInvisibles false
-team modify darkpurple seeFriendlyInvisibles false
-team modify darkred seeFriendlyInvisibles false
-team modify gold seeFriendlyInvisibles false
-team modify gray seeFriendlyInvisibles false
-team modify green seeFriendlyInvisibles false
-team modify lightpurple seeFriendlyInvisibles false
-team modify red seeFriendlyInvisibles false
-team modify yellow seeFriendlyInvisibles false
