@@ -1,0 +1,14 @@
+{
+    "criteria":{
+    "biome": {
+    "trigger":"minecraft:location",
+    "conditions":{
+    "biome":"minecraft:swampland"
+    }
+    }
+    },
+    "rewards":{
+    "function":"empires:biomes/swamp"
+    },
+    "parent":"empires:biome"
+    }

@@ -148,6 +148,8 @@ function empires:blocks/blocks/stone_bricks
 function empires:blocks/blocks/terracotta
 function empires:blocks/misc
 
+#Biomes
+function empires:biomes/tagging/tagging
 
 #Detectors
 execute at @e[type=bat,tag=detector] if entity @a[distance=..20] run function empires:buildings/houses/hdetectors

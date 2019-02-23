@@ -1,0 +1,14 @@
+{
+    "criteria":{
+    "biome": {
+    "trigger":"minecraft:location",
+    "conditions":{
+    "biome":"minecraft:forest"
+    }
+    }
+    },
+    "rewards":{
+    "function":"empires:biomes/forest"
+    },
+    "parent":"empires:biome"
+    }
