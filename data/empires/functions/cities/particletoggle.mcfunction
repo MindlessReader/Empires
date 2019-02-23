@@ -28,3 +28,4 @@ execute at @a[scores={particledisplay=1},team=red] run tag @e[tag=city,team=red,
 execute at @a[scores={particledisplay=2},team=red] run tag @e[tag=city,team=red,sort=nearest,limit=1] remove particlestoggled
 execute at @a[scores={particledisplay=1},team=yellow] run tag @e[tag=city,team=yellow,sort=nearest,limit=1] add particlestoggled
 execute at @a[scores={particledisplay=2},team=yellow] run tag @e[tag=city,team=yellow,sort=nearest,limit=1] remove particlestoggled
+scoreboard players reset @a[scores={particledisplay=1..}]
