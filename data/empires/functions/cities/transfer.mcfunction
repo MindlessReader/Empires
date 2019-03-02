@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 execute at @a[scores={transferCity=1},team=aqua] run team join open @e[team=aqua,tag=city,distance=..10,limit=1,sort=nearest]
 execute at @a[scores={transferCity=1},team=black] run team join open @e[team=black,tag=city,distance=..10,limit=1,sort=nearest]
 execute at @a[scores={transferCity=1},team=blue] run team join open @e[team=blue,tag=city,distance=..10,limit=1,sort=nearest]
