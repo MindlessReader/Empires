@@ -7,3 +7,4 @@ scoreboard players enable @a convert
 scoreboard players enable @a taxamount
 scoreboard players enable @a displaybossbar
 scoreboard players enable @a particledisplay
+scoreboard players enable @a transferCity

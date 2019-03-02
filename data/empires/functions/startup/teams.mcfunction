@@ -14,6 +14,8 @@ team add lightpurple
 team add red
 team add yellow
 
+team add open
+
 team modify aqua color aqua
 team modify black color black
 team modify blue color blue

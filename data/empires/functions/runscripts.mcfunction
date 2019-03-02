@@ -167,6 +167,8 @@ function empires:statcalculations/tech
 
 #Cities
 function empires:cities/particletoggle
+function empires:cities/transfer
+
 #Shops
 function empires:shops/enable
 function empires:shops/shoptierblocks
@@ -198,10 +200,6 @@ function empires:display/displays
 function empires:display/sidebar
 scoreboard players enable @a sidebar
 execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,sort=nearest] ~ ~ ~ ~8 ~
-
-#Random Stuff (Pls sort)
-scoreboard players enable @a transferCity
-
 
 scoreboard players add @e[tag=globe] globedisplay 1
 scoreboard players add @e[tag=detector] globedisplay 1
