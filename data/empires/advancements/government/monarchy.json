@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "monarchy": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": ""
+        },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {
+            "item": "minecraft:golden_helmet"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Monarchy"
+        }
+    },
+    "parent": "empires:government/government"
+}

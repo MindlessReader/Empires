@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "propaganda": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Buff: +15 Happiness per Printing House"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Propaganda"
+        }
+    },
+    "parent": "empires:government/fascism"
+}

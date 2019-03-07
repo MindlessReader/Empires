@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "philosophy": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked by Library"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:chorus_fruit"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Philosophy (125)"
+        }
+    },
+    "parent": "empires:technology/writing"
+}

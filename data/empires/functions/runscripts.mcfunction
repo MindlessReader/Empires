@@ -68,7 +68,7 @@ scoreboard players operation @e[tag=empire,scores={turn=24000}] technavigation +
 scoreboard players operation @e[tag=empire,scores={turn=24000}] techcartography += @e[tag=empire,scores={turn=24000}] lighthouse
 scoreboard players operation @e[tag=empire,scores={turn=24000}] techcolonialism += @e[tag=empire,scores={turn=24000}] harbor
 scoreboard players operation @e[tag=empire,scores={turn=24000}] techmercantilism += @e[tag=empire,scores={turn=24000}] plantation
-scoreboard players operation @e[tag=empire,scores={turn=24000}] techindustry += @e[tag=empire,scores={turn=24000}] shippingyard
+scoreboard players operation @e[tag=empire,scores={turn=24000}] techindustry += @e[tag=empire,scores={turn=24000}] blimp
 
 scoreboard players operation @e[tag=empire,scores={turn=24000}] techstonemasonry += @e[tag=empire,scores={turn=24000}] mine
 scoreboard players operation @e[tag=empire,scores={turn=24000}] techbronze += @e[tag=empire,scores={turn=24000}] mine 

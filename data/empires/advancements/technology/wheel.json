@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "wheel": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked by Potter"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:music_disc_mall"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Wheel (75)"
+        }
+    },
+    "parent": "empires:technology/pottery"
+}

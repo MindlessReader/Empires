@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "godking": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Buff: +1 Money from Temples"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:chiseled_sandstone"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "God King"
+        }
+    },
+    "parent": "empires:government/chiefdom"
+}

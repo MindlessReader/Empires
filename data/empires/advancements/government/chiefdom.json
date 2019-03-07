@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "chiefdom": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": ""
+        },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Chiefdom"
+        }
+    },
+    "parent": "empires:government/government"
+}

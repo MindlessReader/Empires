@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "pottery": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked from start"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:flower_pot"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Pottery"
+        }
+    },
+    "parent": "empires:technology/root"
+}

@@ -47,3 +47,18 @@ team modify green seeFriendlyInvisibles false
 team modify lightpurple seeFriendlyInvisibles false
 team modify red seeFriendlyInvisibles false
 team modify yellow seeFriendlyInvisibles false
+
+execute unless entity @e[type=armor_stand,tag=empire,team=aqua] run summon minecraft:armor_stand 0 1 0 {Team:"aqua",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=black] run summon minecraft:armor_stand 0 1 0 {Team:"black",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=blue] run summon minecraft:armor_stand 0 1 0 {Team:"blue",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=darkaqua] run summon minecraft:armor_stand 0 1 0 {Team:"darkaqua",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=darkblue] run summon minecraft:armor_stand 0 1 0 {Team:"darkblue",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=darkgray] run summon minecraft:armor_stand 0 1 0 {Team:"darkgray",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=darkgreen] run summon minecraft:armor_stand 0 1 0 {Team:"darkgreen",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=darkpurple] run summon minecraft:armor_stand 0 1 0 {Team:"darkpurple",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=darkred] run summon minecraft:armor_stand 0 1 0 {Team:"darkred",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=gold] run summon minecraft:armor_stand 0 1 0 {Team:"gold",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=green] run summon minecraft:armor_stand 0 1 0 {Team:"green",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=lightpurple] run summon minecraft:armor_stand 0 1 0 {Team:"lightpurple",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=red] run summon minecraft:armor_stand 0 1 0 {Team:"red",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+execute unless entity @e[type=armor_stand,tag=empire,team=yellow] run summon minecraft:armor_stand 0 1 0 {Team:"yellow",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}

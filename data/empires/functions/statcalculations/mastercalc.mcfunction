@@ -419,7 +419,7 @@ execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @
 #Amphitheatre
 =======
 >>>>>>> ab385964fee195f4d0af6a1a9ca13e68afd04404
-=======
+======= 
 >>>>>>> ab385964fee195f4d0af6a1a9ca13e68afd04404
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] amphitheatre
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] amphitheatre

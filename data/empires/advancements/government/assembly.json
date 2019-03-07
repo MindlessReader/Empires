@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "ruleofthebest": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Buff: +1 Happiness per 2 Population\n\nDebuff: -1 Money per Population"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Assembly"
+        }
+    },
+    "parent": "empires:government/republic"
+}

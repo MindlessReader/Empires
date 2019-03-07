@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "oldmoney": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Buff: +3 Money from Ports"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Old Money"
+        }
+    },
+    "parent": "empires:government/aristocracy"
+}

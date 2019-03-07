@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "machinery": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked by Watermill"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:tripwire_hook"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Machinery (225)"
+        }
+    },
+    "parent": "empires:technology/wheel"
+}
