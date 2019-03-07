@@ -1,6 +1,8 @@
-## Empires
+### Empires
 
-Empires by MindlessReader and atricard
+#Empires by MindlessReader and atricard
+
+LINK TO OFFICIAL DISCORD: https://discord.gg/PAGhaJU
 
 How to install:<br />
 Download as zip<br />
