@@ -14,3 +14,4 @@ execute at @e[tag=particlestoggled,tag=city,team=green] run particle dust 0.314 
 execute at @e[tag=particlestoggled,tag=city,team=lightpurple] run particle dust 1.000 0.000 0.933 4 ^ ^1 ^75 0 0 0 0 1 force @p
 execute at @e[tag=particlestoggled,tag=city,team=red] run particle dust 1.000 0.000 0.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
 execute at @e[tag=particlestoggled,tag=city,team=yellow] run particle dust 0.933 1.000 0.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
+execute at @e[tag=particlestoggled,tag=city,team=open] run particle dust 1.000 1.000 1.000 4 ^ ^1 ^75 0 0 0 0 1 force @p
