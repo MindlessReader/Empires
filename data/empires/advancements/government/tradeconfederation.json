@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "tradeconfederation": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Buff: +3 Happiness per Market"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Trade Confederation"
+        }
+    },
+    "parent": "empires:government/apprenticeship"
+}

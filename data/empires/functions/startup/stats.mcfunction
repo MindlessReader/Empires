@@ -26,9 +26,10 @@ scoreboard objectives add shopcities trigger
 scoreboard objectives add particledisplay trigger
 scoreboard objectives add drachmacount dummy
 scoreboard objectives add sidebar trigger
+scoreboard objectives add messagewait dummy
 
 scoreboard objectives add transferCity trigger
-
+scoreboard objectives add citySpread dummy
 scoreboard objectives add playerBiome dummy
 scoreboard objectives add citybiometimer dummy
 

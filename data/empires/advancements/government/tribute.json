@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "tribute": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Buff: +1 Money from Houses\n\nDebuff: -1 Happiness from Houses"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Tribute"
+        }
+    },
+    "parent": "empires:government/chiefdom"
+}

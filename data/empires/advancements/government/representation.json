@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "ruleofthebest": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Buff: +1 Money per Field"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Representation"
+        }
+    },
+    "parent": "empires:government/citizenship"
+}

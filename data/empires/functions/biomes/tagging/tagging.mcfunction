@@ -40,3 +40,5 @@ execute at @e[tag=city,sort=nearest,limit=1,scores={citybiometimer=..1},tag=taig
 
 scoreboard players add @e[tag=city] citybiometimer 1
 scoreboard players set @e[tag=city,scores={citybiometimer=10..}] citybiometimer 10
+scoreboard players add @e[tag=city] citybiometimer 1
+execute at @e[tag=city,scores={citybiometimer=10..}] run kill @e[tag=city,scores={citybiometimer=..9},distance=..150] 

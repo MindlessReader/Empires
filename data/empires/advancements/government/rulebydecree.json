@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "rulebydecree": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Buff: +1 Production per House\n\nDebuff: -1 Happiness per House"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:blaze_rod"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Rule by Decree"
+        }
+    },
+    "parent": "empires:government/monarchy"
+}

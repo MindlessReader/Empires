@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "capitalism": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": ""
+        },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Capitalism"
+        }
+    },
+    "parent": "empires:government/government"
+}

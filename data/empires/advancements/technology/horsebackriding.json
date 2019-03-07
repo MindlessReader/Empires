@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "horsebackriding": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked by Field"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Horseback Riding (45)"
+        }
+    },
+    "parent": "empires:technology/agriculture"
+}

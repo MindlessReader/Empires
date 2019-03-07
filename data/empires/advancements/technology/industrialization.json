@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "industrialization": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked by Blimp Station"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:coal"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Industrialization (225)"
+        }
+    },
+    "parent": "empires:technology/steampower"
+}

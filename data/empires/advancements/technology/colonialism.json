@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "colonialism": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Unlocked by Harbor"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:red_banner"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Colonialism (425)"
+        }
+    },
+    "parent": "empires:technology/cartography"
+}

@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "republic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": ""
+        },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Republic"
+        }
+    },
+    "parent": "empires:government/government"
+}

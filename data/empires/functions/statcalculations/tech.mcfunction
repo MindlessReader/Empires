@@ -1,6 +1,8 @@
 #Base
-advancement grant @a only empires:root
-advancement grant @a only empires:pottery
-advancement grant @a only empires:agriculture
-advancement grant @a only empires:sailing
-advancement grant @a only empires:mining
+advancement grant @a only empires:technology/root
+advancement grant @a only empires:technology/pottery
+advancement grant @a only empires:technology/agriculture
+advancement grant @a only empires:technology/sailing
+advancement grant @a only empires:technology/mining
+
+advancement grant @a only empires:government/government
