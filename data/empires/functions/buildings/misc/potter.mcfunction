@@ -1,2 +1,3 @@
-execute at @e[tag=potterdetector,tag=detector,scores={flower_pot=10..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] potter 1
-execute at @e[tag=potterdetector,tag=detector,scores={flower_pot=10..}] run kill @e[tag=potterdetector,tag=detector,scores={flower_pot=10..},distance=0..10]
+execute at @e[tag=potterdetector,tag=detector,scores={block=50..,flower_pot=10..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] potter 1
+execute at @e[tag=potterdetector,tag=detector,scores={block=50..,flower_pot=10..}] run kill @e[tag=potterdetector,tag=detector,scores={flower_pot=10..},distance=0..10]
+execute at @e[tag=potterdetector] run title @a[distance=..10] actionbar ["",{"selector":"@e[tag=detector,sort=nearest,limit=1]","underlined":true},{"text":" has: ","underlined":false},{"text":"Block: ","color":"gold"},{"score":{"name":"@e[tag=detector,sort=nearest,limit=1]","objective":"block"},"color":"light_purple"},{"text":"  Pots: ","color":"gold"},{"score":{"name":"@e[tag=detector,sort=nearest,limit=1]","objective":"flower_pot"},"color":"light_purple"}]

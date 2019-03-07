@@ -1,4 +1,4 @@
-execute at @e[tag=oak_stairs] run scoreboard players add @e[tag=detector,distance=0..10] block 1
+execute at @e[tag=oak_stairs] run scoreboard players add @e[tag=detector,distance=0..10,sort=nearest,limit=1] block 1
 execute at @e[tag=oak_stairs] if entity @p[x_rotation=0..90,y_rotation=-45..45] run setblock ~ ~ ~ minecraft:oak_stairs[facing=south,half=bottom]
 execute at @e[tag=oak_stairs] if entity @p[x_rotation=-90..0,y_rotation=-45..45] run setblock ~ ~ ~ minecraft:oak_stairs[facing=south,half=top]
 execute at @e[tag=oak_stairs] if entity @p[x_rotation=0..90,y_rotation=135..-135] run setblock ~ ~ ~ minecraft:oak_stairs[facing=north,half=bottom]

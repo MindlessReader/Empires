@@ -1,2 +1,3 @@
 execute at @e[tag=plantationdetector,tag=detector,scores={block=200..,farmland=1000..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] plantation 1
 execute at @e[tag=plantationdetector,tag=detector,scores={block=200..,farmland=1000..}] run kill @e[tag=plantationdetector,tag=detector,scores={block=200..,farmland=1000..},distance=0..40]
+execute at @e[tag=plantationdetector] run title @a[distance=..10] actionbar ["",{"selector":"@e[tag=detector,sort=nearest,limit=1]","underlined":true},{"text":" has: ","underlined":false},{"text":"Block: ","color":"gold"},{"score":{"name":"@e[tag=detector,sort=nearest,limit=1]","objective":"block"},"color":"light_purple"}]

@@ -1,2 +1,3 @@
 execute at @e[tag=blimpdetector,tag=detector,scores={block=150..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] blimp 1
 execute at @e[tag=blimpdetector,tag=detector,scores={block=150..}] run kill @e[tag=blimpdetector,tag=detector,scores={block=150..},distance=0..10]
+execute at @e[tag=blimpdetector] run title @a[distance=..10] actionbar ["",{"selector":"@e[tag=detector,sort=nearest,limit=1]","underlined":true},{"text":" has: ","underlined":false},{"text":"Block: ","color":"gold"},{"score":{"name":"@e[tag=detector,sort=nearest,limit=1]","objective":"block"},"color":"light_purple"}]
