@@ -186,6 +186,7 @@ execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,so
 #Random Stuff (Pls sort)
 scoreboard players enable @a transferCity
 function empires:cities/transfer
+function empires:display/detectornullfixer
 
 
 scoreboard players add @e[tag=globe] globedisplay 1
