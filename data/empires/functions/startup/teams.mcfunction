@@ -62,3 +62,20 @@ execute unless entity @e[type=armor_stand,tag=empire,team=green] run summon mine
 execute unless entity @e[type=armor_stand,tag=empire,team=lightpurple] run summon minecraft:armor_stand 0 1 0 {Team:"lightpurple",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
 execute unless entity @e[type=armor_stand,tag=empire,team=red] run summon minecraft:armor_stand 0 1 0 {Team:"red",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
 execute unless entity @e[type=armor_stand,tag=empire,team=yellow] run summon minecraft:armor_stand 0 1 0 {Team:"yellow",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
+
+scoreboard players set @e[type=armor_stand,tag=empire] players 0
+
+execute as @a[team=aqua]
+execute as @a[team=black]
+execute as @a[team=blue]
+execute as @a[team=darkaqua]
+execute as @a[team=darkblue]
+execute as @a[team=darkgray]
+execute as @a[team=darkgreen]
+execute as @a[team=darkpurple]
+execute as @a[team=darkred]
+execute as @a[team=gold]
+execute as @a[team=green]
+execute as @a[team=lightpurple]
+execute as @a[team=red]
+execute as @a[team=yellow]

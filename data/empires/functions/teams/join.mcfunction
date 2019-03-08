@@ -37,4 +37,22 @@ execute if entity @e[type=armor_stand,tag=teamopen,team=lightpurple] run team jo
 execute if entity @e[type=armor_stand,tag=teamopen,team=red] run team join red @a[scores={teamJoin=1}]
 execute if entity @e[type=armor_stand,tag=teamopen,team=yellow] run team join yellow @a[scores={teamJoin=1}]
 
+execute at @a[scores={teamJoin=1..}] run kill @e[tag=teamopen,type=armor_stand]
+
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=aqua] run team join aqua @a[scores={teamJoin=2}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=blue] run team join blue @a[scores={teamJoin=3}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=black] run team join black @a[scores={teamJoin=4}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkaqua] run team join darkaqua @a[scores={teamJoin=5]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkblue] run team join darkblue @a[scores={teamJoin=6}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkgray] run team join darkgray @a[scores={teamJoin=7}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkgreen] run team join darkgreen @a[scores={teamJoin=8}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkpurple] run team join darkpurple @a[scores={teamJoin=9}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkred] run team join darkred @a[scores={teamJoin=10}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=gold] run team join gold @a[scores={teamJoin=11}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=gray] run team join gray @a[scores={teamJoin=12}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=green] run team join green @a[scores={teamJoin=13}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=lightpurple] run team join lightpurple @a[scores={teamJoin=14]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=red] run team join red @a[scores={teamJoin=15}]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=yellow] run team join yellow @a[scores={teamJoin=16}]
+
 scoreboard players reset @a[scores={teamJoin=1..}] teamJoin

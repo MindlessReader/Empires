@@ -185,11 +185,31 @@ function empires:display/sidebar
 scoreboard players enable @a sidebar
 execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,sort=nearest] ~ ~ ~ ~8 ~
 
+#Teams
+function empires:teams/join
 
 #Random Stuff (Pls sort)
 scoreboard players enable @a transferCity
 function empires:cities/transfer
 function empires:display/detectornullfixer
+
+scoreboard players set @e[tag=empire] players 0
+execute as @a[team=aqua] run scoreboard players add @e[tag=empire,team=aqua] players 1
+execute as @a[team=blue] run scoreboard players add @e[tag=empire,team=blue] players 1
+execute as @a[team=black] run scoreboard players add @e[tag=empire,team=black] players 1
+execute as @a[team=darkaqua] run scoreboard players add @e[tag=empire,team=darkaqua] players 1
+execute as @a[team=darkblue] run scoreboard players add @e[tag=empire,team=darkblue] players 1
+execute as @a[team=darkgray] run scoreboard players add @e[tag=empire,team=darkgray] players 1
+execute as @a[team=darkgreen] run scoreboard players add @e[tag=empire,team=darkgreen] players 1
+execute as @a[team=darkpurple] run scoreboard players add @e[tag=empire,team=darkpurple] players 1
+execute as @a[team=darkred] run scoreboard players add @e[tag=empire,team=darkred] players 1
+execute as @a[team=gold] run scoreboard players add @e[tag=empire,team=gold] players 1
+execute as @a[team=gray] run scoreboard players add @e[tag=empire,team=gray] players 1
+execute as @a[team=green] run scoreboard players add @e[tag=empire,team=green] players 1
+execute as @a[team=lightpurple] run scoreboard players add @e[tag=empire,team=lightpurple] players 1
+execute as @a[team=red] run scoreboard players add @e[tag=empire,team=red] players 1
+execute as @a[team=yellow] run scoreboard players add @e[tag=empire,team=yellow] players 1
+
 
 #Detector Globes
 scoreboard players add @e[tag=globe] globedisplay 1
