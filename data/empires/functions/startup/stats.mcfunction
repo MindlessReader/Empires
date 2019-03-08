@@ -36,6 +36,7 @@ scoreboard objectives add players dummy
 
 scoreboard objectives add teamJoin trigger
 scoreboard objectives add teamOpen trigger
+scoreboard objectives add teamLeave trigger
 
 scoreboard objectives add mesaCity dummy
 scoreboard objectives add beachCity dummy

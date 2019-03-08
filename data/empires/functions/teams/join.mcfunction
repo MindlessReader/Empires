@@ -42,7 +42,7 @@ execute at @a[scores={teamJoin=1..}] run kill @e[tag=teamopen,type=armor_stand]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=aqua] run team join aqua @a[scores={teamJoin=2}]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=blue] run team join blue @a[scores={teamJoin=3}]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=black] run team join black @a[scores={teamJoin=4}]
-execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkaqua] run team join darkaqua @a[scores={teamJoin=5]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkaqua] run team join darkaqua @a[scores={teamJoin=5}]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkblue] run team join darkblue @a[scores={teamJoin=6}]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkgray] run team join darkgray @a[scores={teamJoin=7}]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkgreen] run team join darkgreen @a[scores={teamJoin=8}]
@@ -51,8 +51,24 @@ execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkr
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=gold] run team join gold @a[scores={teamJoin=11}]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=gray] run team join gray @a[scores={teamJoin=12}]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=green] run team join green @a[scores={teamJoin=13}]
-execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=lightpurple] run team join lightpurple @a[scores={teamJoin=14]
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=lightpurple] run team join lightpurple @a[scores={teamJoin=14}]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=red] run team join red @a[scores={teamJoin=15}]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=yellow] run team join yellow @a[scores={teamJoin=16}]
+
+execute as @a[scores={teamJoin=1..},team=aqua] run scoreboard players add @e[tag=empire,team=aqua] players 1
+execute as @a[scores={teamJoin=1..},team=blue] run scoreboard players add @e[tag=empire,team=blue] players 1
+execute as @a[scores={teamJoin=1..},team=black] run scoreboard players add @e[tag=empire,team=black] players 1
+execute as @a[scores={teamJoin=1..},team=darkaqua] run scoreboard players add @e[tag=empire,team=darkaqua] players 1
+execute as @a[scores={teamJoin=1..},team=darkblue] run scoreboard players add @e[tag=empire,team=darkblue] players 1
+execute as @a[scores={teamJoin=1..},team=darkgray] run scoreboard players add @e[tag=empire,team=darkgray] players 1
+execute as @a[scores={teamJoin=1..},team=darkgreen] run scoreboard players add @e[tag=empire,team=darkgreen] players 1
+execute as @a[scores={teamJoin=1..},team=darkpurple] run scoreboard players add @e[tag=empire,team=darkpurple] players 1
+execute as @a[scores={teamJoin=1..},team=darkred] run scoreboard players add @e[tag=empire,team=darkred] players 1
+execute as @a[scores={teamJoin=1..},team=gold] run scoreboard players add @e[tag=empire,team=gold] players 1
+execute as @a[scores={teamJoin=1..},team=gray] run scoreboard players add @e[tag=empire,team=gray] players 1
+execute as @a[scores={teamJoin=1..},team=green] run scoreboard players add @e[tag=empire,team=green] players 1
+execute as @a[scores={teamJoin=1..},team=lightpurple] run scoreboard players add @e[tag=empire,team=lightpurple] players 1
+execute as @a[scores={teamJoin=1..},team=red] run scoreboard players add @e[tag=empire,team=red] players 1
+execute as @a[scores={teamJoin=1..},team=yellow] run scoreboard players add @e[tag=empire,team=yellow] players 1
 
 scoreboard players reset @a[scores={teamJoin=1..}] teamJoin

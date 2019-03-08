@@ -192,18 +192,13 @@ execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] shippingyard
 
 #Balancing
-<<<<<<< HEAD
-<<<<<<< HEAD
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food -= @e[tag=empire,scores={turn=24000}] population
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @a[scores={turn=24000,food=..0}] population += @a[scores={turn=24000,food=..0}] food
-=======
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food -= @e[tag=city,scores={turn=24000}] population
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000,food=..0}] population += @e[tag=empire,scores={turn=24000,food=..0}] food
->>>>>>> ab385964fee195f4d0af6a1a9ca13e68afd04404
-=======
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food -= @e[tag=city,scores={turn=24000}] population
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000,food=..0}] population += @e[tag=empire,scores={turn=24000,food=..0}] food
->>>>>>> ab385964fee195f4d0af6a1a9ca13e68afd04404
+ 
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] granaryPH
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] granary
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] granary
@@ -215,15 +210,12 @@ execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] granary
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] granary
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] granary
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] houses += @e[tag=empire,scores={turn=24000}] granary
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food < @e[tag=empire,scores={turn=24000}] granaryPH
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food > @e[tag=empire,scores={turn=24000}] zero
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] granaryPH
-=======
-=======
->>>>>>> ab385964fee195f4d0af6a1a9ca13e68afd04404
+
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] houses
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food < @e[tag=empire,scores={turn=24000}] granaryPH
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food > @e[tag=empire,scores={turn=24000}] zero
