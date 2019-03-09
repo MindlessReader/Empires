@@ -1,3 +1,4 @@
 execute at @e[tag=lighthousedetector,tag=detector,scores={block=150..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] lighthouse 1
+execute at @e[tag=lighthousedetector,tag=detector,scores={block=150..}] run kill summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["building","lighthouse"]}
 execute at @e[tag=lighthousedetector,tag=detector,scores={block=150..}] run kill @e[tag=lighthousedetector,tag=detector,scores={block=150..},distance=0..10]
 execute at @e[tag=lighthousedetector] run title @a[distance=..10] actionbar ["",{"selector":"@e[tag=detector,sort=nearest,limit=1]","underlined":true},{"text":" has: ","underlined":false},{"text":"Block: ","color":"gold"},{"score":{"name":"@e[tag=detector,sort=nearest,limit=1]","objective":"block"},"color":"light_purple"}]

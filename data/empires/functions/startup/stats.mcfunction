@@ -32,6 +32,11 @@ scoreboard objectives add transferCity trigger
 scoreboard objectives add citySpread dummy
 scoreboard objectives add playerBiome dummy
 scoreboard objectives add citybiometimer dummy
+scoreboard objectives add players dummy
+
+scoreboard objectives add teamJoin trigger
+scoreboard objectives add teamOpen trigger
+scoreboard objectives add teamLeave trigger
 
 scoreboard objectives add mesaCity dummy
 scoreboard objectives add beachCity dummy

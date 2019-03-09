@@ -40,6 +40,9 @@ function empires:display/sidebar
 scoreboard players enable @a sidebar
 execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,sort=nearest] ~ ~ ~ ~8 ~
 
+#Teams
+function empires:teams/join
+function empires:teams/leave
 
 #Random Stuff (Pls sort)
 scoreboard players enable @a transferCity

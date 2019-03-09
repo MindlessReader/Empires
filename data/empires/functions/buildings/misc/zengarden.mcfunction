@@ -1,3 +1,4 @@
 execute at @e[tag=zengardendetector,tag=detector,scores={sand=125..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] zengarden 1
+execute at @e[tag=zengardendetector,tag=detector,scores={sand=125..}] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["building","zengarden"]}
 execute at @e[tag=zengardendetector,tag=detector,scores={sand=125..}] run kill @e[tag=zengardendetector,tag=detector,scores={sand=125..},distance=0..10]
 execute at @e[tag=zengardendetector] run title @a[distance=..10] actionbar ["",{"selector":"@e[tag=detector,sort=nearest,limit=1]","underlined":true},{"text":" has: ","underlined":false},{"text":"Sand: ","color":"gold"},{"score":{"name":"@e[tag=detector,sort=nearest,limit=1]","objective":"sand"},"color":"light_purple"}]

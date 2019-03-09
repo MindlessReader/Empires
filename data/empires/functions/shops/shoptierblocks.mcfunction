@@ -164,22 +164,22 @@ execute as @a[scores={shopTierBlocks=504,money=..9}] at @s run tellraw @p {"text
 execute as @a[scores={shopTierBlocks=504,money=10..}] at @s run scoreboard players remove @p money 10
 
 #Wood Variants
-execute as @a[scores={shopTierBlocks=600,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Acacia Planks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Acacia Planks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["acaciaplanks"]}} 16
+execute as @a[scores={shopTierBlocks=600,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Acacia Planks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Acacia Planks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["acacia_planks"]}} 16
 execute as @a[scores={shopTierBlocks=600,money=10..}] at @s run tellraw @p {"text":"[Shop] You bought (16) Acacia Planks.","color":"yellow","italic":"true"}
 execute as @a[scores={shopTierBlocks=600,money=..9}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
 execute as @a[scores={shopTierBlocks=600,money=10..}] at @s run scoreboard players remove @p money 10
 
-execute as @a[scores={shopTierBlocks=601,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Birch Planks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Birch Planks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["birchplanks"]}} 16
+execute as @a[scores={shopTierBlocks=601,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Birch Planks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Birch Planks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["birch_planks"]}} 16
 execute as @a[scores={shopTierBlocks=601,money=10..}] at @s run tellraw @p {"text":"[Shop] You bought (16) Birch Planks.","color":"yellow","italic":"true"}
 execute as @a[scores={shopTierBlocks=601,money=..9}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
 execute as @a[scores={shopTierBlocks=601,money=10..}] at @s run scoreboard players remove @p money 10
 
-execute as @a[scores={shopTierBlocks=602,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Dark Oak Planks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Dark Oak Planks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["darkoakplanks"]}} 16
+execute as @a[scores={shopTierBlocks=602,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Dark Oak Planks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Dark Oak Planks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["dark_oak_planks"]}} 16
 execute as @a[scores={shopTierBlocks=602,money=10..}] at @s run tellraw @p {"text":"[Shop] You bought (16) Darkk Oak Planks.","color":"yellow","italic":"true"}
 execute as @a[scores={shopTierBlocks=602,money=..9}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
 execute as @a[scores={shopTierBlocks=602,money=10..}] at @s run scoreboard players remove @p money 10
 
-execute as @a[scores={shopTierBlocks=603,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Spruce Planks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Spruce Planks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["spruceplanks"]}} 16
+execute as @a[scores={shopTierBlocks=603,money=10..}] at @s run give @p vindicator_spawn_egg{display:{Name:"\"Spruce Planks\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Spruce Planks\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["spruce_planks"]}} 16
 execute as @a[scores={shopTierBlocks=603,money=10..}] at @s run tellraw @p {"text":"[Shop] You bought (16) Spruce Planks.","color":"yellow","italic":"true"}
 execute as @a[scores={shopTierBlocks=603,money=..9}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
 execute as @a[scores={shopTierBlocks=603,money=10..}] at @s run scoreboard players remove @p money 10

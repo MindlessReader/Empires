@@ -4,8 +4,7 @@ advancement grant @a only empires:technology/pottery
 advancement grant @a only empires:technology/agriculture
 advancement grant @a only empires:technology/sailing
 advancement grant @a only empires:technology/mining
-
-advancement grant @a only empires:government/government
+#advancement grant @a only empires:government/government
 
 #Technology
 scoreboard players operation @e[tag=empire,scores={turn=24000}] techwheel += @e[tag=empire,scores={turn=24000}] potter 
