@@ -1,3 +1,4 @@
 execute at @e[tag=librarydetector,tag=detector,scores={bookshelf=75..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1] library 1
+execute at @e[tag=librarydetector,tag=detector,scores={bookshelf=75..}] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["building","library"]}
 execute at @e[tag=librarydetector,tag=detector,scores={bookshelf=75..}] run kill @e[tag=librarydetector,tag=detector,scores={bookshelf=75..},distance=0..10]
 execute at @e[tag=librarydetector] run title @a[distance=..10] actionbar ["",{"selector":"@e[tag=detector,sort=nearest,limit=1]","underlined":true},{"text":" has: ","underlined":false},{"text":"Bookshelves: ","color":"gold"},{"score":{"name":"@e[tag=detector,sort=nearest,limit=1]","objective":"bookshelf"},"color":"light_purple"}]
