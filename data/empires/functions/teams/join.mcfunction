@@ -1,6 +1,24 @@
 scoreboard players enable @a teamJoin
 scoreboard players enable @a teamOpen
 
+scoreboard players set @a[scores={teamJoin=2..},team=aqua] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=black] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=blue] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=darkaqua] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=darkblue] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=darkgray] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=darkgreen] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=darkpurple] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=darkred] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=gold] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=grey] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=green] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=lightpurple] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=red] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=yellow] teamJoin -1
+
+tellraw @a[scores={teamJoin=-1}] ["",{"text":"You must leave your current team before joining a new one!","color":"red"}]
+
 execute at @a[team=aqua,scores={teamOpen=1}] run summon armor_stand ~ ~ ~ {Team:"aqua",NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["teamopen"]}
 execute at @a[team=blue,scores={teamOpen=1}] run summon armor_stand ~ ~ ~ {Team:"blue",NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["teamopen"]}
 execute at @a[team=black,scores={teamOpen=1}] run summon armor_stand ~ ~ ~ {Team:"black",NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["teamopen"]}
@@ -71,4 +89,4 @@ execute as @a[scores={teamJoin=1..},team=lightpurple] run scoreboard players add
 execute as @a[scores={teamJoin=1..},team=red] run scoreboard players add @e[tag=empire,team=red] players 1
 execute as @a[scores={teamJoin=1..},team=yellow] run scoreboard players add @e[tag=empire,team=yellow] players 1
 
-scoreboard players reset @a[scores={teamJoin=1..}] teamJoin
+scoreboard players set @a[scores={teamJoin=-10..}] teamJoin 0
