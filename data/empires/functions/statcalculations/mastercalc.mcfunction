@@ -73,6 +73,7 @@ scoreboard players operation @e[tag=empire,scores={turn=24000}] zengarden += @e[
 execute as @e[scores={turn=24000}] run scoreboard players set @e[scores={turn=24000}] zero 0
 execute as @e[scores={turn=24000}] run scoreboard players set @e[scores={turn=24000}] three 3
 execute as @e[scores={turn=24000}] run scoreboard players set @e[scores={turn=24000}] five 5
+execute as @e[scores={turn=24000}] run scoreboard players set @e[scores={turn=24000}] onehundred 100
 
 #Population and Houses
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players set @e[tag=empire,scores={turn=24000}] zero 0
@@ -97,109 +98,119 @@ execute at @e[tag=city,scores={turn=24000}] run scoreboard players operation @e[
 
 #Food
 #   Field
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] field
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] field
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] field
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] field
 #   Garden
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] garden
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] garden
 #   Watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] watermill
 #Windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] windmill
 #    Fishing Boat
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] fishingboat
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] fishingboat
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] fishingboat
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] fishingboat
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] fishingboat
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] fishingboat
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] fishingboat
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] fishingboat
 #   Plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] plantation
 #ShippingYard
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] shippingyard
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] shippingyard
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] shippingyard
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH += @e[tag=empire,scores={turn=24000}] shippingyard
+
+#Multipliers
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] onehundred += @e[tag=empire,scores={turn=24000}] fertilizerBonus
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] onehundred += @e[tag=empire,scores={turn=24000}] croprotationBonus
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH *= @e[tag=empire,scores={turn=24000}] onehundred
+execute as @e[scores={turn=24000}] run scoreboard players set @e[scores={turn=24000}] onehundred 100
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH /= @e[tag=empire,scores={turn=24000}] onehundred
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food += @e[tag=empire,scores={turn=24000}] foodPH
+execute as @e[scores={turn=24000}] run scoreboard players reset @e[scores={turn=24000}] foodPH
+
 
 #Balancing
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food -= @e[tag=empire,scores={turn=24000}] population

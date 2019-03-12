@@ -1,4 +1,7 @@
 scoreboard objectives add food dummy
+scoreboard objectives add foodPH dummy
+scoreboard objectives add fertilizerBonus dummy
+scoreboard objectives add croprotationBonus dummy
 scoreboard objectives add sanitation dummy
 scoreboard objectives add disease dummy
 scoreboard objectives add population dummy
@@ -13,6 +16,7 @@ scoreboard objectives add totalHousing dummy
 scoreboard objectives add zero dummy
 scoreboard objectives add three dummy
 scoreboard objectives add five dummy
+scoreboard objectives add onehundred dummy
 scoreboard objectives add granaryPH dummy
 scoreboard objectives add turn dummy
 scoreboard objectives add turnCount dummy
