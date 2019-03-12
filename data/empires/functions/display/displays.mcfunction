@@ -15,4 +15,4 @@ give @a[scores={displaybossbar=6}] written_book{pages:["[\"\",{\"text\":\"Cities
 
 #End
 scoreboard players reset @a[scores={displaybossbar=1..}] displaybossbar
-scoreboard players enable @a[tag=empiresEnabled] displaybossbar
+scoreboard players enable @a displaybossbar
