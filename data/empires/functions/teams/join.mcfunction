@@ -11,7 +11,7 @@ scoreboard players set @a[scores={teamJoin=2..},team=darkgreen] teamJoin -1
 scoreboard players set @a[scores={teamJoin=2..},team=darkpurple] teamJoin -1
 scoreboard players set @a[scores={teamJoin=2..},team=darkred] teamJoin -1
 scoreboard players set @a[scores={teamJoin=2..},team=gold] teamJoin -1
-scoreboard players set @a[scores={teamJoin=2..},team=grey] teamJoin -1
+scoreboard players set @a[scores={teamJoin=2..},team=gray] teamJoin -1
 scoreboard players set @a[scores={teamJoin=2..},team=green] teamJoin -1
 scoreboard players set @a[scores={teamJoin=2..},team=lightpurple] teamJoin -1
 scoreboard players set @a[scores={teamJoin=2..},team=red] teamJoin -1
