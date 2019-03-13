@@ -204,7 +204,7 @@ execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @
 
 #Multipliers
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] onehundred += @e[tag=empire,scores={turn=24000}] fertilizerBonus
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] onehundred += @e[tag=empire,scores={turn=24000}] croprotationBonus
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] onehundred += @e[tag=empire,scores={turn=24000}] cropBonus
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH *= @e[tag=empire,scores={turn=24000}] onehundred
 execute as @e[scores={turn=24000}] run scoreboard players set @e[scores={turn=24000}] onehundred 100
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] foodPH /= @e[tag=empire,scores={turn=24000}] onehundred
