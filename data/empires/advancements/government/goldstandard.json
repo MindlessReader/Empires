@@ -1,24 +1,24 @@
 {
  
     "criteria": {
-        "tradeconfederation": {
+        "goldstandard": {
             "trigger": "minecraft:impossible"
         }
     },
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +15 Happiness per Market"
+            "text": "Buff: +50 Money per Commericial Hub\n\nDebuff: -50 Money per Market"
         },
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:gold_block"
+            "item": "minecraft:gold_ingot"
         },
         "show_toast": true,
         "title": {
-            "text": "Trade Confederation"
+            "text": "Gold Standard"
         }
     },
-    "parent": "empires:government/apprenticeship"
+    "parent": "empires:government/capitalism"
 }

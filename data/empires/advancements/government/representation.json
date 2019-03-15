@@ -8,7 +8,7 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +1 Money per Field"
+            "text": "Buff: +5 Money per Field"
         },
         "frame": "task",
         "hidden": false,

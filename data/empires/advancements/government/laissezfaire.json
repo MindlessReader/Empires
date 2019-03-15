@@ -1,24 +1,24 @@
 {
  
     "criteria": {
-        "tradeconfederation": {
+        "laissezfaire": {
             "trigger": "minecraft:impossible"
         }
     },
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +15 Happiness per Market"
+            "text": "Buff: +30 Happiness per Market\n\nDebuff: -1 Production per Potter"
         },
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:gold_block"
+            "item": "minecraft:yellow_banner"
         },
         "show_toast": true,
         "title": {
-            "text": "Trade Confederation"
+            "text": "Laissez-Faire"
         }
     },
-    "parent": "empires:government/apprenticeship"
+    "parent": "empires:government/capitalism"
 }

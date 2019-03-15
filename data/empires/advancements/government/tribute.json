@@ -8,7 +8,7 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +1 Money from Houses\n\nDebuff: -1 Happiness from Houses"
+            "text": "Buff: +5 Money from Houses\n\nDebuff: -1 Happiness from Houses"
         },
         "frame": "task",
         "hidden": false,

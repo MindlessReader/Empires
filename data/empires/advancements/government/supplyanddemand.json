@@ -1,24 +1,24 @@
 {
  
     "criteria": {
-        "tradeconfederation": {
+        "supplyanddemand": {
             "trigger": "minecraft:impossible"
         }
     },
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +15 Happiness per Market"
+            "text": "Buff: +25 Happiness per Commercial Hub"
         },
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:gold_block"
+            "item": "minecraft:iron_ingot"
         },
         "show_toast": true,
         "title": {
-            "text": "Trade Confederation"
+            "text": "Supply and Demand"
         }
     },
-    "parent": "empires:government/apprenticeship"
+    "parent": "empires:government/goldstandard"
 }

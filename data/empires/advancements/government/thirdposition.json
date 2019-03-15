@@ -8,7 +8,7 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +5 Production per any Port\n\nDebuff: -10 Money per Turn"
+            "text": "Buff: +5 Production per any Port\n\nDebuff: -5 Money per House"
         },
         "frame": "task",
         "hidden": false,

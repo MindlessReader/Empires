@@ -13,7 +13,7 @@
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:blaze_rod"
+            "item": "minecraft:arrow"
         },
         "show_toast": true,
         "title": {
