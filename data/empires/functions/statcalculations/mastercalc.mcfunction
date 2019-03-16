@@ -86,15 +86,15 @@ execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] housesTotalPH *= @e[tag=empire,scores={turn=24000}] three
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population < @e[tag=empire,scores={turn=24000}] housesTotalPH
 
-execute at @e[tag=city,scores={turn=24000}] run scoreboard players reset @e[tag=city,scores={turn=24000}] housesTotalPH
-execute at @e[tag=city,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000},limit=1,sort=nearest] population += @e[tag=city,scores={turn=24000},limit=1,sort=nearest] port
-execute at @e[tag=city,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000},limit=1,sort=nearest] population += @e[tag=city,scores={turn=24000},limit=1,sort=nearest] lighthouse
-execute at @e[tag=city,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000},limit=1,sort=nearest] population += @e[tag=city,scores={turn=24000},limit=1,sort=nearest] blimp
-execute at @e[tag=city,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000},limit=1,sort=nearest] population += @e[tag=city,scores={turn=24000},limit=1,sort=nearest] blimp
-execute at @e[tag=city,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000},limit=1,sort=nearest] population += @e[tag=city,scores={turn=24000},limit=1,sort=nearest] blimp
-execute at @e[tag=city,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000},limit=1,sort=nearest] housesTotalPH += @e[tag=city,scores={turn=24000},limit=1,sort=nearest] houses
-execute at @e[tag=city,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000},limit=1,sort=nearest] housesTotalPH *= @e[tag=city,scores={turn=24000},limit=1,sort=nearest] three
-execute at @e[tag=city,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000},limit=1,sort=nearest] population < @e[tag=city,scores={turn=24000},limit=1,sort=nearest] housesTotalPH
+execute at @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] housesTotalPH
+execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] port
+execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] lighthouse
+execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
+execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
+execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
+execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] housesTotalPH += @e[tag=empire,scores={turn=24000}] houses
+execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] housesTotalPH *= @e[tag=empire,scores={turn=24000}] three
+execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population < @e[tag=empire,scores={turn=24000}] housesTotalPH
 
 #Food
 #   Field
@@ -216,7 +216,7 @@ execute as @e[scores={turn=24000}] run scoreboard players reset @e[scores={turn=
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food -= @e[tag=empire,scores={turn=24000}] population
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @a[scores={turn=24000,food=..0}] population += @a[scores={turn=24000,food=..0}] food
 
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food -= @e[tag=city,scores={turn=24000}] population
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food -= @e[tag=empire,scores={turn=24000}] population
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000,food=..0}] population += @e[tag=empire,scores={turn=24000,food=..0}] food
 
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] granaryPH
@@ -513,7 +513,7 @@ execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @
 #execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] popPH
 
 #Happiness Balancing
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness -= @e[tag=city,scores={turn=24000}] population
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness -= @e[tag=empire,scores={turn=24000}] population
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000,happiness=..0}] population += @e[tag=empire,scores={turn=24000,happiness=..0}] happiness
 
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] arena
@@ -561,7 +561,7 @@ execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @
 #execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] popPH
 
 #Happiness Balancing
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness -= @e[tag=city,scores={turn=24000}] population
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness -= @e[tag=empire,scores={turn=24000}] population
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=city,scores={turn=24000,happiness=..0}] population += @e[tag=empire,scores={turn=24000,happiness=..0}] happiness
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness > @e[tag=empire,scores={turn=24000}] zero
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness < @e[tag=empire,scores={turn=24000}] population
@@ -570,7 +570,7 @@ execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @
 #Production
 scoreboard players reset @a[scores={turn=24000}] production 
 scoreboard players reset @a[scores={turn=24000}] popPH
-scoreboard players operation @a[scores={turn=24000}] popPH += @e[tag=city,scores={turn=24000}] population
+scoreboard players operation @a[scores={turn=24000}] popPH += @e[tag=empire,scores={turn=24000}] population
 scoreboard players operation @a[scores={turn=24000}] popPH /= @e[tag=empire,scores={turn=24000}] three
 scoreboard players operation @a[scores={turn=24000}] production += @e[tag=empire,scores={turn=24000}] popPH
 scoreboard players reset @a[scores={turn=24000}] popPH
@@ -622,8 +622,8 @@ scoreboard players operation @a[scores={turn=24000}] production += @e[tag=empire
 scoreboard players operation @a[scores={turn=24000}] production += @e[tag=empire,scores={turn=24000}] factory
 
 #Production Limiting
-scoreboard players operation @a[scores={turn=24000}] popPH += @e[tag=city,scores={turn=24000}] population
-scoreboard players operation @a[scores={turn=24000}] popPH += @e[tag=city,scores={turn=24000}] population
+scoreboard players operation @a[scores={turn=24000}] popPH += @e[tag=empire,scores={turn=24000}] population
+scoreboard players operation @a[scores={turn=24000}] popPH += @e[tag=empire,scores={turn=24000}] population
 scoreboard players operation @a[scores={turn=24000}] production < @a[scores={turn=24000}] popPH
 scoreboard players reset @a[scores={turn=24000}] popPH
 
@@ -761,9 +761,9 @@ scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scor
 scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] commercialhub
 
 #End
-scoreboard players operation @e[tag=city,scores={turn=24000}] population > @e[tag=empire,scores={turn=24000}] zero
+scoreboard players operation @e[tag=empire,scores={turn=24000}] population > @e[tag=empire,scores={turn=24000}] zero
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] population
-scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=city,scores={turn=24000}] population
+scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] population
 
 #Turn
 scoreboard players add @e[tag=empire,scores={turn=24000..}] turnCount 1

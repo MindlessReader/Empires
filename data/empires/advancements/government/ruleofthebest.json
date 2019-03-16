@@ -8,7 +8,7 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +1 Production per 9 Population"
+            "text": "Buff: +1 Production per Temple"
         },
         "frame": "task",
         "hidden": false,

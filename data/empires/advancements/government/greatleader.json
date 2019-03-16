@@ -8,12 +8,12 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +2 Happiness per House\n\nDebuff: -20 Money per Turn"
+            "text": "Buff: +2 Happiness per House\n\nDebuff: -20 Money per Port"
         },
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:ender_eye"
+            "item": "minecraft:diamond_sword"
         },
         "show_toast": true,
         "title": {

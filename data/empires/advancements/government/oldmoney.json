@@ -8,7 +8,7 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +3 Money from Ports"
+            "text": "Buff: +5 Money from Ports"
         },
         "frame": "task",
         "hidden": false,

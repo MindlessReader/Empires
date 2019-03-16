@@ -1,24 +1,24 @@
 {
  
     "criteria": {
-        "tradeconfederation": {
+        "election": {
             "trigger": "minecraft:impossible"
         }
     },
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +15 Happiness per Market"
+            "text": "Buff: +2 Production per Field"
         },
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:gold_block"
+            "item": "minecraft:paper"
         },
         "show_toast": true,
         "title": {
-            "text": "Trade Confederation"
+            "text": "Election"
         }
     },
-    "parent": "empires:government/apprenticeship"
+    "parent": "empires:government/democracy"
 }
