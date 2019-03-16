@@ -2,13 +2,13 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Crop Rotation (255)"
+            "text": "Divine Right (250)"
         },
         "description": {
-            "text": "Unlocked by Granary\n\nUnlocks Feudalism"
+            "text": "Unlocked by Field\n\nUnlocks Monarchy"
         },
         "icon": {
-            "item": "minecraft:farmland"
+            "item": "minecraft:beacon"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -16,9 +16,9 @@
         "hidden": false
     },
     "criteria": {
-        "croprotation": {
+        "divineright": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "empires:technology/irrigation"
+    "parent": "empires:technology/agriculture"
 }
