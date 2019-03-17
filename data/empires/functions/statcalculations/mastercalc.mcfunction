@@ -1,72 +1,72 @@
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] houses 
-scoreboard players operation @e[tag=empire,scores={turn=24000}] houses += @e[tag=city,scores={turn=24000}] houses
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] academia
-scoreboard players operation @e[tag=empire,scores={turn=24000}] academia += @e[tag=city,scores={turn=24000}] academia
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] amphitheatre
-scoreboard players operation @e[tag=empire,scores={turn=24000}] amphitheatre += @e[tag=city,scores={turn=24000}] amphitheatre
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] aqueduct
-scoreboard players operation @e[tag=empire,scores={turn=24000}] aqueduct += @e[tag=city,scores={turn=24000}] aqueduct
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] arena
-scoreboard players operation @e[tag=empire,scores={turn=24000}] arena += @e[tag=city,scores={turn=24000}] arena
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] armory
-scoreboard players operation @e[tag=empire,scores={turn=24000}] armory += @e[tag=city,scores={turn=24000}] armory
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] barracks
-scoreboard players operation @e[tag=empire,scores={turn=24000}] barracks += @e[tag=city,scores={turn=24000}] barracks
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] commercialhub
-scoreboard players operation @e[tag=empire,scores={turn=24000}] commercialhub += @e[tag=city,scores={turn=24000}] commercialhub
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] factory
-scoreboard players operation @e[tag=empire,scores={turn=24000}] factory += @e[tag=city,scores={turn=24000}] factory
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] field
-scoreboard players operation @e[tag=empire,scores={turn=24000}] field += @e[tag=city,scores={turn=24000}] field
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] fishingboat
-scoreboard players operation @e[tag=empire,scores={turn=24000}] fishingboat += @e[tag=city,scores={turn=24000}] fishingboat
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] forge
-scoreboard players operation @e[tag=empire,scores={turn=24000}] forge += @e[tag=city,scores={turn=24000}] forge
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] fort
-scoreboard players operation @e[tag=empire,scores={turn=24000}] fort += @e[tag=city,scores={turn=24000}] fort
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] garden
-scoreboard players operation @e[tag=empire,scores={turn=24000}] garden += @e[tag=city,scores={turn=24000}] garden
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] granary
-scoreboard players operation @e[tag=empire,scores={turn=24000}] granary += @e[tag=city,scores={turn=24000}] granary
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] harbor
-scoreboard players operation @e[tag=empire,scores={turn=24000}] harbor += @e[tag=city,scores={turn=24000}] harbor
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] ironclad
-scoreboard players operation @e[tag=empire,scores={turn=24000}] ironclad += @e[tag=city,scores={turn=24000}] ironclad
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] library
-scoreboard players operation @e[tag=empire,scores={turn=24000}] library += @e[tag=city,scores={turn=24000}] library
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] lighthouse
-scoreboard players operation @e[tag=empire,scores={turn=24000}] lighthouse += @e[tag=city,scores={turn=24000}] lighthouse
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] lumbermill
-scoreboard players operation @e[tag=empire,scores={turn=24000}] lumbermill += @e[tag=city,scores={turn=24000}] lumbermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] market
-scoreboard players operation @e[tag=empire,scores={turn=24000}] market += @e[tag=city,scores={turn=24000}] market
-scoreboard players operation @e[tag=empire,scores={turn=24000}] market += @e[tag=city,scores={turn=24000}] mine
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] mine
-scoreboard players operation @e[tag=empire,scores={turn=24000}] mine += @e[tag=city,scores={turn=24000}] mine
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] museum
-scoreboard players operation @e[tag=empire,scores={turn=24000}] museum += @e[tag=city,scores={turn=24000}] museum
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] plantation
-scoreboard players operation @e[tag=empire,scores={turn=24000}] plantation += @e[tag=city,scores={turn=24000}] plantation
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] port
-scoreboard players operation @e[tag=empire,scores={turn=24000}] port += @e[tag=city,scores={turn=24000}] port
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] potter
-scoreboard players operation @e[tag=empire,scores={turn=24000}] potter += @e[tag=city,scores={turn=24000}] potter
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] printinghouse
-scoreboard players operation @e[tag=empire,scores={turn=24000}] printinghouse += @e[tag=city,scores={turn=24000}] printinghouse
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] shippingyard
-scoreboard players operation @e[tag=empire,scores={turn=24000}] shippingyard += @e[tag=city,scores={turn=24000}] shippingyard
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] stable
-scoreboard players operation @e[tag=empire,scores={turn=24000}] stable += @e[tag=city,scores={turn=24000}] stable
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] walls
-scoreboard players operation @e[tag=empire,scores={turn=24000}] walls += @e[tag=city,scores={turn=24000}] walls
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] watermill
-scoreboard players operation @e[tag=empire,scores={turn=24000}] watermill += @e[tag=city,scores={turn=24000}] watermill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] windmill
-scoreboard players operation @e[tag=empire,scores={turn=24000}] windmill += @e[tag=city,scores={turn=24000}] windmill
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] workshop
-scoreboard players operation @e[tag=empire,scores={turn=24000}] workshop += @e[tag=city,scores={turn=24000}] workshop
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] zengarden
-scoreboard players operation @e[tag=empire,scores={turn=24000}] zengarden += @e[tag=city,scores={turn=24000}] zengarden
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] houses 
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] houses += @e[tag=city,scores={turn=24000}] houses
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] academia
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] academia += @e[tag=city,scores={turn=24000}] academia
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] amphitheatre
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] amphitheatre += @e[tag=city,scores={turn=24000}] amphitheatre
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] aqueduct
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] aqueduct += @e[tag=city,scores={turn=24000}] aqueduct
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] arena
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] arena += @e[tag=city,scores={turn=24000}] arena
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] armory
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] armory += @e[tag=city,scores={turn=24000}] armory
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] barracks
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] barracks += @e[tag=city,scores={turn=24000}] barracks
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] commercialhub
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] commercialhub += @e[tag=city,scores={turn=24000}] commercialhub
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] factory
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] factory += @e[tag=city,scores={turn=24000}] factory
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] field
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] field += @e[tag=city,scores={turn=24000}] field
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] fishingboat
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] fishingboat += @e[tag=city,scores={turn=24000}] fishingboat
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] forge
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] forge += @e[tag=city,scores={turn=24000}] forge
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] fort
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] fort += @e[tag=city,scores={turn=24000}] fort
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] garden
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] garden += @e[tag=city,scores={turn=24000}] garden
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] granary
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] granary += @e[tag=city,scores={turn=24000}] granary
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] harbor
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] harbor += @e[tag=city,scores={turn=24000}] harbor
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] ironclad
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] ironclad += @e[tag=city,scores={turn=24000}] ironclad
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] library
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] library += @e[tag=city,scores={turn=24000}] library
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] lighthouse
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] lighthouse += @e[tag=city,scores={turn=24000}] lighthouse
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] lumbermill
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] lumbermill += @e[tag=city,scores={turn=24000}] lumbermill
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] market
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] market += @e[tag=city,scores={turn=24000}] market
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] market += @e[tag=city,scores={turn=24000}] mine
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] mine
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] mine += @e[tag=city,scores={turn=24000}] mine
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] museum
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] museum += @e[tag=city,scores={turn=24000}] museum
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] plantation
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] plantation += @e[tag=city,scores={turn=24000}] plantation
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] port
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] port += @e[tag=city,scores={turn=24000}] port
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] potter
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] potter += @e[tag=city,scores={turn=24000}] potter
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] printinghouse
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] printinghouse += @e[tag=city,scores={turn=24000}] printinghouse
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] shippingyard
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] shippingyard += @e[tag=city,scores={turn=24000}] shippingyard
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] stable
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] stable += @e[tag=city,scores={turn=24000}] stable
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] walls
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] walls += @e[tag=city,scores={turn=24000}] walls
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] watermill
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] watermill += @e[tag=city,scores={turn=24000}] watermill
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] windmill
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] windmill += @e[tag=city,scores={turn=24000}] windmill
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] workshop
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] workshop += @e[tag=city,scores={turn=24000}] workshop
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] zengarden
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] zengarden += @e[tag=city,scores={turn=24000}] zengarden
 
 
 #Parameters
