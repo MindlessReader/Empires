@@ -8,7 +8,7 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +15 Happiness per Printing House"
+            "text": "Buff: +25 Happiness per Printing House"
         },
         "frame": "task",
         "hidden": false,

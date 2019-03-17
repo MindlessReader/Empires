@@ -13,7 +13,7 @@
         "frame": "challenge",
         "hidden": true,
         "icon": {
-            "item": "minecraft:gold_nugget"
+            "item": "minecraft:emerald"
         },
         "show_toast": true,
         "title": {
