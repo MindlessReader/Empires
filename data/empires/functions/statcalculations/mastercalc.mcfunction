@@ -76,25 +76,15 @@ execute as @e[scores={turn=24000}] run scoreboard players set @e[scores={turn=24
 execute as @e[scores={turn=24000}] run scoreboard players set @e[scores={turn=24000}] onehundred 100
 
 #Population and Houses
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players set @e[tag=empire,scores={turn=24000}] zero 0
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players set @e[tag=empire,scores={turn=24000}] three 3
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players set @e[tag=empire,scores={turn=24000}] five 5
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] housesTotalPH
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] port
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] lighthouse
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] housesTotalPH += @e[tag=empire,scores={turn=24000}] houses
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] housesTotalPH *= @e[tag=empire,scores={turn=24000}] three
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population < @e[tag=empire,scores={turn=24000}] housesTotalPH
-
-execute at @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] housesTotalPH
-execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] port
-execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] lighthouse
-execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
-execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
-execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
-execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] housesTotalPH += @e[tag=empire,scores={turn=24000}] houses
-execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] housesTotalPH *= @e[tag=empire,scores={turn=24000}] three
-execute at @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population < @e[tag=empire,scores={turn=24000}] housesTotalPH
 
 
 #Government
@@ -1102,9 +1092,6 @@ scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scor
 
 #End
 scoreboard players operation @e[tag=empire,scores={turn=24000}] population > @e[tag=empire,scores={turn=24000}] zero
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] population
-scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] population
-
 #Turn
 scoreboard players add @e[tag=empire,scores={turn=24000..}] turnCount 1
 scoreboard players set @e[tag=empire,scores={turn=24000..}] turn 0
