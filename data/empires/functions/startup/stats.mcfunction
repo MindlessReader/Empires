@@ -1,8 +1,8 @@
 scoreboard objectives add food dummy
 scoreboard objectives add foodPH dummy
 scoreboard objectives add fertilizerBonus dummy
-scoreboard objectives add croprotationBonus dummy
 scoreboard objectives add serfdomPH dummy
+scoreboard objectives add cropBonus dummy
 scoreboard objectives add sanitation dummy
 scoreboard objectives add disease dummy
 scoreboard objectives add population dummy

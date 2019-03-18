@@ -46,7 +46,6 @@ function empires:teams/leave
 
 #Random Stuff (Pls sort)
 scoreboard players enable @a transferCity
-function empires:cities/transfer
 function empires:display/detectornullfixer
 function empires:display/citynullfixer
 function empires:display/stats

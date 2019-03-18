@@ -37,6 +37,7 @@ scoreboard objectives add commercialhub dummy
 scoreboard objectives add bath dummy
 scoreboard objectives add well dummy
 scoreboard objectives add aqueduct dummy
+scoreboard objectives add windmill dummy
 
 #Temples
 scoreboard objectives add temple dummy
