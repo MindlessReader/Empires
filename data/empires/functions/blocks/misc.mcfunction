@@ -1,6 +1,11 @@
 function empires:blocks/misc/craftingtable
 function empires:blocks/misc/anvil
-function empires:blocks/misc/farmland
+function empires:blocks/misc/farmland/farmlandwheat
+function empires:blocks/misc/farmland/farmlandcarrot
+function empires:blocks/misc/farmland/farmlandpotato
+function empires:blocks/misc/farmland/farmlandwheat3
+function empires:blocks/misc/farmland/farmlandcarrot3
+function empires:blocks/misc/farmland/farmlandpotato3
 function empires:blocks/misc/cauldron
 function empires:blocks/misc/flower_pot
 function empires:blocks/misc/rail

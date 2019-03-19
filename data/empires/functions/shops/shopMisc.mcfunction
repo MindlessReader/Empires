@@ -14,8 +14,8 @@ execute as @a[scores={shopMisc=102,money=100..},advancements={empires:technology
 execute as @a[scores={shopMisc=102,money=..99}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
 execute as @a[scores={shopMisc=102,money=100..},advancements={empires:technology/ironworking=true}] at @s run scoreboard players remove @p money 100
 
-execute as @a[scores={shopMisc=103,money=3..}] at @s run give @p horse_spawn_egg{display:{Name:"\"Farmland\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Farmland\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["farmland"]}} 30
-execute as @a[scores={shopMisc=103,money=3..}] at @s run tellraw @p {"text":"[Shop] You bought (30) Farmland.","color":"yellow","italic":"true"}
+execute as @a[scores={shopMisc=103,money=3..}] at @s run give @p horse_spawn_egg{display:{Name:"\"Farmland (Wheat)\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Farmland (Wheat)\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["farmlandwheat"]}} 30
+execute as @a[scores={shopMisc=103,money=3..}] at @s run tellraw @p {"text":"[Shop] You bought (30) Farmland (Wheat).","color":"yellow","italic":"true"}
 execute as @a[scores={shopMisc=103,money=..2}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
 execute as @a[scores={shopMisc=103,money=3..}] at @s run scoreboard players remove @p money 3
 
@@ -69,5 +69,29 @@ execute as @a[scores={shopMisc=113,money=10..},advancements={empires:technology/
 execute as @a[scores={shopMisc=113,money=..9}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
 execute as @a[scores={shopMisc=113,money=10..},advancements={empires:technology/writing=true}] at @s run scoreboard players remove @p money 10
 
+execute as @a[scores={shopMisc=114,money=3..}] at @s run give @p horse_spawn_egg{display:{Name:"\"Farmland (Carrot)\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Farmland (Carrot)\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["farmlandcarrot"]}} 30
+execute as @a[scores={shopMisc=114,money=3..}] at @s run tellraw @p {"text":"[Shop] You bought (30) Farmland (Carrot).","color":"yellow","italic":"true"}
+execute as @a[scores={shopMisc=114,money=..2}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
+execute as @a[scores={shopMisc=114,money=3..}] at @s run scoreboard players remove @p money 3
+
+execute as @a[scores={shopMisc=115,money=3..}] at @s run give @p horse_spawn_egg{display:{Name:"\"Farmland (Potato)\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Farmland (Potato)\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["farmlandpotato"]}} 30
+execute as @a[scores={shopMisc=115,money=3..}] at @s run tellraw @p {"text":"[Shop] You bought (30) Farmland (Potato).","color":"yellow","italic":"true"}
+execute as @a[scores={shopMisc=115,money=..2}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
+execute as @a[scores={shopMisc=115,money=3..}] at @s run scoreboard players remove @p money 3
+
+execute as @a[scores={shopMisc=116,money=3..}] at @s run give @p horse_spawn_egg{display:{Name:"\"Farmland 3x3 (Wheat)\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Farmland 3x3 (Wheat)\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["farmlandwheat3"]}} 30
+execute as @a[scores={shopMisc=116,money=3..}] at @s run tellraw @p {"text":"[Shop] You bought (30) Farmland 3x3 (Wheat).","color":"yellow","italic":"true"}
+execute as @a[scores={shopMisc=116,money=..2}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
+execute as @a[scores={shopMisc=116,money=3..}] at @s run scoreboard players remove @p money 3
+
+execute as @a[scores={shopMisc=117,money=3..}] at @s run give @p horse_spawn_egg{display:{Name:"\"Farmland 3x3 (Carrot)\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Farmland 3x3 (Carrot)\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["farmlandcarrot3"]}} 30
+execute as @a[scores={shopMisc=117,money=3..}] at @s run tellraw @p {"text":"[Shop] You bought (30) Farmland 3x3 (Carrot).","color":"yellow","italic":"true"}
+execute as @a[scores={shopMisc=117,money=..2}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
+execute as @a[scores={shopMisc=117,money=3..}] at @s run scoreboard players remove @p money 3
+
+execute as @a[scores={shopMisc=118,money=3..}] at @s run give @p horse_spawn_egg{display:{Name:"\"Farmland 3x3 (Potato)\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Farmland 3x3 (Potato)\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["farmlandpotato3"]}} 30
+execute as @a[scores={shopMisc=118,money=3..}] at @s run tellraw @p {"text":"[Shop] You bought (30) Farmland 3x3 (Potato).","color":"yellow","italic":"true"}
+execute as @a[scores={shopMisc=118,money=..2}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
+execute as @a[scores={shopMisc=118,money=3..}] at @s run scoreboard players remove @p money 3
 #End
 scoreboard players reset @a[scores={shopMisc=1..}] shopMisc
