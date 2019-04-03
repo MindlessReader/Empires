@@ -1,3 +1,4 @@
+function empires:cities/owncity
 function empires:scripts/turn
 #Blocks
 function empires:blocks/blocks
