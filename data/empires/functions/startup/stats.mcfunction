@@ -37,6 +37,7 @@ scoreboard objectives add playerBiome dummy
 scoreboard objectives add citybiometimer dummy
 scoreboard objectives add players dummy
 scoreboard objectives add statsdisplay trigger
+scoreboard objectives add cityreload trigger
 
 scoreboard objectives add teamJoin trigger
 scoreboard objectives add teamOpen trigger

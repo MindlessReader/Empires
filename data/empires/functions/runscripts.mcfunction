@@ -1,4 +1,5 @@
 function empires:cities/owncity
+function empires:cities/teamfixer
 function empires:scripts/turn
 #Blocks
 function empires:blocks/blocks
@@ -24,6 +25,7 @@ function empires:statcalculations/add
 #Cities
 function empires:cities/particletoggle
 function empires:cities/transfer
+function empires:cities/reload
 
 #Shops
 function empires:shops/enable

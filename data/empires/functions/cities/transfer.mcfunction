@@ -1,3 +1,6 @@
+#Force City Reload
+scoreboard players set @a[scores={transferCity=1..}] cityreload 1
+function empires:cities/reload
 #Add transfer tag to City
 execute at @a[scores={transferCity=1},team=aqua] run tag @e[team=aqua,tag=city,distance=..75,limit=1,sort=nearest] add transferring
 execute at @a[scores={transferCity=1},team=black] run tag @e[team=black,tag=city,distance=..75,limit=1,sort=nearest] add transferring
