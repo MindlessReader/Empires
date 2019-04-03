@@ -14,6 +14,6 @@ execute at @e[tag=templedetector,scores={block=150..}] if entity @e[tag=city,sor
 execute at @e[tag=templedetector,scores={block=150..}] if entity @e[tag=city,sort=nearest,limit=1,distance=..75,team=lightpurple] run scoreboard players add @e[tag=empire,team=lightpurple,sort=random,limit=1] temple 1
 execute at @e[tag=templedetector,scores={block=150..}] if entity @e[tag=city,sort=nearest,limit=1,distance=..75,team=red] run scoreboard players add @e[tag=empire,team=red,sort=random,limit=1] temple 1
 execute at @e[tag=templedetector,scores={block=150..}] if entity @e[tag=city,sort=nearest,limit=1,distance=..75,team=yellow] run scoreboard players add @e[tag=empire,team=yellow,sort=random,limit=1] temple 1
-execute at @e[tag=tmpledetector,tag=detector,scores={block=150..}}] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["building","temple"]}
+execute at @e[tag=tmpledetector,tag=detector,scores={block=150..}] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["building","temple"]}
 execute at @e[tag=templedetector,scores={block=150..}] run kill @e[tag=templedetector,scores={block=150..},distance=0..20]
 execute at @e[tag=templedetector] run title @a[distance=..10] actionbar ["",{"selector":"@e[tag=detector,sort=nearest,limit=1]","underlined":true},{"text":" has: ","underlined":false},{"text":"Block: ","color":"gold"},{"score":{"name":"@e[tag=detector,sort=nearest,limit=1]","objective":"block"},"color":"light_purple"}]
