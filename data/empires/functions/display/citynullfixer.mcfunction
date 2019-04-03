@@ -36,6 +36,7 @@ execute as @e[type=armor_stand] unless entity @s[type=armor_stand,scores={forge=
 execute as @e[type=armor_stand] unless entity @s[type=armor_stand,scores={commercialhub=..0,commercialhub=0..}] run scoreboard players set @s commercialhub 0
 execute as @e[type=armor_stand] unless entity @s[type=armor_stand,scores={bath=..0,bath=0..}] run scoreboard players set @s bath 0
 execute as @e[type=armor_stand] unless entity @s[type=armor_stand,scores={well=..0,well=0..}] run scoreboard players set @s well 0
+execute as @e[type=armor_stand] unless entity @s[type=armor_stand,scores={windmill=..0,windmill=0..}] run scoreboard players set @s windmill 0
 #Temples
 execute as @e[type=armor_stand] unless entity @s[type=armor_stand,scores={temple=..0,temple=0..}] run scoreboard players set @s temple 0
 
