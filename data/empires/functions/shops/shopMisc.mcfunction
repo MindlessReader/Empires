@@ -29,10 +29,10 @@ execute as @a[scores={shopMisc=105,money=1..}] at @s run tellraw @p {"text":"[Sh
 execute as @a[scores={shopMisc=105,money=..0}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
 execute as @a[scores={shopMisc=105,money=1..}] at @s run scoreboard players remove @p money 1
 
-execute as @a[scores={shopMisc=106,money=2..},advancements={empires:technology/ironworking=true}] at @s run give @p horse_spawn_egg{display:{Name:"\"Rail\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Rail\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["rail"]}} 10
-execute as @a[scores={shopMisc=106,money=2..},advancements={empires:technology/ironworking=true}] at @s run tellraw @p {"text":"[Shop] You bought (10) Rails.","color":"yellow","italic":"true"}
+execute as @a[scores={shopMisc=106,money=2..}] at @s run give @p horse_spawn_egg{display:{Name:"\"Rail\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Rail\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["rail"]}} 10
+execute as @a[scores={shopMisc=106,money=2..}] at @s run tellraw @p {"text":"[Shop] You bought (10) Rails.","color":"yellow","italic":"true"}
 execute as @a[scores={shopMisc=100,money=..1}] at @s run tellraw @p {"text":"[Shop] Insufficient Funds","color":"red","italic":"true"}
-execute as @a[scores={shopMisc=106,money=2..},advancements={empires:technology/metalworking=true}] at @s run scoreboard players remove @p money 2
+execute as @a[scores={shopMisc=106,money=2..}] at @s run scoreboard players remove @p money 2
 
 execute as @a[scores={shopMisc=107,money=5..}] at @s run give @p horse_spawn_egg{display:{Name:"\"Wooden Rail\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Wooden Rail\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["activator_rail"]}} 10
 execute as @a[scores={shopMisc=107,money=5..}] at @s run tellraw @p {"text":"[Shop] You bought (10) Wooden Rails.","color":"yellow","italic":"true"}
