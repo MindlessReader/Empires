@@ -1,3 +1,6 @@
+#Force City Reload
+scoreboard players set @a[scores={transferCity=1..}] cityreload 1
+function empires:cities/reload
 #Add transfer tag to City
 execute at @a[scores={transferCity=1},team=aqua] run tag @e[team=aqua,tag=city,distance=..75,limit=1,sort=nearest] add transferring
 execute at @a[scores={transferCity=1},team=black] run tag @e[team=black,tag=city,distance=..75,limit=1,sort=nearest] add transferring
@@ -166,5 +169,5 @@ scoreboard players remove @a[scores={messagewait=1..}] messagewait 1
 execute as @e[tag=city,team=open] at @s run tellraw @a[distance=..75,scores={messagewait=..0}] ["",{"text":"[Claim City? Click to Claim]","color":"white","bold":true,"clickEvent":{"action":"run_command","value":"/trigger transferCity set 2"}}]
 execute as @e[tag=city,team=open] at @s run scoreboard players add @a[distance=..75,scores={messagewait=..0}] messagewait 600
 scoreboard players reset @a[scores={transferCity=1..}] transferCity
-#tag @e[tag=transferring] remove transferring
-#tag @e[tag=claim] remove claim
+tag @e[tag=transferring] remove transferring
+tag @e[tag=claim] remove claim

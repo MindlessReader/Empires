@@ -1,3 +1,5 @@
+function empires:cities/owncity
+function empires:cities/teamfixer
 function empires:scripts/turn
 #Blocks
 function empires:blocks/blocks
@@ -7,9 +9,9 @@ function empires:blocks/misc
 function empires:biomes/tagging/tagging
 
 #Detectors
-execute at @e[type=bat,tag=detector] if entity @a[distance=..20] run function empires:buildings/houses/hdetectors
-execute at @e[type=bat,tag=detector] if entity @a[distance=..50] run function empires:buildings/misc/.otherdetectors
-execute at @e[type=bat,tag=detector] if entity @a[distance=..30] run function empires:buildings/temples/temple
+execute if entity @e[type=bat,tag=detector] run function empires:buildings/houses/hdetectors
+execute if entity @e[type=bat,tag=detector] run function empires:buildings/misc/.otherdetectors
+execute if entity @e[type=bat,tag=detector] run function empires:buildings/temples/temple
 #Flight System
 function empires:flight/flight
 function empires:flight/hover
@@ -23,6 +25,7 @@ function empires:statcalculations/add
 #Cities
 function empires:cities/particletoggle
 function empires:cities/transfer
+function empires:cities/reload
 
 #Shops
 function empires:shops/enable

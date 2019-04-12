@@ -627,11 +627,6 @@ execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] granary
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] granary
 
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] houses += @e[tag=empire,scores={turn=24000}] granary
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food < @e[tag=empire,scores={turn=24000}] granaryPH
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food > @e[tag=empire,scores={turn=24000}] zero
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] granaryPH
-
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] houses
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food < @e[tag=empire,scores={turn=24000}] granaryPH
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food > @e[tag=empire,scores={turn=24000}] zero
