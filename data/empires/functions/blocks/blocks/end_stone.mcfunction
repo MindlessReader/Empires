@@ -1,3 +1,2 @@
-execute at @e[tag=end_stone] run scoreboard players add @e[tag=detector,distance=0..10,sort=nearest,limit=1] block 1
-execute at @e[tag=end_stone] run setblock ~ ~ ~ minecraft:end_stone
-execute at @e[tag=end_stone] run kill @e[tag=end_stone]
+execute at @a[scores={placeEndStone=1..}] run scoreboard players add @e[tag=detector,distance=0..10,sort=nearest,limit=1] block 1
+execute as @e[scores={placeEndStone=1..}] run scoreboard players reset @s placeEndStone

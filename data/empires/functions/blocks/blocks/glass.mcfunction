@@ -1,3 +1,2 @@
-execute at @e[tag=glass] run scoreboard players add @e[tag=detector,distance=0..10,sort=nearest,limit=1] block 1
-execute at @e[tag=glass] run setblock ~ ~ ~ minecraft:glass
-execute at @e[tag=glass] run kill @e[tag=glass]
+execute at @a[scores={placeGlass=1..}] run scoreboard players add @e[tag=detector,distance=0..10,sort=nearest,limit=1] block 1
+execute as @e[scores={placeGlass=1..}] run scoreboard players reset @s placeGlass

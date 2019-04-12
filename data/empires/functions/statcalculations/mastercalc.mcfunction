@@ -635,42 +635,41 @@ execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[ta
 
 
 #Sanitation
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] well
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] well
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] well
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] well
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] well
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
-
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] well
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] well
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] well
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] well
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] well
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] bath
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] sanitation += @e[tag=empire,scores={turn=24000}] aqueduct
 
 
 #Happiness

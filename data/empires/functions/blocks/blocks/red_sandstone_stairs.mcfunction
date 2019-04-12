@@ -1,10 +1,2 @@
-execute at @e[tag=red_sandstone_stairs] run scoreboard players add @e[tag=detector,distance=0..10,sort=nearest,limit=1] block 1
-execute at @e[tag=red_sandstone_stairs] if entity @p[x_rotation=0..90,y_rotation=-45..45,distance=..10] run setblock ~ ~ ~ minecraft:red_sandstone_stairs[facing=south,half=bottom]
-execute at @e[tag=red_sandstone_stairs] if entity @p[x_rotation=-90..0,y_rotation=-45..45,distance=..10] run setblock ~ ~ ~ minecraft:red_sandstone_stairs[facing=south,half=top]
-execute at @e[tag=red_sandstone_stairs] if entity @p[x_rotation=0..90,y_rotation=135..-135,distance=..10] run setblock ~ ~ ~ minecraft:red_sandstone_stairs[facing=north,half=bottom]
-execute at @e[tag=red_sandstone_stairs] if entity @p[x_rotation=-90..0,y_rotation=135..-135,distance=..10] run setblock ~ ~ ~ minecraft:red_sandstone_stairs[facing=north,half=top]
-execute at @e[tag=red_sandstone_stairs] if entity @p[x_rotation=0..90,y_rotation=-135..-45,distance=..10] run setblock ~ ~ ~ minecraft:red_sandstone_stairs[facing=east,half=bottom]
-execute at @e[tag=red_sandstone_stairs] if entity @p[x_rotation=-90..0,y_rotation=-135..-45,distance=..10] run setblock ~ ~ ~ minecraft:red_sandstone_stairs[facing=east,half=top]
-execute at @e[tag=red_sandstone_stairs] if entity @p[x_rotation=0..90,y_rotation=45..135,distance=..10] run setblock ~ ~ ~ minecraft:red_sandstone_stairs[facing=west,half=bottom]
-execute at @e[tag=red_sandstone_stairs] if entity @p[x_rotation=-90..0,y_rotation=45..135,distance=..10] run setblock ~ ~ ~ minecraft:red_sandstone_stairs[facing=west,half=top]
-execute at @e[tag=red_sandstone_stairs] run kill @e[tag=red_sandstone_stairs] 
+execute at @a[scores={placeRSSSt=1..}] run scoreboard players add @e[tag=detector,distance=0..10,sort=nearest,limit=1] block 1
+execute as @e[scores={placeRSSSt=1..}] run scoreboard players reset @s placeRSSSt

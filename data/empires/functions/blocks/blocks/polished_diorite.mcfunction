@@ -1,3 +1,2 @@
-execute at @e[tag=polished_diorite] run scoreboard players add @e[tag=detector,distance=0..10,sort=nearest,limit=1] block 1
-execute at @e[tag=polished_diorite] run setblock ~ ~ ~ minecraft:polished_diorite
-execute at @e[tag=polished_diorite] run kill @e[tag=polished_diorite]
+execute at @a[scores={placePDiorite=1..}] run scoreboard players add @e[tag=detector,distance=0..10,sort=nearest,limit=1] block 1
+execute as @e[scores={placePDiorite=1..}] run scoreboard players reset @s placePDiorite
