@@ -3,7 +3,7 @@ function empires:cities/teamfixer
 function empires:scripts/turn
 #Blocks
 function empires:blocks/blocks
-function empires:blocks/misc
+function empires:blocks/halfblock
 
 #Biomes
 function empires:biomes/tagging/tagging
