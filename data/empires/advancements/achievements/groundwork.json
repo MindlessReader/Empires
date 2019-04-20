@@ -1,24 +1,24 @@
 {
  
     "criteria": {
-        "propaganda": {
+        "achievements": {
             "trigger": "minecraft:impossible"
         }
     },
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +25 Happiness per Printing House"
+            "text": "Create the beginnings of a stable Empire."
         },
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:paper"
+            "item": "minecraft:bricks"
         },
         "show_toast": true,
         "title": {
-            "text": "Nationalist Propaganda"
+            "text": "Groundwork"
         }
     },
-    "parent": "empires:government/fascism"
+    "parent": "empires:achievements/root"
 }

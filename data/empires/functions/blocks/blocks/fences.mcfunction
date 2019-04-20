@@ -15,3 +15,12 @@ execute as @e[scores={placeAcaciaF=1..}] run scoreboard players reset @s placeAc
 
 execute at @a[scores={placeDarkOakF=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
 execute as @e[scores={placeDarkOakF=1..}] run scoreboard players reset @s placeDarkOakF
+
+execute at @a[scores={placeCWall=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placeCWall=1..}] run scoreboard players reset @s placeCWall
+
+execute at @a[scores={placeMCWall=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placeMCWall=1..}] run scoreboard players reset @s placeMCWall
+
+execute at @a[scores={placeIronBars=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placeIronBars=1..}] run scoreboard players reset @s placeIronBars

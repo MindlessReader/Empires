@@ -1,0 +1,19 @@
+Release v0.2.1-beta
+ - Improved Flight System
+ - City Buildings Reload
+ - Fixed House/Temple Armor Stands
+ - City Teams now stored as tags
+ - Added Windmills to displays
+ - Empires no longer reset player count upon function empires:start
+ - Eliminated lag caused by placing multiple detectors
+ - Added farmland Variants (Wheat, Carrot, Potato, single and 3x3)
+ - Fixed stair alignment
+ - Delocalized population
+ - Calculations no longer done using cities
+ - Cities add/subtract from empire when transferred
+ - Fertilizer tech yield increased
+ - Crop Rotation tech yield increased
+ - Fixed Rails in shop
+ - Fixes Shop Book Prices
+ - Fixed issues relating to gray team
+ - Made city particles display to all players

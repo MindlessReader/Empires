@@ -19,6 +19,10 @@ scoreboard objectives add placeBirchF minecraft.used:minecraft.birch_fence
 scoreboard objectives add placeJungleF minecraft.used:minecraft.jungle_fence
 scoreboard objectives add placeAcaciaF minecraft.used:minecraft.acacia_fence
 scoreboard objectives add placeDarkOakF minecraft.used:minecraft.dark_oak_fence
+scoreboard objectives add placeCWall minecraft.used:minecraft.cobblestone_wall
+scoreboard objectives add placeMCWall minecraft.used:minecraft.mossy_cobblestone_wall
+scoreboard objectives add placeIronBars minecraft.used:minecraft.iron_bars
+
 #Stairs
 scoreboard objectives add placeOakSt minecraft.used:minecraft.oak_stairs
 scoreboard objectives add placeSpruceSt minecraft.used:minecraft.spruce_stairs
@@ -82,7 +86,6 @@ scoreboard objectives add placeJungleD minecraft.used:minecraft.jungle_door
 scoreboard objectives add placeAcaciaD minecraft.used:minecraft.acacia_door
 scoreboard objectives add placeDarkOakD minecraft.used:minecraft.dark_oak_door
 scoreboard objectives add placeTorch minecraft.used:minecraft.torch
-scoreboard objectives add placeFurnace minecraft.used:minecraft.furnace
 scoreboard objectives add placeHayBlock minecraft.used:minecraft.hay_block
 scoreboard objectives add placePot minecraft.used:minecraft.flower_pot
 scoreboard objectives add placeCTable minecraft.used:minecraft.crafting_table

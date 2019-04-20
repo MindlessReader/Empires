@@ -1,4 +1,3 @@
-#Base
 advancement grant @a only empires:technology/root
 advancement grant @a only empires:technology/pottery
 advancement grant @a only empires:technology/agriculture

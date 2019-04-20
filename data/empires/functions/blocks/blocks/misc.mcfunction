@@ -14,9 +14,6 @@ execute as @e[scores={placePot=1..}] run scoreboard players reset @s placePot
 execute at @a[scores={placeTorch=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] torch 1
 execute as @e[scores={placeTorch=1..}] run scoreboard players reset @s placeTorch
 
-execute at @a[scores={placeFurnace=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] furnace 1
-execute as @e[scores={placeFurnace=1..}] run scoreboard players reset @s placeFurnace
-
 execute at @a[scores={placeHayBlock=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] haybale 1
 execute as @e[scores={placeHayBlock=1..}] run scoreboard players reset @s placeHayBlock
 
@@ -27,6 +24,11 @@ execute at @a[scores={placeJLeaves=1..}] run scoreboard players add @e[tag=detec
 execute at @a[scores={placeALeaves=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] leaves 1
 execute at @a[scores={placeDOLeaves=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] leaves 1
 execute as @e[scores={placeOLeaves=1..}] run scoreboard players reset @s placeOLeaves
+execute as @e[scores={placeOLeaves=1..}] run scoreboard players reset @s placeSLeaves
+execute as @e[scores={placeOLeaves=1..}] run scoreboard players reset @s placeBLeaves
+execute as @e[scores={placeOLeaves=1..}] run scoreboard players reset @s placeJLeaves
+execute as @e[scores={placeOLeaves=1..}] run scoreboard players reset @s placeALeaves
+execute as @e[scores={placeOLeaves=1..}] run scoreboard players reset @s placeDOLeaves
 
 execute at @a[scores={placeRail=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] rail 1
 execute as @e[scores={placeRail=1..}] run scoreboard players reset @s placeRail

@@ -1,19 +1,21 @@
-execute as @e[tag=city] unless entity @s[team=aqua] run tag @s remove aqua
-execute as @e[tag=city] unless entity @s[team=black] run tag @s remove black
-execute as @e[tag=city] unless entity @s[team=blue] run tag @s remove blue
-execute as @e[tag=city] unless entity @s[team=darkaqua] run tag @s remove darkaqua
-execute as @e[tag=city] unless entity @s[team=darkblue] run tag @s remove darkblue
-execute as @e[tag=city] unless entity @s[team=darkgray] run tag @s remove darkgray
-execute as @e[tag=city] unless entity @s[team=darkgreen] run tag @s remove darkgreen
-execute as @e[tag=city] unless entity @s[team=darkpurple] run tag @s remove darkpurple
-execute as @e[tag=city] unless entity @s[team=darkred] run tag @s remove darkred
-execute as @e[tag=city] unless entity @s[team=gold] run tag @s remove gold
-execute as @e[tag=city] unless entity @s[team=gray] run tag @s remove gray
-execute as @e[tag=city] unless entity @s[team=green] run tag @s remove green
-execute as @e[tag=city] unless entity @s[team=lightpurple] run tag @s remove lightpurple
-execute as @e[tag=city] unless entity @s[team=red] run tag @s remove red
-execute as @e[tag=city] unless entity @s[team=yellow] run tag @s remove yellow
-execute as @e[tag=city] unless entity @s[team=open] run tag @s remove open
+execute as @e[tag=city] unless entity @s[team=aqua] if entity @s[scores={citycheck=1}] run tag @s remove aqua
+execute as @e[tag=city] unless entity @s[team=black] if entity @s[scores={citycheck=1}] run tag @s remove black
+execute as @e[tag=city] unless entity @s[team=blue] if entity @s[scores={citycheck=1}] run tag @s remove blue
+execute as @e[tag=city] unless entity @s[team=darkaqua] if entity @s[scores={citycheck=1}] run tag @s remove darkaqua
+execute as @e[tag=city] unless entity @s[team=darkblue] if entity @s[scores={citycheck=1}] run tag @s remove darkblue
+execute as @e[tag=city] unless entity @s[team=darkgray] if entity @s[scores={citycheck=1}] run tag @s remove darkgray
+execute as @e[tag=city] unless entity @s[team=darkgreen] if entity @s[scores={citycheck=1}] run tag @s remove darkgreen
+execute as @e[tag=city] unless entity @s[team=darkpurple] if entity @s[scores={citycheck=1}] run tag @s remove darkpurple
+execute as @e[tag=city] unless entity @s[team=darkred] if entity @s[scores={citycheck=1}] run tag @s remove darkred
+execute as @e[tag=city] unless entity @s[team=gold] if entity @s[scores={citycheck=1}] run tag @s remove gold
+execute as @e[tag=city] unless entity @s[team=gray] if entity @s[scores={citycheck=1}] run tag @s remove gray
+execute as @e[tag=city] unless entity @s[team=green] if entity @s[scores={citycheck=1}] run tag @s remove green
+execute as @e[tag=city] unless entity @s[team=lightpurple] if entity @s[scores={citycheck=1}] run tag @s remove lightpurple
+execute as @e[tag=city] unless entity @s[team=red] if entity @s[scores={citycheck=1}] run tag @s remove red
+execute as @e[tag=city] unless entity @s[team=yellow] if entity @s[scores={citycheck=1}] run tag @s remove yellow
+execute as @e[tag=city] unless entity @s[team=open] if entity @s[scores={citycheck=1}] run tag @s remove open
+
+scoreboard players set @e[tag=city] citycheck 1
 
 tag @e[tag=city,team=aqua] add aqua
 tag @e[tag=city,team=black] add black

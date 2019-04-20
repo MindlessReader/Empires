@@ -1,24 +1,24 @@
 {
  
     "criteria": {
-        "propaganda": {
+        "achievements": {
             "trigger": "minecraft:impossible"
         }
     },
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Buff: +25 Happiness per Printing House"
+            "text": "Build 100 Houses."
         },
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:paper"
+            "item": "minecraft:dark_oak_door"
         },
         "show_toast": true,
         "title": {
-            "text": "Nationalist Propaganda"
+            "text": "It Takes a Village"
         }
     },
-    "parent": "empires:government/fascism"
+    "parent": "empires:achievements/hamlet"
 }
