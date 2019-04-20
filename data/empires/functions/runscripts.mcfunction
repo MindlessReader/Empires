@@ -19,7 +19,7 @@ function empires:flight/enable
 
 #Stats
 function empires:statcalculations/tech
-execute if entity @e[tag=empire,scores={turn=24000}] run function empires:statcalculations/mastercalc
+execute as @e[tag=empire,scores={turn=24000}] run function empires:statcalculations/mastercalc
 function empires:statcalculations/add
 
 #Cities

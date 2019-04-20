@@ -7,7 +7,6 @@ scoreboard objectives add disease dummy
 scoreboard objectives add population dummy
 scoreboard objectives add happiness dummy
 scoreboard objectives add ports dummy
-scoreboard objectives add housesTotalPH dummy
 scoreboard objectives add money dummy
 scoreboard objectives add production dummy
 scoreboard objectives add taxamount trigger
@@ -17,7 +16,6 @@ scoreboard objectives add zero dummy
 scoreboard objectives add three dummy
 scoreboard objectives add five dummy
 scoreboard objectives add onehundred dummy
-scoreboard objectives add granaryPH dummy
 scoreboard objectives add turn dummy
 scoreboard objectives add turnCount dummy
 scoreboard objectives add shopTierBlocks trigger
@@ -94,4 +92,38 @@ scoreboard objectives add techconstruction dummy
 scoreboard objectives add techbronze dummy
 scoreboard objectives add techironworking dummy
 scoreboard objectives add techcurrency dummy
-scoreboard objectives add techguilds dummy
+scoreboard objectives add techguilds 
+
+scoreboard objectives add academiaPH dummy
+scoreboard objectives add ampitheatrePH dummy
+scoreboard objectives add arenaPH dummy
+scoreboard objectives add aqueductPH dummy
+scoreboard objectives add blimpPH dummy
+scoreboard objectives add commercialhubPH dummy
+scoreboard objectives add factoryPH dummy
+scoreboard objectives add fieldPH dummy
+scoreboard objectives add fishingboatPH dummy
+scoreboard objectives add forgePH dummy
+scoreboard objectives add gardenPH dummy
+scoreboard objectives add granaryPH dummy
+scoreboard objectives add harborPH dummy
+scoreboard objectives add housePH dummy
+scoreboard objectives add libraryPH dummy
+scoreboard objectives add lighthousePH dummy
+scoreboard objectives add lumbermillPH dummy
+scoreboard objectives add marketPH dummy
+scoreboard objectives add minePH dummy
+scoreboard objectives add museumPH dummy
+scoreboard objectives add plantationPH dummy
+scoreboard objectives add portPH dummy
+scoreboard objectives add potterPH dummy
+scoreboard objectives add printinghousePH dummy
+scoreboard objectives add shippingyardPH dummy
+scoreboard objectives add stablePH dummy
+scoreboard objectives add templePH dummy
+scoreboard objectives add watermillPH dummy
+scoreboard objectives add windmillPH dummy
+scoreboard objectives add workshopPH dummy
+scoreboard objectives add zengardenPH dummy
+
+scoreboard objectives add workerPH dummy
