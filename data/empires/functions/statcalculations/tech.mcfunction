@@ -87,8 +87,6 @@ execute as @e[tag=empire,scores={turn=24000,techbronze=55..}] run advancement gr
 execute as @e[tag=empire,scores={turn=24000,techironworking=115..}] run advancement grant @a[scores={turn=24000}] only empires:technology/ironworking
 execute as @e[tag=empire,scores={turn=24000,techcurrency=65..}] run advancement grant @a[scores={turn=24000}] only empires:technology/currency
 execute as @e[tag=empire,scores={turn=24000,techguilds=275..}] run advancement grant @a[scores={turn=24000}] only empires:technology/guilds
-<<<<<<< HEAD
-=======
 
 #Government
 execute as @e[tag=empire,scores={turn=24000,techcroprotation=255..}] run advancement grant @a[scores={turn=24000}] only empires:government/feudalism
@@ -98,5 +96,4 @@ execute as @e[tag=empire,scores={turn=24000,techwriting=65..}] run advancement g
 execute as @e[tag=empire,scores={turn=24000,techhumanism=265..}] run advancement grant @a[scores={turn=24000}] only empires:government/democracy
 execute as @e[tag=empire,scores={turn=24000,techright=250..}] run advancement grant @a[scores={turn=24000}] only empires:government/monarchy
 execute as @e[tag=empire,scores={turn=24000,technationalism=50..}] run advancement grant @a[scores={turn=24000}] only empires:government/fascism
-execute as @e[tag=empire,scores={turn=24000,techphilosphy=125..}] run advancement grant @a[scores={turn=24000}] only empires:government/republic
->>>>>>> bc61d01a86a48ebf9eac9d3136a49a4ac2073d5c
+execute as @e[tag=empire,scores={turn=24000,techphilosphy=125..}] run advancement grant @a[scores={turn=24000}] only empires:government/republic\
