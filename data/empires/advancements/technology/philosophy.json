@@ -8,9 +8,9 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Unlocked by Library"
+            "text": "Unlocked by Library\n\nUnlocks Republic"
         },
-        "frame": "task",
+        "frame": "challenge",
         "hidden": false,
         "icon": {
             "item": "minecraft:chorus_fruit"

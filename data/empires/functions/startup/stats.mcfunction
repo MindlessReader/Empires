@@ -1,6 +1,7 @@
 scoreboard objectives add food dummy
 scoreboard objectives add foodPH dummy
 scoreboard objectives add fertilizerBonus dummy
+scoreboard objectives add serfdomPH dummy
 scoreboard objectives add cropBonus dummy
 scoreboard objectives add sanitation dummy
 scoreboard objectives add disease dummy
@@ -44,6 +45,8 @@ scoreboard objectives add teamLeave trigger
 
 scoreboard objectives add stats trigger
 
+scoreboard objectives add govType trigger
+
 scoreboard objectives add mesaCity dummy
 scoreboard objectives add beachCity dummy
 scoreboard objectives add birchforestCity dummy
@@ -64,6 +67,10 @@ scoreboard objectives add techwheel dummy
 scoreboard objectives add techmachinery dummy
 scoreboard objectives add techprinting dummy
 scoreboard objectives add techsteampower dummy
+scoreboard objectives add techindustry dummy
+scoreboard objectives add techstruggle dummy
+scoreboard objectives add techright dummy
+scoreboard objectives add technationalism dummy
 
 scoreboard objectives add techagriculture dummy
 scoreboard objectives add techmilitary dummy
@@ -84,7 +91,6 @@ scoreboard objectives add technavigation dummy
 scoreboard objectives add techcartography dummy
 scoreboard objectives add techcolonialism dummy
 scoreboard objectives add techmercantilism dummy
-scoreboard objectives add techindustry dummy
 
 scoreboard objectives add techmining dummy
 scoreboard objectives add techstonemasonry dummy

@@ -93,22 +93,16 @@ scoreboard players operation @s workerPH = @s population
 function empires:statcalculations/buildings/shippingyard
 
 scoreboard players operation @s workerPH = @s population
-function empires:statcalculations/buildings/academia
+function empires:statcalculations/buildings/stable
 
 scoreboard players operation @s workerPH = @s population
-function empires:statcalculations/buildings/academia
+function empires:statcalculations/buildings/watermill
 
 scoreboard players operation @s workerPH = @s population
-function empires:statcalculations/buildings/academia
+function empires:statcalculations/buildings/windmill
 
 scoreboard players operation @s workerPH = @s population
-function empires:statcalculations/buildings/academia
+function empires:statcalculations/buildings/workshop
 
 scoreboard players operation @s workerPH = @s population
-function empires:statcalculations/buildings/academia
-
-scoreboard players operation @s workerPH = @s population
-function empires:statcalculations/buildings/academia
-
-scoreboard players operation @s workerPH = @s population
-function empires:statcalculations/buildings/academia
+function empires:statcalculations/buildings/zengarden
