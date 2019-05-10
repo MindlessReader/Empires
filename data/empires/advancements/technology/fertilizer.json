@@ -17,7 +17,7 @@
         },
         "show_toast": true,
         "title": {
-            "text": "Fertilizer (255)"
+            "text": "Fertilizer (500)"
         }
     },
     "parent": "empires:technology/irrigation"

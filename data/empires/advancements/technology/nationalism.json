@@ -1,24 +1,24 @@
 {
  
     "criteria": {
-        "writing": {
+        "nationalism": {
             "trigger": "minecraft:impossible"
         }
     },
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Unlocked by Granary\n\nUnlocks Chiefdom"
+            "text": "Unlocked by Factory\n\nUnlocks Fascism"
         },
         "frame": "challenge",
         "hidden": false,
         "icon": {
-            "item": "minecraft:popped_chorus_fruit"
+            "item": "minecraft:firework_rocket"
         },
         "show_toast": true,
         "title": {
-            "text": "Writing (65)"
+            "text": "Nationalism (75)"
         }
     },
-    "parent": "empires:technology/irrigation"
+    "parent": "empires:technology/industrialization"
 }

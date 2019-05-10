@@ -8,9 +8,9 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Unlocked by Academia"
+            "text": "Unlocked by Academia\n\nUnlocks Democracy"
         },
-        "frame": "task",
+        "frame": "challenge",
         "hidden": false,
         "icon": {
             "item": "minecraft:music_disc_mellohi"

@@ -8,9 +8,9 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Unlocked by Blimp Station"
+            "text": "Unlocked by Blimp Station\n\nUnlocks Capitalism"
         },
-        "frame": "task",
+        "frame": "challenge",
         "hidden": false,
         "icon": {
             "item": "minecraft:coal"

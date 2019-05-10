@@ -1,4 +1,5 @@
 scoreboard objectives add block dummy
+scoreboard objectives add halfblock dummy
 scoreboard objectives add craftingtable dummy
 scoreboard objectives add anvil dummy
 scoreboard objectives add farmland dummy
@@ -11,3 +12,4 @@ scoreboard objectives add leaves dummy
 scoreboard objectives add flowers dummy
 scoreboard objectives add haybale dummy
 scoreboard objectives add bookshelf dummy
+scoreboard objectives add door dummy

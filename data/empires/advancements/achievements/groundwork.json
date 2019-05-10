@@ -1,24 +1,24 @@
 {
  
     "criteria": {
-        "writing": {
+        "achievements": {
             "trigger": "minecraft:impossible"
         }
     },
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Unlocked by Granary\n\nUnlocks Chiefdom"
+            "text": "Create the beginnings of a stable Empire."
         },
-        "frame": "challenge",
+        "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:popped_chorus_fruit"
+            "item": "minecraft:bricks"
         },
         "show_toast": true,
         "title": {
-            "text": "Writing (65)"
+            "text": "Groundwork"
         }
     },
-    "parent": "empires:technology/irrigation"
+    "parent": "empires:achievements/root"
 }

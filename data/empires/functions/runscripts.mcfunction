@@ -3,7 +3,7 @@ function empires:cities/teamfixer
 function empires:scripts/turn
 #Blocks
 function empires:blocks/blocks
-function empires:blocks/misc
+function empires:blocks/halfblock
 
 #Biomes
 function empires:biomes/tagging/tagging
@@ -21,6 +21,7 @@ function empires:flight/enable
 function empires:statcalculations/tech
 execute as @e[tag=empire,scores={turn=24000}] run function empires:statcalculations/mastercalc
 function empires:statcalculations/add
+function empires:statcalculations/achievements
 
 #Cities
 function empires:cities/particletoggle
@@ -54,3 +55,4 @@ function empires:display/citynullfixer
 function empires:display/stats
 
 function empires:scripts/detectorglobes
+function empires:government/trigger
