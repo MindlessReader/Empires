@@ -40,7 +40,7 @@ function empires:statcalculations/buildings/population/harbor
 function empires:statcalculations/buildings/population/lighthouse
 function empires:statcalculations/buildings/population/port
 
-#Other Buildings
+#Other Production Buildings
 scoreboard players operation @s workerPH = @s population
 function empires:statcalculations/buildings/academia
 
