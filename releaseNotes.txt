@@ -1,3 +1,12 @@
+Release v0.3.0-beta
+ - Added reloading message
+ - Start now runs on /reloading
+ - Added Terracotta Variants
+ - Removed Block Shops
+ - Houses now require a door and two torches rather than a crafting table
+ - Blocks are now placed normally, not with spawn eggs
+ 
+
 Release v0.2.1-beta
  - Improved Flight System
  - City Buildings Reload
