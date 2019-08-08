@@ -13,7 +13,7 @@
         "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:filled_map"
+            "item": "minecraft:cartography_table"
         },
         "show_toast": true,
         "title": {

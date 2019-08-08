@@ -8,12 +8,12 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Unlocked by Granary\n\nUnlocks Chiefdom"
+            "text": "Unlocked by Granary"
         },
-        "frame": "challenge",
+        "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:popped_chorus_fruit"
+            "item": "minecraft:writable_book"
         },
         "show_toast": true,
         "title": {
