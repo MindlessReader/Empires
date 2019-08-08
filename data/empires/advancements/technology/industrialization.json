@@ -10,10 +10,10 @@
         "description": {
             "text": "Unlocked by Blimp Station\n\nUnlocks Capitalism"
         },
-        "frame": "challenge",
+        "frame": "task",
         "hidden": false,
         "icon": {
-            "item": "minecraft:coal"
+            "item": "minecraft:blast_furnace"
         },
         "show_toast": true,
         "title": {

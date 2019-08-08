@@ -55,24 +55,14 @@ execute as @e[tag=empire,scores={turn=24000,techwriting=65..}] run advancement g
 execute as @e[tag=empire,scores={turn=24000,techfertilizer=255..}] run advancement grant @a[scores={turn=24000}] only empires:technology/fertilizer
 execute as @e[tag=empire,scores={turn=24000,techfertilizer=255..}] run scoreboard players set @e[tag=empire,scores={turn=24000,techfertilizer=255..}] fertilizerBonus 25
 
-<<<<<<< HEAD
 execute as @e[tag=empire,scores={turn=24000,techcroprotation=500..}] run advancement grant @a[scores={turn=24000}] only empires:technology/croprotation
 execute as @e[tag=empire,scores={turn=24000,techcroprotation=500..}] run scoreboard players set @e[tag=empire,scores={turn=24000,techcroprotation=500..}] cropBonus 50
 
 #Government
-execute as @e[tag=empire,scores={turn=24000,techcroprotation=255..}] run advancement grant @a[scores={turn=24000}] only empires:government/feudalism
 execute as @e[tag=empire,scores={turn=24000,techstruggle=25..}] run advancement grant @a[scores={turn=24000}] only empires:government/communism
 execute as @e[tag=empire,scores={turn=24000,techindustry=225..}] run advancement grant @a[scores={turn=24000}] only empires:government/capitalism
-execute as @e[tag=empire,scores={turn=24000,techwriting=65..}] run advancement grant @a[scores={turn=24000}] only empires:government/chiefdom
-execute as @e[tag=empire,scores={turn=24000,techhumanism=265..}] run advancement grant @a[scores={turn=24000}] only empires:government/democracy
-execute as @e[tag=empire,scores={turn=24000,techright=250..}] run advancement grant @a[scores={turn=24000}] only empires:government/monarchy
 execute as @e[tag=empire,scores={turn=24000,technationalism=50..}] run advancement grant @a[scores={turn=24000}] only empires:government/fascism
-execute as @e[tag=empire,scores={turn=24000,techphilosphy=125..}] run advancement grant @a[scores={turn=24000}] only empires:government/republic
-=======
-execute as @e[tag=empire,scores={turn=24000,techcroprotation=255..}] run advancement grant @a[scores={turn=24000}] only empires:technology/croprotation
-execute as @e[tag=empire,scores={turn=24000,techcroprotation=255..}] run scoreboard players set @e[tag=empire,scores={turn=24000,techcroprotation=500..}] cropBonus 50
 
->>>>>>> bc61d01a86a48ebf9eac9d3136a49a4ac2073d5c
 execute as @e[tag=empire,scores={turn=24000,techphilosphy=125..}] run advancement grant @a[scores={turn=24000}] only empires:technology/philosophy
 execute as @e[tag=empire,scores={turn=24000,techdrama=120..}] run advancement grant @a[scores={turn=24000}] only empires:technology/drama
 execute as @e[tag=empire,scores={turn=24000,techhumanism=265..}] run advancement grant @a[scores={turn=24000}] only empires:technology/humanism
@@ -96,4 +86,4 @@ execute as @e[tag=empire,scores={turn=24000,techwriting=65..}] run advancement g
 execute as @e[tag=empire,scores={turn=24000,techhumanism=265..}] run advancement grant @a[scores={turn=24000}] only empires:government/democracy
 execute as @e[tag=empire,scores={turn=24000,techright=250..}] run advancement grant @a[scores={turn=24000}] only empires:government/monarchy
 execute as @e[tag=empire,scores={turn=24000,technationalism=50..}] run advancement grant @a[scores={turn=24000}] only empires:government/fascism
-execute as @e[tag=empire,scores={turn=24000,techphilosphy=125..}] run advancement grant @a[scores={turn=24000}] only empires:government/republic\
+execute as @e[tag=empire,scores={turn=24000,techphilosphy=125..}] run advancement grant @a[scores={turn=24000}] only empires:government/republic

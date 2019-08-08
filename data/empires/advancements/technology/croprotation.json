@@ -5,12 +5,12 @@
             "text": "Crop Rotation (255)"
         },
         "description": {
-            "text": "Unlocked by Granary\n\nUnlocks Feudalism"
+            "text": "Unlocked by Granary"
         },
         "icon": {
             "item": "minecraft:farmland"
         },
-        "frame": "challenge",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
