@@ -1,31 +1,31 @@
-execute as @a[team=aqua] at @s if entity @e[tag=city,team=aqua,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=black] at @s if entity @e[tag=city,team=black,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=blue] at @s if entity @e[tag=city,team=blue,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=darkaqua] at @s if entity @e[tag=city,team=darkaqua,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=darkblue] at @s if entity @e[tag=city,team=darkblue,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=darkgray] at @s if entity @e[tag=city,team=darkgray,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=darkgreen] at @s if entity @e[tag=city,team=darkgreen,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=darkpurple] at @s if entity @e[tag=city,team=darkpurple,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=darkred] at @s if entity @e[tag=city,team=darkred,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=gold] at @s if entity @e[tag=city,team=gold,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=gray] at @s if entity @e[tag=city,team=gray,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=green] at @s if entity @e[tag=city,team=green,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=lightpurple] at @s if entity @e[tag=city,team=lightpurple,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=red] at @s if entity @e[tag=city,team=red,distance=..75,sort=nearest,limit=1] run tag @s add owncity
-execute as @a[team=yellow] at @s if entity @e[tag=city,team=yellow,distance=..75,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=aqua] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=aqua,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=black] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=black,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=blue] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=blue,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=darkaqua] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=darkaqua,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=darkblue] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=darkblue,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=darkgray] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=darkgray,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=darkgreen] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=darkgreen,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=darkpurple] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=darkpurple,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=darkred] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=darkred,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=gold] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=gold,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=gray] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=gray,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=green] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=green,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=lightpurple] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=lightpurple,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=red] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=red,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
+execute as @a[team=yellow] at @s positioned ~-80 ~ ~-80 if entity @e[tag=city,team=yellow,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s add owncity
 
-execute as @a[team=aqua] at @s unless entity @e[tag=city,team=aqua,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=black] at @s unless entity @e[tag=city,team=black,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=blue] at @s unless entity @e[tag=city,team=blue,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=darkaqua] at @s unless entity @e[tag=city,team=darkaqua,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=darkblue] at @s unless entity @e[tag=city,team=darkblue,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=darkgray] at @s unless entity @e[tag=city,team=darkgray,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=darkgreen] at @s unless entity @e[tag=city,team=darkgreen,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=darkpurple] at @s unless entity @e[tag=city,team=darkpurple,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=darkred] at @s unless entity @e[tag=city,team=darkred,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=gold] at @s unless entity @e[tag=city,team=gold,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=gray] at @s unless entity @e[tag=city,team=gray,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=green] at @s unless entity @e[tag=city,team=green,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=lightpurple] at @s unless entity @e[tag=city,team=lightpurple,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=red] at @s unless entity @e[tag=city,team=red,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
-execute as @a[team=yellow] at @s unless entity @e[tag=city,team=yellow,distance=..75,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=aqua] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=aqua,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=black] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=black,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=blue] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=blue,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=darkaqua] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=darkaqua,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=darkblue] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=darkblue,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=darkgray] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=darkgray,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=darkgreen] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=darkgreen,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=darkpurple] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=darkpurple,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=darkred] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=darkred,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=gold] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=gold,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=gray] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=gray,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=green] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=green,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=lightpurple] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=lightpurple,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=red] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=red,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity
+execute as @a[team=yellow] at @s positioned ~-80 ~ ~-80 unless entity @e[tag=city,team=yellow,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] run tag @s remove owncity

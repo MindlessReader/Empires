@@ -38,43 +38,43 @@ execute as @e[tag=reloading] run scoreboard players set @s well 0
 execute as @e[tag=reloading] run scoreboard players set @s windmill 0
 execute as @e[tag=reloading] run scoreboard players set @s temple 0
 
-execute at @e[tag=reloading] as @e[distance=..75,tag=house] run scoreboard players add @e[tag=reloading,distance=..75] houses 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=zengarden] run scoreboard players add @e[tag=reloading,distance=..75] zengarden 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=garden] run scoreboard players add @e[tag=reloading,distance=..75] garden 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=watermill] run scoreboard players add @e[tag=reloading,distance=..75] watermill 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=fishingboat] run scoreboard players add @e[tag=reloading,distance=..75] fishingboat 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=potter] run scoreboard players add @e[tag=reloading,distance=..75] potter 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=field] run scoreboard players add @e[tag=reloading,distance=..75] field 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=lumbermill] run scoreboard players add @e[tag=reloading,distance=..75] lumbermill 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=workshop] run scoreboard players add @e[tag=reloading,distance=..75] workshop 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=library] run scoreboard players add @e[tag=reloading,distance=..75] library 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=academia] run scoreboard players add @e[tag=reloading,distance=..75] academia 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=mine] run scoreboard players add @e[tag=reloading,distance=..75] mine 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=port] run scoreboard players add @e[tag=reloading,distance=..75] port 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=factory] run scoreboard players add @e[tag=reloading,distance=..75] factory 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=plantation] run scoreboard players add @e[tag=reloading,distance=..75] plantation 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=granary] run scoreboard players add @e[tag=reloading,distance=..75] granary 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=harbor] run scoreboard players add @e[tag=reloading,distance=..75] harbor 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=market] run scoreboard players add @e[tag=reloading,distance=..75] market 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=barrracks] run scoreboard players add @e[tag=reloading,distance=..75] barrracks 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=stable] run scoreboard players add @e[tag=reloading,distance=..75] stable 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=armory] run scoreboard players add @e[tag=reloading,distance=..75] armory 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=lighthouse] run scoreboard players add @e[tag=reloading,distance=..75] lighthouse 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=shippingyard] run scoreboard players add @e[tag=reloading,distance=..75] shippingyard 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=walls] run scoreboard players add @e[tag=reloading,distance=..75] walls 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=printinghouse] run scoreboard players add @e[tag=reloading,distance=..75] printinghouse 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=blimp] run scoreboard players add @e[tag=reloading,distance=..75] blimp 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=fort] run scoreboard players add @e[tag=reloading,distance=..75] fort 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=museum] run scoreboard players add @e[tag=reloading,distance=..75] museum 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=ampitheatre] run scoreboard players add @e[tag=reloading,distance=..75] ampitheatre 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=arena] run scoreboard players add @e[tag=reloading,distance=..75] arena 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=aqueduct] run scoreboard players add @e[tag=reloading,distance=..75] aqueduct 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=forge] run scoreboard players add @e[tag=reloading,distance=..75] forge 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=commercialhub] run scoreboard players add @e[tag=reloading,distance=..75] commercialhub 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=bath] run scoreboard players add @e[tag=reloading,distance=..75] bath 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=well] run scoreboard players add @e[tag=reloading,distance=..75] well 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=windmill] run scoreboard players add @e[tag=reloading,distance=..75] windmill 1
-execute at @e[tag=reloading] as @e[distance=..75,tag=temple] run scoreboard players add @e[tag=reloading,distance=..75] temple 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=house] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] houses 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=zengarden] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] zengarden 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=garden] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] garden 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=watermill] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] watermill 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=fishingboat] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] fishingboat 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=potter] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] potter 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=field] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] field 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=lumbermill] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] lumbermill 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=workshop] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] workshop 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=library] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] library 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=academia] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] academia 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=mine] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] mine 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=port] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] port 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=factory] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] factory 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=plantation] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] plantation 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=granary] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] granary 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=harbor] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] harbor 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=market] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] market 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=barrracks] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] barrracks 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=stable] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] stable 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=armory] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] armory 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=lighthouse] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] lighthouse 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=shippingyard] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] shippingyard 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=walls] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] walls 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=printinghouse] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] printinghouse 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=blimp] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] blimp 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=fort] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] fort 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=museum] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] museum 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=ampitheatre] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] ampitheatre 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=arena] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] arena 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=aqueduct] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] aqueduct 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=forge] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] forge 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=commercialhub] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] commercialhub 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=bath] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] bath 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=well] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] well 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=windmill] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] windmill 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=temple] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] temple 1
 
 tag @e remove reloading
 scoreboard players set @a[scores={cityreload=1..}] cityreload 0
