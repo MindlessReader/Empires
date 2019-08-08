@@ -10,7 +10,7 @@
         "description": {
             "text": "Unlocked by Factory\n\nUnlocks Fascism"
         },
-        "frame": "challenge",
+        "frame": "task",
         "hidden": false,
         "icon": {
             "item": "minecraft:firework_rocket"

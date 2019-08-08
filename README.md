@@ -15,7 +15,7 @@ Run the following commands:<br />
 <br />
 And that's all! Now that the datapack is set up, you have various features open to you. Here is a quick list and description of commands<br />
 <br />
-#Flight System<br />
+#Flight System bad<br />
 /trigger hover set 0----------Turns off hover<br />
 /trigger hover set 1----------Turns on hover<br />
 /trigger fly set 0-------------Turns off fly<br />

@@ -73,6 +73,22 @@ scoreboard objectives add placeGrayCC minecraft.used:minecraft.gray_concrete
 scoreboard objectives add placeCRSS minecraft.used:minecraft.cut_red_sandstone
 scoreboard objectives add placeEndStone minecraft.used:minecraft.end_stone
 scoreboard objectives add placeEndStoneB minecraft.used:minecraft.end_stone_bricks
+scoreboard objectives add placewhTC minecraft.used:minecraft.white_terracotta
+scoreboard objectives add placeorTC minecraft.used:minecraft.orange_terracotta
+scoreboard objectives add placemgTC minecraft.used:minecraft.magenta_terracotta
+scoreboard objectives add placelbTC minecraft.used:minecraft.light_blue_terracotta
+scoreboard objectives add placeywTC minecraft.used:minecraft.yellow_terracotta
+scoreboard objectives add placelmTC minecraft.used:minecraft.lime_terracotta
+scoreboard objectives add placepkTC minecraft.used:minecraft.pink_terracotta
+scoreboard objectives add placegyTC minecraft.used:minecraft.gray_terracotta
+scoreboard objectives add placelgyTC minecraft.used:minecraft.light_gray_terracotta
+scoreboard objectives add placecyTC minecraft.used:minecraft.cyan_terracotta
+scoreboard objectives add placeppTC minecraft.used:minecraft.purple_terracotta
+scoreboard objectives add placebuTC minecraft.used:minecraft.blue_terracotta
+scoreboard objectives add placebrTC minecraft.used:minecraft.brown_terracotta
+scoreboard objectives add placegrTC minecraft.used:minecraft.gray_terracotta
+scoreboard objectives add placerdTC minecraft.used:minecraft.red_terracotta
+scoreboard objectives add placebkTC minecraft.used:minecraft.black_terracotta
 #Sand, Gravel
 scoreboard objectives add placeRedSand minecraft.used:minecraft.red_sand
 scoreboard objectives add placeSand minecraft.used:minecraft.sand
