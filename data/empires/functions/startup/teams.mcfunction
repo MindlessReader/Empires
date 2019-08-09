@@ -48,6 +48,8 @@ team modify lightpurple seeFriendlyInvisibles false
 team modify red seeFriendlyInvisibles false
 team modify yellow seeFriendlyInvisibles false
 
+forceload add 0 0
+
 execute unless entity @e[type=armor_stand,tag=empire,team=aqua] run summon minecraft:armor_stand 0 1 0 {Team:"aqua",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
 execute unless entity @e[type=armor_stand,tag=empire,team=black] run summon minecraft:armor_stand 0 1 0 {Team:"black",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
 execute unless entity @e[type=armor_stand,tag=empire,team=blue] run summon minecraft:armor_stand 0 1 0 {Team:"blue",Invulnerable:1b,PersistenceRequired:1b,Tags:["empire"]}
@@ -66,17 +68,18 @@ execute unless entity @e[type=armor_stand,tag=empire,team=yellow] run summon min
 
 execute as @e[type=armor_stand,tag=empire] unless entity @s[type=armor_stand,scores={players=..0,players=0..}] run scoreboard players set @s players 0
 
-execute as @a[team=aqua]
-execute as @a[team=black]
-execute as @a[team=blue]
-execute as @a[team=darkaqua]
-execute as @a[team=darkblue]
-execute as @a[team=darkgray]
-execute as @a[team=darkgreen]
-execute as @a[team=darkpurple]
-execute as @a[team=darkred]
-execute as @a[team=gold]
-execute as @a[team=green]
-execute as @a[team=lightpurple]
-execute as @a[team=red]
-execute as @a[team=yellow]
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=aqua] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=black] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=blue] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=darkaqua] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=darkblue] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=darkgray] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=darkgreen] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=darkpurple] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=darkred] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=gold] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=gray] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=green] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=lightpurple] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=red] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
+data merge entity @e[limit=1,type=armor_stand,tag=empire,team=yellow] {AbsorptionAmount:350000000000000000000000000000000000000.0f}
