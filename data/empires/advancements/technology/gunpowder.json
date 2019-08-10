@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "gunpowder": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Gunpowder (300)"
+        },
+        "description": {
+            "text": "Unlocked by Mine"
+        },
+        "icon": {
+            "item": "minecraft:gunpowder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "empires:technology/mining"
+}

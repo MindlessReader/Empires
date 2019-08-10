@@ -10,7 +10,7 @@
         "description": {
             "text": ""
         },
-        "frame": "challenge",
+        "frame": "goal",
         "hidden": true,
         "icon": {
             "item": "minecraft:stick"

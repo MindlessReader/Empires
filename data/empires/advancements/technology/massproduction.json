@@ -1,24 +1,24 @@
 {
  
     "criteria": {
-        "printing": {
+        "massproduction": {
             "trigger": "minecraft:impossible"
         }
     },
     "display": {
-        "announce_to_chat": true,
+        "title": {
+            "text": "Mass Production (200)"
+        },
         "description": {
             "text": "Unlocked by Lumber Mill"
         },
-        "frame": "task",
-        "hidden": false,
         "icon": {
-            "item": "minecraft:book"
+            "item": "minecraft:loom"
         },
+        "frame": "task",
         "show_toast": true,
-        "title": {
-            "text": "Printing (40)"
-        }
+        "announce_to_chat": true,
+        "hidden": false
     },
     "parent": "empires:technology/machinery"
 }

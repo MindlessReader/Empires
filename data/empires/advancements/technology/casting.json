@@ -1,0 +1,24 @@
+{
+ 
+    "criteria": {
+        "casting": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Metal Casting (150)"
+        },
+        "description": {
+            "text": "Unlocked by Forge"
+        },
+        "icon": {
+            "item": "minecraft:lava_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "empires:technology/ironworking"
+}
