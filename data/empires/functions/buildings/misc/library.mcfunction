@@ -1,4 +1,4 @@
-execute at @e[tag=librarydetector,tag=detector,scores={bookshelf=75..}] positioned ~-80 ~ ~-80 run scoreboard players add @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] library 1
+execute at @e[tag=librarydetector,scores={bookshelf=75..}] positioned ~-80 ~ ~-80 run scoreboard players add @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] library 1
 execute at @e[tag=librarydetector,scores={bookshelf=75..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=aqua] run scoreboard players add @e[tag=empire,team=aqua,sort=random,limit=1] library 1
 execute at @e[tag=librarydetector,scores={bookshelf=75..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=black] run scoreboard players add @e[tag=empire,team=black,sort=random,limit=1] library 1
 execute at @e[tag=librarydetector,scores={bookshelf=75..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=blue] run scoreboard players add @e[tag=empire,team=blue,sort=random,limit=1] library 1
@@ -14,6 +14,6 @@ execute at @e[tag=librarydetector,scores={bookshelf=75..}] positioned ~-80 ~ ~-8
 execute at @e[tag=librarydetector,scores={bookshelf=75..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=lightpurple] run scoreboard players add @e[tag=empire,team=lightpurple,sort=random,limit=1] library 1
 execute at @e[tag=librarydetector,scores={bookshelf=75..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=red] run scoreboard players add @e[tag=empire,team=red,sort=random,limit=1] library 1
 execute at @e[tag=librarydetector,scores={bookshelf=75..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=yellow] run scoreboard players add @e[tag=empire,team=yellow,sort=random,limit=1] library 1
-execute at @e[tag=librarydetector,tag=detector,scores={bookshelf=75..}] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["building","library"]}
-execute at @e[tag=librarydetector,tag=detector,scores={bookshelf=75..}] run kill @e[tag=librarydetector,tag=detector,scores={bookshelf=75..},distance=0..10]
+execute at @e[tag=librarydetector,scores={bookshelf=75..}] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["building","library"]}
+kill @e[tag=librarydetector,scores={bookshelf=75..},distance=0..10]
 execute at @e[tag=librarydetector] run title @a[distance=..10] actionbar ["",{"selector":"@e[tag=detector,sort=nearest,limit=1]","underlined":true},{"text":" has: ","underlined":false},{"text":"Bookshelves: ","color":"gold"},{"score":{"name":"@e[tag=detector,sort=nearest,limit=1]","objective":"bookshelf"},"color":"light_purple"}]

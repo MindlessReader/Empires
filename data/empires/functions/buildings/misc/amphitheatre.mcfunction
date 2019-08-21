@@ -1,5 +1,5 @@
 
-execute at @e[tag=amphitheatredetector,tag=detector,scores={block=200..}] positioned ~-80 ~ ~-80 run scoreboard players add @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] amphitheatre 1
+execute at @e[tag=amphitheatredetector,scores={block=200..}] positioned ~-80 ~ ~-80 run scoreboard players add @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] amphitheatre 1
 execute at @e[tag=ampitheatredetector,scores={block=200..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=aqua] run scoreboard players add @e[tag=empire,team=aqua,sort=random,limit=1] ampitheatre 1
 execute at @e[tag=ampitheatredetector,scores={block=200..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=black] run scoreboard players add @e[tag=empire,team=black,sort=random,limit=1] ampitheatre 1
 execute at @e[tag=ampitheatredetector,scores={block=200..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=blue] run scoreboard players add @e[tag=empire,team=blue,sort=random,limit=1] ampitheatre 1
@@ -15,6 +15,6 @@ execute at @e[tag=ampitheatredetector,scores={block=200..}] positioned ~-80 ~ ~-
 execute at @e[tag=ampitheatredetector,scores={block=200..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=lightpurple] run scoreboard players add @e[tag=empire,team=lightpurple,sort=random,limit=1] ampitheatre 1
 execute at @e[tag=ampitheatredetector,scores={block=200..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=red] run scoreboard players add @e[tag=empire,team=red,sort=random,limit=1] ampitheatre 1
 execute at @e[tag=ampitheatredetector,scores={block=200..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=yellow] run scoreboard players add @e[tag=empire,team=yellow,sort=random,limit=1] ampitheatre 1
-execute at @e[tag=amphitheatredetector,tag=detector,scores={block=200..}] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["building","amphitheatre"]}
-execute at @e[tag=amphitheatredetector,tag=detector,scores={block=200..}] run kill @e[tag=amphitheatredetector,tag=detector,scores={block=200..},distance=0..10]
+execute at @e[tag=amphitheatredetector,scores={block=200..}] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["building","amphitheatre"]}
+kill @e[tag=amphitheatredetector,scores={block=200..},distance=0..10]
 execute at @e[tag=ampitheatredetector] run title @a[distance=..10] actionbar ["",{"selector":"@e[tag=detector,sort=nearest,limit=1]","underlined":true},{"text":" has: ","underlined":false},{"text":"Block: ","color":"gold"},{"score":{"name":"@e[tag=detector,sort=nearest,limit=1]","objective":"block"},"color":"light_purple"}]
