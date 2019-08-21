@@ -1,4 +1,4 @@
-execute at @e[tag=academiadetector,tag=detector,scores={bookshelf=150..,block=500..}] positioned ~-80 ~ ~-80 run scoreboard players add @e[tag=city,sort=nearest,limit=1,distance=..75] academia 1
+execute at @e[tag=academiadetector,tag=detector,scores={bookshelf=150..,block=500..}] positioned ~-80 ~ ~-80 run scoreboard players add @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] academia 1
 execute at @e[tag=academiadetector,scores={bookshelf=150..,block=500..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=aqua] run scoreboard players add @e[tag=empire,team=aqua,sort=random,limit=1] academia 1
 execute at @e[tag=academiadetector,scores={bookshelf=150..,block=500..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=black] run scoreboard players add @e[tag=empire,team=black,sort=random,limit=1] academia 1
 execute at @e[tag=academiadetector,scores={bookshelf=150..,block=500..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=blue] run scoreboard players add @e[tag=empire,team=blue,sort=random,limit=1] academia 1

@@ -1,4 +1,4 @@
-execute at @e[tag=fishingboatdetector,tag=detector,scores={block=75..}] positioned ~-80 ~ ~-80 run scoreboard players add @e[tag=city,sort=nearest,limit=1,distance=..75] fishingboat 1
+execute at @e[tag=fishingboatdetector,tag=detector,scores={block=75..}] positioned ~-80 ~ ~-80 run scoreboard players add @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1] fishingboat 1
 execute at @e[tag=fishingboatdetector,scores={block=75..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=aqua] run scoreboard players add @e[tag=empire,team=aqua,sort=random,limit=1] fishingboat 1
 execute at @e[tag=fishingboatdetector,scores={block=75..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=black] run scoreboard players add @e[tag=empire,team=black,sort=random,limit=1] fishingboat 1
 execute at @e[tag=fishingboatdetector,scores={block=75..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=blue] run scoreboard players add @e[tag=empire,team=blue,sort=random,limit=1] fishingboat 1
