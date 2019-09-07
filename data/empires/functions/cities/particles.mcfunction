@@ -3,7 +3,7 @@ execute at @e[tag=particlestoggled,tag=city,team=aqua] run particle dust 0.122 0
 execute at @e[tag=particlestoggled,tag=city,team=black] run particle dust 0.000 0.000 0.000 4 ^ ^1 ^80 0 0 0 0 1 force @a
 execute at @e[tag=particlestoggled,tag=city,team=blue] run particle dust 0.031 0.420 1.000 4 ^ ^1 ^80 0 0 0 0 1 force @a
 execute at @e[tag=particlestoggled,tag=city,team=darkaqua] run particle dust 0.035 0.678 0.592 4 ^ ^1 ^80 0 0 0 0 1 force @a
-execute at @e[tag=particlestoggled,tag=city,team=darkblue] run particle dust 0.071 0.027 0.678 4 ^ ^128 ^80 0 0 0 0 1 force @a
+#execute at @e[tag=particlestoggled,tag=city,team=darkblue] run particle dust 0.071 0.027 0.678 4 ^ ^128 ^80 0 0 0 0 1 force @a
 execute at @e[tag=particlestoggled,tag=city,team=darkgray] run particle dust 0.220 0.220 0.220 4 ^ ^1 ^80 0 0 0 0 1 force @a
 execute at @e[tag=particlestoggled,tag=city,team=darkgreen] run particle dust 0.149 0.400 0.000 4 ^ ^1 ^80 0 0 0 0 1 force @a
 execute at @e[tag=particlestoggled,tag=city,team=darkpurple] run particle dust 0.392 0.016 0.769 4 ^ ^1 ^80 0 0 0 0 1 force @a
@@ -25,3 +25,13 @@ execute at @e[tag=particlestoggled,tag=city,team=darkblue] run particle dust 0.0
 execute at @e[tag=particlestoggled,tag=city,team=darkblue] run particle dust 0.071 0.027 0.678 400 ~-80 128 ~-80 0 50 0 0 1 force @a
 execute at @e[tag=particlestoggled,tag=city,team=darkblue] run particle dust 0.071 0.027 0.678 400 ~80 128 ~-80 0 50 0 0 1 force @a
 execute at @e[tag=particlestoggled,tag=city,team=darkblue] run particle dust 0.071 0.027 0.678 400 ~-80 128 ~80 0 50 0 0 1 force @a
+
+execute at @e[tag=particlestoggled,tag=city,team=red] run particle dust 1.000 0.000 0.000 400 ~0 128 ~80 25 0 0 0 1 force @a
+execute at @e[tag=particlestoggled,tag=city,team=red] run particle dust 1.000 0.000 0.000 400 ~0 128 ~-80 25 0 0 0 1 force @a
+execute at @e[tag=particlestoggled,tag=city,team=red] run particle dust 1.000 0.000 0.000 400 ~80 128 ~0 0 0 25 0 1 force @a
+execute at @e[tag=particlestoggled,tag=city,team=red] run particle dust 1.000 0.000 0.000 400 ~-80 128 ~0 0 0 25 0 1 force @a
+
+execute at @e[tag=particlestoggled,tag=city,team=red] run particle dust 1.000 0.000 0.000 400 ~80 128 ~80 0 50 0 0 1 force @a
+execute at @e[tag=particlestoggled,tag=city,team=red] run particle dust 1.000 0.000 0.000 400 ~-80 128 ~-80 0 50 0 0 1 force @a
+execute at @e[tag=particlestoggled,tag=city,team=red] run particle dust 1.000 0.000 0.000 400 ~80 128 ~-80 0 50 0 0 1 force @a
+execute at @e[tag=particlestoggled,tag=city,team=red] run particle dust 1.000 0.000 0.000 400 ~-80 128 ~80 0 50 0 0 1 force @a
