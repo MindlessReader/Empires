@@ -7,11 +7,8 @@ LINK TO OFFICIAL DISCORD: https://discord.gg/PAGhaJU
 How to install:<br />
 Download as zip<br />
 Extract Files<br />
-Place Extracted folder "Empires-master" into the "datapacks" folder of a cheats-enabled minecraft world<br />
+Place Extracted folder "Empires-master" into the "datapacks" folder of a minecraft world<br />
 Open minecraft world<br />
-Run the following commands:<br />
-/datapack enable "file/Empires-master"<br />
-/function empires:start<br />
 <br />
 And that's all! Now that the datapack is set up, you have various features open to you. Here is a quick list and description of commands<br />
 <br />
