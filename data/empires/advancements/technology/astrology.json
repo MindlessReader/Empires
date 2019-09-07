@@ -10,7 +10,7 @@
             "text": "Astrology (25)"
         },
         "description": {
-            "text": "Unlocked by Field"
+            "text": "Unlocked by Port"
         },
         "icon": {
             "item": "minecraft:clock"
@@ -20,5 +20,5 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "empires:technology/agriculture"
+    "parent": "empires:technology/sailing"
 }
