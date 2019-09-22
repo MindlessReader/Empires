@@ -57,6 +57,40 @@ execute if entity @e[type=armor_stand,tag=teamopen,team=yellow] run team join ye
 
 execute at @a[scores={teamJoin=1..}] run kill @e[tag=teamopen,type=armor_stand]
 
+
+#money and production#
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=aqua] run scoreboard players add @a[scores={teamJoin=2}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=blue] run scoreboard players add @a[scores={teamJoin=3}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=black] run scoreboard players add @a[scores={teamJoin=4}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkaqua] run scoreboard players add @a[scores={teamJoin=5}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkblue] run scoreboard players add @a[scores={teamJoin=6}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkgray] run scoreboard players add @a[scores={teamJoin=7}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkgreen] run scoreboard players add @a[scores={teamJoin=8}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkpurple] run scoreboard players add @a[scores={teamJoin=9}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkred] run scoreboard players add @a[scores={teamJoin=10}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=gold] run scoreboard players add @a[scores={teamJoin=11}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=gray] run scoreboard players add @a[scores={teamJoin=12}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=green] run scoreboard players add @a[scores={teamJoin=13}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=lightpurple] run scoreboard players add @a[scores={teamJoin=14}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=red] run scoreboard players add @a[scores={teamJoin=15}] money 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=yellow] run scoreboard players add @a[scores={teamJoin=16}] money 100
+
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=aqua] run scoreboard players add @a[scores={teamJoin=2}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=blue] run scoreboard players add @a[scores={teamJoin=3}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=black] run scoreboard players add @a[scores={teamJoin=4}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkaqua] run scoreboard players add @a[scores={teamJoin=5}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkblue] run scoreboard players add @a[scores={teamJoin=6}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkgray] run scoreboard players add @a[scores={teamJoin=7}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkgreen] run scoreboard players add @a[scores={teamJoin=8}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkpurple] run scoreboard players add @a[scores={teamJoin=9}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=darkred] run scoreboard players add @a[scores={teamJoin=10}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=gold] run scoreboard players add @a[scores={teamJoin=11}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=gray] run scoreboard players add @a[scores={teamJoin=12}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=green] run scoreboard players add @a[scores={teamJoin=13}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=lightpurple] run scoreboard players add @a[scores={teamJoin=14}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=red] run scoreboard players add @a[scores={teamJoin=15}] production 100
+execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=yellow] run scoreboard players add @a[scores={teamJoin=16}] production 100
+###
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=aqua] run team join aqua @a[scores={teamJoin=2}]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=blue] run team join blue @a[scores={teamJoin=3}]
 execute if entity @e[scores={players=..0},type=armor_stand,tag=empire,team=black] run team join black @a[scores={teamJoin=4}]
