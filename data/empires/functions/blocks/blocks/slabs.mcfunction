@@ -36,3 +36,6 @@ execute as @e[scores={placeQSl=1..}] run scoreboard players reset @s placeQSl
 
 execute at @a[scores={placeStoneSl=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] halfblock 5
 execute as @e[scores={placeStoneSl=1..}] run scoreboard players reset @s placeStoneSl
+
+execute at @a[scores={placeSStoneSl=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] halfblock 5
+execute as @e[scores={placeSStoneSl=1..}] run scoreboard players reset @s placeSStoneSl

@@ -50,6 +50,7 @@ scoreboard objectives add placeBrickSl minecraft.used:minecraft.brick_slab
 scoreboard objectives add placeCobbleSl minecraft.used:minecraft.cobblestone_slab
 scoreboard objectives add placeQSl minecraft.used:minecraft.quartz_slab
 scoreboard objectives add placeStoneSl minecraft.used:minecraft.stone_slab
+scoreboard objectives add placeSStoneSl minecraft.used:minecraft.smooth_stone_slab
 
 #Stones
 scoreboard objectives add placePAndesite minecraft.used:minecraft.polished_andesite
