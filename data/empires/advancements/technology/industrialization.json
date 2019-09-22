@@ -20,5 +20,5 @@
             "text": "Industrialization (225)"
         }
     },
-    "parent": "empires:technology/massproduction"
+    "parent": "empires:technology/industrialization"
 }
