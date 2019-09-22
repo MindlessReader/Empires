@@ -45,8 +45,6 @@ scoreboard objectives add teamLeave trigger
 
 scoreboard objectives add stats trigger
 
-scoreboard objectives add govType trigger
-
 scoreboard objectives add mesaCity dummy
 scoreboard objectives add beachCity dummy
 scoreboard objectives add birchforestCity dummy

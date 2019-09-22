@@ -42,6 +42,7 @@ function empires:cities/particles
 
 function empires:display/displays
 function empires:display/sidebar
+function empires:display/help
 scoreboard players enable @a sidebar
 execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,sort=nearest] ~ ~ ~ ~8 ~
 
