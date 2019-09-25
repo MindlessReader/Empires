@@ -2,6 +2,7 @@
 scoreboard objectives add houses dummy
 scoreboard objectives add temple dummy
 scoreboard objectives add field dummy
+scoreboard objectives add mine dummy
 scoreboard objectives add zengarden dummy
 scoreboard objectives add garden dummy
 scoreboard objectives add watermill dummy

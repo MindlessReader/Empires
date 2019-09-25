@@ -57,4 +57,3 @@ function empires:display/citynullfixer
 function empires:display/stats
 
 function empires:scripts/detectorglobes
-function empires:government/trigger
