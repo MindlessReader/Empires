@@ -20,7 +20,7 @@ function empires:flight/enable
 #Stats and Turn
 function empires:statcalculations/tech
 function empires:scripts/turn
-execute as @e[tag=empire,scores={turn=24000}] run function empires:statcalculations/mastercalc
+execute as @e[tag=empire,scores={turn=24000..}] run function empires:statcalculations/mastercalc
 function empires:statcalculations/add
 function empires:statcalculations/achievements
 

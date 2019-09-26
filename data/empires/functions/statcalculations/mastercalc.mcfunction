@@ -177,5 +177,5 @@ execute as @s[scores={techguilds=275..}] run advancement grant @a[scores={turn=2
 
 #reset
 scoreboard players add @s turnCount 1
-execute as @s run tellraw @a[scores={turn=24000}] [{"text":"Day ","color":"gray"},{"score":{"name":"@s","objective":"turnCount"},"color":"gray"}]
+execute as @s run tellraw @a[scores={turn=24000..}] [{"text":"Day ","color":"gray"},{"score":{"name":"@s","objective":"turnCount"},"color":"gray"}]
 scoreboard players set @s turn 0
