@@ -1,7 +1,6 @@
 function empires:cities/owncity
 function empires:cities/incity
 function empires:cities/teamfixer
-function empires:scripts/turn
 #Blocks
 function empires:blocks/blocks
 function empires:blocks/halfblock
@@ -18,8 +17,9 @@ function empires:flight/flight
 function empires:flight/hover
 function empires:flight/enable
 
-#Stats
+#Stats and Turn
 function empires:statcalculations/tech
+function empires:scripts/turn
 execute as @e[tag=empire,scores={turn=24000}] run function empires:statcalculations/mastercalc
 function empires:statcalculations/add
 function empires:statcalculations/achievements
