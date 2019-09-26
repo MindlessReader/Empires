@@ -1,2 +1,2 @@
-#execute at @e[tag=welldetector,tag=detector,scores={block=50..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1,distance=..75] well 1
-#execute at @e[tag=welldetector,tag=detector,scores={block=50..}] run kill @e[tag=welldetector,tag=detector,scores={block=50..},distance=0..10]
+#execute positioned ~-80 ~ ~-80 at @e[tag=welldetector,tag=detector,scores={block=50..}] run scoreboard players add @e[tag=city,sort=nearest,limit=1,distance=..75] well 1
+#execute positioned ~-80 ~ ~-80 at @e[tag=welldetector,tag=detector,scores={block=50..}] run kill @e[tag=welldetector,tag=detector,scores={block=50..},distance=0..10]
