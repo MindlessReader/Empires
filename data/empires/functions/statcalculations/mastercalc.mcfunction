@@ -113,15 +113,9 @@ scoreboard players operation @s techmachinery += @s watermill
 scoreboard players operation @s techprinting += @s lumbermill
 scoreboard players operation @s techsteampower += @s windmill
 scoreboard players operation @s techindustry += @s blimp
-scoreboard players operation @s techstruggle += @s factory
-scoreboard players operation @s technationalism += @s factory
 
-scoreboard players operation @s techmilitary += @s field
-scoreboard players operation @s techright += @s field
 scoreboard players operation @s techirrigation += @s field
 scoreboard players operation @s techhorseriding += @s field
-scoreboard players operation @s techgunpowder += @s fletcher
-scoreboard players operation @s techballistics += @s armory
 scoreboard players operation @s techwriting += @s granary
 scoreboard players operation @s techfertilizer += @s granary
 scoreboard players operation @s techcroprotation += @s granary
@@ -148,10 +142,7 @@ execute as @s[scores={techprinting=220..}] run advancement grant @a[scores={turn
 execute as @s[scores={techsteampower=300..}] run advancement grant @a[scores={turn=24000}] only empires:technology/steampower
 execute as @s[scores={techhorseriding=45..}] run advancement grant @a[scores={turn=24000}] only empires:technology/horsebackriding
 execute as @s[scores={techrecreation=125..}] run advancement grant @a[scores={turn=24000}] only empires:technology/recreation
-execute as @s[scores={techmilitary=50..}] run advancement grant @a[scores={turn=24000}] only empires:technology/statemilitary
-execute as @s[scores={techgunpowder=175..}] run advancement grant @a[scores={turn=24000}] only empires:technology/gunpowder
-execute as @s[scores={techballisitics=225..}] run advancement grant @a[scores={turn=24000}] only empires:technology/ballistics
-execute as @s[scores={techirrigation=75..}] run advancement grant @a[scores={turn=24000}] only empires:technology/irrigation
+execute as @s[scores={techirrigation=25..}] run advancement grant @a[scores={turn=24000}] only empires:technology/irrigation
 execute as @s[scores={techwriting=65..}] run advancement grant @a[scores={turn=24000}] only empires:technology/writing
 
 execute as @s[scores={techfertilizer=255..}] run advancement grant @a[scores={turn=24000}] only empires:technology/fertilizer
