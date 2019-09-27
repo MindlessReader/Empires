@@ -42,7 +42,6 @@ function empires:cities/particles
 
 function empires:display/displays
 function empires:display/sidebar
-effect give @a minecraft:saturation 99999 255 true
 function empires:display/help
 scoreboard players enable @a sidebar
 execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,sort=nearest] ~ ~ ~ ~8 ~
