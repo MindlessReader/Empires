@@ -1,3 +1,6 @@
+#Money
+scoreboard players operation @s moneyPH += @a[scores={turn=24000}] money
+
 #Adding buildings to placeholder scores
 scoreboard players operation @s academiaPH = @s academia
 scoreboard players operation @s amphitheatrePH = @s amphitheatre
@@ -39,6 +42,12 @@ function empires:statcalculations/buildings/population/blimp
 function empires:statcalculations/buildings/population/harbor
 function empires:statcalculations/buildings/population/lighthouse
 function empires:statcalculations/buildings/population/port
+
+#Food Storage Buildings
+scoreboard players operation @s foodStoragePH = @s foodStorage
+function empires:statcalculations/buildings/storage/house
+scoreboard players operation @s foodStoragePH = @s foodStorage
+function empires:statcalculations/buildings/storage/granary
 
 #Other Production Buildings
 scoreboard players operation @s workerPH = @s population
@@ -170,3 +179,6 @@ execute as @s[scores={techguilds=275..}] run advancement grant @a[scores={turn=2
 scoreboard players add @s turnCount 1
 execute as @s run tellraw @a[scores={turn=24000..}] [{"text":"Empires: Turn ","color":"gray"},{"score":{"name":"@s","objective":"turnCount"},"color":"gray"}]
 scoreboard players set @s turn 0
+
+#money set 0
+scoreboard players set @s money 0

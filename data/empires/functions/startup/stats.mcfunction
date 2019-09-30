@@ -1,4 +1,6 @@
 scoreboard objectives add food dummy
+scoreboard objectives add foodStorage dummy
+scoreboard objectives add foodStoragePH dummy
 scoreboard objectives add foodPH dummy
 scoreboard objectives add fertilizerBonus dummy
 scoreboard objectives add serfdomPH dummy
