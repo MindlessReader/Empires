@@ -1,4 +1,5 @@
 #Money
+scoreboard players set @s money 0
 scoreboard players operation @s moneyPH += @a[scores={turn=24000}] money
 
 #Adding buildings to placeholder scores
@@ -179,6 +180,3 @@ execute as @s[scores={techguilds=275..}] run advancement grant @a[scores={turn=2
 scoreboard players add @s turnCount 1
 execute as @s run tellraw @a[scores={turn=24000..}] [{"text":"Empires: Turn ","color":"gray"},{"score":{"name":"@s","objective":"turnCount"},"color":"gray"}]
 scoreboard players set @s turn 0
-
-#money set 0
-scoreboard players set @s money 0
