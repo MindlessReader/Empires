@@ -1,7 +1,3 @@
-#Money
-scoreboard players set @s money 0
-scoreboard players operation @s moneyPH += @a[scores={turn=24000}] money
-
 #Adding buildings to placeholder scores
 scoreboard players operation @s academiaPH = @s academia
 scoreboard players operation @s amphitheatrePH = @s amphitheatre
@@ -38,7 +34,11 @@ scoreboard players operation @s zengardenPH = @s zengarden
 #Adding Workers
 scoreboard players operation @s workerPH = @s population
 
-#Population Adding Buildings (AlL BUILDINGS THAT PRODUCE POPULATION **MUST** BE HERE)
+#Money
+scoreboard players operation @a[scores={turn=24000}] money += @s population
+scoreboard players operation @s moneyPH += @a[scores={turn=24000}] money
+
+#Population Adding Buildings (ALL BUILDINGS THAT PRODUCE POPULATION **MUST** BE HERE)
 function empires:statcalculations/buildings/population/blimp
 function empires:statcalculations/buildings/population/harbor
 function empires:statcalculations/buildings/population/lighthouse
@@ -46,9 +46,14 @@ function empires:statcalculations/buildings/population/port
 
 #Food Storage Buildings
 scoreboard players operation @s foodStoragePH = @s foodStorage
+scoreboard players reset @s foodStoragePH
 function empires:statcalculations/buildings/storage/house
-scoreboard players operation @s foodStoragePH = @s foodStorage
 function empires:statcalculations/buildings/storage/granary
+scoreboard players operation @s food < @s foodStoragePH
+scoreboard players operation @s[scores={houses=1..}] population < @s[scores={houses=1..}] houses
+
+#reset
+scoreboard players reset @s moneyPH
 
 #Other Production Buildings
 scoreboard players operation @s workerPH = @s population
