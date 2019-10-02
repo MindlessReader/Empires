@@ -1,7 +1,7 @@
 execute as @e[tag=detector] unless entity @s[scores={block=..0,block=0..}] run scoreboard players set @s block 0
 execute as @e[tag=detector] unless entity @s[scores={craftingtable=..0,craftingtable=0..}] run scoreboard players set @s craftingtable 0
 execute as @e[tag=detector] unless entity @s[scores={anvil=..0,anvil=0..}] run scoreboard players set @s anvil 0
-execute as @e[tag=detector] unless entity @s[scores={farmland=..0,farmland=0..}] run scoreboard players set @s crop 0
+execute as @e[tag=detector] unless entity @s[scores={crop=..0,crop=0..}] run scoreboard players set @s crop 0
 execute as @e[tag=detector] unless entity @s[scores={door=..0,door=0..}] run scoreboard players set @s door 0
 execute as @e[tag=detector] unless entity @s[scores={torch=..0,torch=0..}] run scoreboard players set @s torch 0
 execute as @e[tag=detector] unless entity @s[scores={cauldron=..0,cauldron=0..}] run scoreboard players set @s cauldron 0

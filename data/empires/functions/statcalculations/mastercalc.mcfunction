@@ -12,7 +12,7 @@ scoreboard players operation @s forgePH = @s forge
 scoreboard players operation @s gardenPH = @s garden
 scoreboard players operation @s granaryPH = @s granary
 scoreboard players operation @s harborPH = @s harbor
-scoreboard players operation @s housesPH = @s houses
+scoreboard players operation @s housePH = @s houses
 scoreboard players operation @s libraryPH = @s library
 scoreboard players operation @s lighthousePH = @s lighthouse
 scoreboard players operation @s lumbermillPH = @s lumbermill
@@ -35,8 +35,9 @@ scoreboard players operation @s zengardenPH = @s zengarden
 scoreboard players operation @s workerPH = @s population
 
 #Money
-scoreboard players operation @a[scores={turn=24000}] money += @s population
-scoreboard players operation @s moneyPH += @a[scores={turn=24000}] money
+scoreboard players reset @s moneyPH
+scoreboard players operation @a[scores={turn=24000..}] money += @s population
+scoreboard players operation @s moneyPH += @a[scores={turn=24000..}] money
 
 #Population Adding Buildings (ALL BUILDINGS THAT PRODUCE POPULATION **MUST** BE HERE)
 function empires:statcalculations/buildings/population/blimp
@@ -45,15 +46,9 @@ function empires:statcalculations/buildings/population/lighthouse
 function empires:statcalculations/buildings/population/port
 
 #Food Storage Buildings
-scoreboard players operation @s foodStoragePH = @s foodStorage
-scoreboard players reset @s foodStoragePH
+scoreboard players reset @s foodStorage
 function empires:statcalculations/buildings/storage/house
 function empires:statcalculations/buildings/storage/granary
-scoreboard players operation @s food < @s foodStoragePH
-scoreboard players operation @s[scores={houses=1..}] population < @s[scores={houses=1..}] houses
-
-#reset
-scoreboard players reset @s moneyPH
 
 #Other Production Buildings
 scoreboard players operation @s workerPH = @s population
@@ -61,6 +56,9 @@ function empires:statcalculations/buildings/academia
 
 scoreboard players operation @s workerPH = @s population
 function empires:statcalculations/buildings/ampitheatre
+
+scoreboard players operation @s workerPH = @s population
+function empires:statcalculations/buildings/arena
 
 scoreboard players operation @s workerPH = @s population
 function empires:statcalculations/buildings/commercialhub
@@ -111,6 +109,9 @@ scoreboard players operation @s workerPH = @s population
 function empires:statcalculations/buildings/stable
 
 scoreboard players operation @s workerPH = @s population
+function empires:statcalculations/buildings/temple
+
+scoreboard players operation @s workerPH = @s population
 function empires:statcalculations/buildings/watermill
 
 scoreboard players operation @s workerPH = @s population
@@ -121,6 +122,15 @@ function empires:statcalculations/buildings/workshop
 
 scoreboard players operation @s workerPH = @s population
 function empires:statcalculations/buildings/zengarden
+
+#Happiness
+scoreboard players operation @s happiness < @s population
+
+#Food Storage
+scoreboard players operation @s food < @s foodStorage
+
+#Houses Population
+scoreboard players operation @s population < @s houses
 
 #Technology
 scoreboard players operation @s techwheel += @s potter 
