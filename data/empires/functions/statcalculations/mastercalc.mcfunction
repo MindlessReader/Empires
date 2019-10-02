@@ -35,9 +35,7 @@ scoreboard players operation @s zengardenPH = @s zengarden
 scoreboard players operation @s workerPH = @s population
 
 #Money
-scoreboard players reset @s moneyPH
 scoreboard players operation @a[scores={turn=24000..}] money += @s population
-scoreboard players operation @s moneyPH += @a[scores={turn=24000..}] money
 
 #Population Adding Buildings (ALL BUILDINGS THAT PRODUCE POPULATION **MUST** BE HERE)
 function empires:statcalculations/buildings/population/blimp
@@ -123,16 +121,16 @@ function empires:statcalculations/buildings/workshop
 scoreboard players operation @s workerPH = @s population
 function empires:statcalculations/buildings/zengarden
 
-#Happiness
-scoreboard players operation @s happiness < @s population
-
 #Food
 scoreboard players operation @s food -= @s population
-execute as @s[scores={food=..0}] run scoreboard players operation @s population += @s food
+execute as @s[scores={food=..-1}] run scoreboard players operation @s population += @s food
 scoreboard players operation @s food < @s foodStorage
 
 #Houses Population
 scoreboard players operation @s population < @s houses
+
+#Happiness
+scoreboard players operation @s happiness < @s population
 
 #Technology
 scoreboard players operation @s techwheel += @s potter 
@@ -163,35 +161,35 @@ scoreboard players operation @s techironworking += @s workshop
 scoreboard players operation @s techcurrency += @s workshop
 scoreboard players operation @s techguilds += @s market
 
-execute as @s[scores={techwheel=75..}] run advancement grant @a[scores={turn=24000}] only empires:technology/wheel
-execute as @s[scores={techmachinery=225..}] run advancement grant @a[scores={turn=24000}] only empires:technology/machinery
-execute as @s[scores={techprinting=220..}] run advancement grant @a[scores={turn=24000}] only empires:technology/printing
-execute as @s[scores={techsteampower=300..}] run advancement grant @a[scores={turn=24000}] only empires:technology/steampower
-execute as @s[scores={techhorseriding=45..}] run advancement grant @a[scores={turn=24000}] only empires:technology/horsebackriding
-execute as @s[scores={techrecreation=125..}] run advancement grant @a[scores={turn=24000}] only empires:technology/recreation
-execute as @s[scores={techirrigation=25..}] run advancement grant @a[scores={turn=24000}] only empires:technology/irrigation
-execute as @s[scores={techwriting=65..}] run advancement grant @a[scores={turn=24000}] only empires:technology/writing
+execute as @s[scores={techwheel=75..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/wheel
+execute as @s[scores={techmachinery=225..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/machinery
+execute as @s[scores={techprinting=220..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/printing
+execute as @s[scores={techsteampower=300..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/steampower
+execute as @s[scores={techhorseriding=45..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/horsebackriding
+execute as @s[scores={techrecreation=125..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/recreation
+execute as @s[scores={techirrigation=25..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/irrigation
+execute as @s[scores={techwriting=65..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/writing
 
-execute as @s[scores={techfertilizer=255..}] run advancement grant @a[scores={turn=24000}] only empires:technology/fertilizer
+execute as @s[scores={techfertilizer=255..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/fertilizer
 execute as @s[scores={techfertilizer=255..}] run scoreboard players set @s[scores={techfertilizer=255..}] fertilizerBonus 25
 
-execute as @s[scores={techcroprotation=500..}] run advancement grant @a[scores={turn=24000}] only empires:technology/croprotation
+execute as @s[scores={techcroprotation=500..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/croprotation
 execute as @s[scores={techcroprotation=500..}] run scoreboard players set @s[scores={techcroprotation=500..}] cropBonus 50
 
-execute as @s[scores={techphilosphy=125..}] run advancement grant @a[scores={turn=24000}] only empires:technology/philosophy
-execute as @s[scores={techdrama=120..}] run advancement grant @a[scores={turn=24000}] only empires:technology/drama
-execute as @s[scores={techhumanism=265..}] run advancement grant @a[scores={turn=24000}] only empires:technology/humanism
-execute as @s[scores={technavigation=75..}] run advancement grant @a[scores={turn=24000}] only empires:technology/navigation
-execute as @s[scores={techcartography=225..}] run advancement grant @a[scores={turn=24000}] only empires:technology/cartography
-execute as @s[scores={techcolonialism=425..}] run advancement grant @a[scores={turn=24000}] only empires:technology/colonialism
-execute as @s[scores={techmercantilism=100..}] run advancement grant @a[scores={turn=24000}] only empires:technology/mercantilism
-execute as @s[scores={techindustrialization=225..}] run advancement grant @a[scores={turn=24000}] only empires:technology/industrialization
-execute as @s[scores={techstonemasonry=50..}] run advancement grant @a[scores={turn=24000}] only empires:technology/stonemasonry
-execute as @s[scores={techconstruction=150..}] run advancement grant @a[scores={turn=24000}] only empires:technology/construction
-execute as @s[scores={techbronze=55..}] run advancement grant @a[scores={turn=24000}] only empires:technology/bronzeworking
-execute as @s[scores={techironworking=115..}] run advancement grant @a[scores={turn=24000}] only empires:technology/ironworking
-execute as @s[scores={techcurrency=65..}] run advancement grant @a[scores={turn=24000}] only empires:technology/currency
-execute as @s[scores={techguilds=275..}] run advancement grant @a[scores={turn=24000}] only empires:technology/guilds
+execute as @s[scores={techphilosphy=125..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/philosophy
+execute as @s[scores={techdrama=120..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/drama
+execute as @s[scores={techhumanism=265..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/humanism
+execute as @s[scores={technavigation=75..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/navigation
+execute as @s[scores={techcartography=225..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/cartography
+execute as @s[scores={techcolonialism=425..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/colonialism
+execute as @s[scores={techmercantilism=100..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/mercantilism
+execute as @s[scores={techindustrialization=225..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/industrialization
+execute as @s[scores={techstonemasonry=50..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/stonemasonry
+execute as @s[scores={techconstruction=150..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/construction
+execute as @s[scores={techbronze=55..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/bronzeworking
+execute as @s[scores={techironworking=115..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/ironworking
+execute as @s[scores={techcurrency=65..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/currency
+execute as @s[scores={techguilds=275..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/guilds
 
 #reset
 scoreboard players add @s turnCount 1
