@@ -126,7 +126,9 @@ function empires:statcalculations/buildings/zengarden
 #Happiness
 scoreboard players operation @s happiness < @s population
 
-#Food Storage
+#Food
+scoreboard players operation @s food -= @s population
+execute as @s[scores={food=..0}] run scoreboard players operation @s population += @s food
 scoreboard players operation @s food < @s foodStorage
 
 #Houses Population
