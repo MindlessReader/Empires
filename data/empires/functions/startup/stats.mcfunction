@@ -68,15 +68,8 @@ scoreboard objectives add techwheel dummy
 scoreboard objectives add techmachinery dummy
 scoreboard objectives add techprinting dummy
 scoreboard objectives add techsteampower dummy
-scoreboard objectives add techindustry dummy
-scoreboard objectives add techstruggle dummy
-scoreboard objectives add techright dummy
-scoreboard objectives add technationalism dummy
 
 scoreboard objectives add techagriculture dummy
-scoreboard objectives add techmilitary dummy
-scoreboard objectives add techgunpowder dummy
-scoreboard objectives add techballistics dummy
 scoreboard objectives add techirrigation dummy
 scoreboard objectives add techwriting dummy
 scoreboard objectives add techfertilizer dummy
