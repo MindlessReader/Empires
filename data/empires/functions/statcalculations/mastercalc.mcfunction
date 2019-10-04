@@ -33,6 +33,7 @@ scoreboard players operation @s zengardenPH = @s zengarden
 
 #Adding Workers
 scoreboard players operation @s workerPH = @s population
+scoreboard players operation @s popPH = @s population
 
 #Money
 scoreboard players operation @s money += @s population
@@ -44,7 +45,9 @@ function empires:statcalculations/buildings/population/lighthouse
 function empires:statcalculations/buildings/population/port
 
 #House Population
-scoreboard players operation @s population < @s house
+execute as @s run scoreboard players operation @s housePH *= @s three
+scoreboard players operation @s population < @s housePH
+execute as @s run scoreboard players reset @s housePH
 
 #Food Storage Buildings
 scoreboard players reset @s foodStorage
@@ -137,6 +140,10 @@ function empires:statcalculations/buildings/zengarden
 scoreboard players operation @s happiness < @s population
 function empires:statcalculations/food
 scoreboard players operation @s food < @s foodStorage
+#production
+scoreboard players operation @s popPH *= @s three
+scoreboard players operation @a[scores={turn=24000..}] production < @s popPH
+scoreboard players reset @s popPH
 
 #Technology
 scoreboard players operation @s techwheel += @s potter 

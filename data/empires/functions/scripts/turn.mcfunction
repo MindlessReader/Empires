@@ -29,21 +29,21 @@ scoreboard players operation @e[tag=city,team=red] turn = @e[tag=empire,team=red
 execute if entity @a[team=yellow] run scoreboard players add @e[team=yellow,tag=empire,tag=enabled,tag=!speed] turn 1
 scoreboard players operation @e[tag=city,team=yellow] turn = @e[tag=empire,team=yellow] turn
 
-execute if entity @a[team=aqua] run scoreboard players add @e[team=aqua,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=black] run scoreboard players add @e[team=black,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=blue] run scoreboard players add @e[team=blue,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=darkaqua] run scoreboard players add @e[team=darkaqua,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=darkblue] run scoreboard players add @e[team=darkblue,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=darkgray] run scoreboard players add @e[team=darkgray,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=darkgreen] run scoreboard players add @e[team=darkgreen,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=darkpurple] run scoreboard players add @e[team=darkpurple,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=darkred] run scoreboard players add @e[team=darkred,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=gold] run scoreboard players add @e[team=gold,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=gray] run scoreboard players add @e[team=gray,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=green] run scoreboard players add @e[team=green,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=lightpurple] run scoreboard players add @e[team=lightpurple,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=red] run scoreboard players add @e[team=red,tag=empire,tag=enabled,tag=speed] turn 20
-execute if entity @a[team=yellow] run scoreboard players add @e[team=yellow,tag=empire,tag=enabled,tag=speed] turn 20
+execute if entity @a[team=aqua] run scoreboard players add @e[team=aqua,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=black] run scoreboard players add @e[team=black,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=blue] run scoreboard players add @e[team=blue,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=darkaqua] run scoreboard players add @e[team=darkaqua,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=darkblue] run scoreboard players add @e[team=darkblue,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=darkgray] run scoreboard players add @e[team=darkgray,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=darkgreen] run scoreboard players add @e[team=darkgreen,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=darkpurple] run scoreboard players add @e[team=darkpurple,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=darkred] run scoreboard players add @e[team=darkred,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=gold] run scoreboard players add @e[team=gold,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=gray] run scoreboard players add @e[team=gray,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=green] run scoreboard players add @e[team=green,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=lightpurple] run scoreboard players add @e[team=lightpurple,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=red] run scoreboard players add @e[team=red,tag=empire,tag=enabled,tag=speed] turn 19
+execute if entity @a[team=yellow] run scoreboard players add @e[team=yellow,tag=empire,tag=enabled,tag=speed] turn 19
 #TESTING ONLY
 execute if entity @a[team=aqua] run scoreboard players add @e[team=aqua,tag=empire,tag=enabled,tag=bugtesting] turn 240
 execute if entity @a[team=black] run scoreboard players add @e[team=black,tag=empire,tag=enabled,tag=bugtesting] turn 240
