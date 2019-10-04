@@ -33,7 +33,7 @@ scoreboard objectives add shopBuildings1 trigger
 scoreboard objectives add shopDecoration trigger
 scoreboard objectives add shopMisc trigger
 scoreboard objectives add shopcities trigger
-scoreboard objectives add displaybossbar trigger
+scoreboard objectives add empiresgui trigger
 scoreboard objectives add particledisplay trigger
 scoreboard objectives add drachmacount dummy
 scoreboard objectives add sidebar trigger
