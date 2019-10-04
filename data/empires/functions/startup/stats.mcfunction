@@ -37,6 +37,7 @@ scoreboard objectives add displaybossbar trigger
 scoreboard objectives add particledisplay trigger
 scoreboard objectives add drachmacount dummy
 scoreboard objectives add sidebar trigger
+scoreboard objectives add startgame trigger
 scoreboard objectives add messagewait dummy
 
 scoreboard objectives add transferCity trigger
