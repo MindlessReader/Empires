@@ -1,5 +1,5 @@
 #Old
-scoreboard objectives add houses dummy
+scoreboard objectives add house dummy
 scoreboard objectives add temple dummy
 scoreboard objectives add field dummy
 scoreboard objectives add mine dummy

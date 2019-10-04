@@ -12,7 +12,7 @@ scoreboard players operation @s forgePH = @s forge
 scoreboard players operation @s gardenPH = @s garden
 scoreboard players operation @s granaryPH = @s granary
 scoreboard players operation @s harborPH = @s harbor
-scoreboard players operation @s housePH = @s houses
+scoreboard players operation @s housePH = @s house
 scoreboard players operation @s libraryPH = @s library
 scoreboard players operation @s lighthousePH = @s lighthouse
 scoreboard players operation @s lumbermillPH = @s lumbermill
@@ -35,7 +35,7 @@ scoreboard players operation @s zengardenPH = @s zengarden
 scoreboard players operation @s workerPH = @s population
 
 #Money
-scoreboard players operation @a[scores={turn=24000..}] money += @s population
+scoreboard players operation @s money += @s population
 
 #Population Adding Buildings (ALL BUILDINGS THAT PRODUCE POPULATION **MUST** BE HERE)
 function empires:statcalculations/buildings/population/blimp
@@ -43,10 +43,22 @@ function empires:statcalculations/buildings/population/harbor
 function empires:statcalculations/buildings/population/lighthouse
 function empires:statcalculations/buildings/population/port
 
+#House Population
+scoreboard players operation @s population < @s house
+
 #Food Storage Buildings
 scoreboard players reset @s foodStorage
 function empires:statcalculations/buildings/storage/house
 function empires:statcalculations/buildings/storage/granary
+
+#Food Bonuses
+execute as @s run scoreboard players operation @s onehundred += @s fertilizerBonus
+execute as @s run scoreboard players operation @s onehundred += @s cropBonus
+execute as @s run scoreboard players operation @s foodPH *= @s onehundred
+execute as @s run scoreboard players set @s onehundred 100
+execute as @s run scoreboard players operation @s foodPH /= @s onehundred
+execute as @s run scoreboard players operation @s food += @s foodPH
+execute as @s run scoreboard players reset @s foodPH
 
 #Other Production Buildings
 scoreboard players operation @s workerPH = @s population
@@ -121,16 +133,10 @@ function empires:statcalculations/buildings/workshop
 scoreboard players operation @s workerPH = @s population
 function empires:statcalculations/buildings/zengarden
 
-#Happiness
+#stuff
 scoreboard players operation @s happiness < @s population
-
-#Food
-scoreboard players operation @s food -= @s population
-execute as @s[scores={food=..0}] run scoreboard players operation @s population += @s food
+function empires:statcalculations/food
 scoreboard players operation @s food < @s foodStorage
-
-#Houses Population
-scoreboard players operation @s population < @s houses
 
 #Technology
 scoreboard players operation @s techwheel += @s potter 

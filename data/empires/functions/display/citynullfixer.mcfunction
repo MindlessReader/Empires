@@ -1,5 +1,5 @@
-#Houses
-execute as @e[type=armor_stand] unless entity @s[type=armor_stand,scores={houses=..0,houses=0..}] run scoreboard players set @s houses 0
+#House
+execute as @e[type=armor_stand] unless entity @s[type=armor_stand,scores={house=..0,house=0..}] run scoreboard players set @s house 0
 
 #Buildings
 execute as @e[type=armor_stand] unless entity @s[type=armor_stand,scores={zengarden=..0,zengarden=0..}] run scoreboard players set @s zengarden 0

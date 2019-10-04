@@ -19,7 +19,13 @@ scoreboard objectives add totalHousing dummy
 scoreboard objectives add zero dummy
 scoreboard objectives add three dummy
 scoreboard objectives add five dummy
+scoreboard objectives add ten dummy
 scoreboard objectives add onehundred dummy
+scoreboard players set @e[tag=empire] zero 0
+scoreboard players set @e[tag=empire] three 3
+scoreboard players set @e[tag=empire] five 5
+scoreboard players set @e[tag=empire] ten 10
+scoreboard players set @e[tag=empire] onehundred 100
 scoreboard objectives add turn dummy
 scoreboard objectives add turnCount dummy
 scoreboard objectives add shopTierBlocks trigger

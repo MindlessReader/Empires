@@ -1,5 +1,5 @@
-#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] houses 
-#scoreboard players operation @e[tag=empire,scores={turn=24000}] houses += @e[tag=city,scores={turn=24000}] houses
+#execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] house 
+#scoreboard players operation @e[tag=empire,scores={turn=24000}] house += @e[tag=city,scores={turn=24000}] house
 #execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] academia
 #scoreboard players operation @e[tag=empire,scores={turn=24000}] academia += @e[tag=city,scores={turn=24000}] academia
 #execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] amphitheatre
@@ -75,21 +75,21 @@ execute as @e[scores={turn=24000}] run scoreboard players set @e[scores={turn=24
 execute as @e[scores={turn=24000}] run scoreboard players set @e[scores={turn=24000}] five 5
 execute as @e[scores={turn=24000}] run scoreboard players set @e[scores={turn=24000}] onehundred 100
 
-#Population and Houses
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] housesTotalPH
+#Population and House
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] houseTotalPH
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] port
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] lighthouse
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population += @e[tag=empire,scores={turn=24000}] blimp
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] housesTotalPH += @e[tag=empire,scores={turn=24000}] houses
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] housesTotalPH *= @e[tag=empire,scores={turn=24000}] three
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population < @e[tag=empire,scores={turn=24000}] housesTotalPH
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] houseTotalPH += @e[tag=empire,scores={turn=24000}] house
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] houseTotalPH *= @e[tag=empire,scores={turn=24000}] three
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] population < @e[tag=empire,scores={turn=24000}] houseTotalPH
 
 
 #Government
 #republic
-execute as @a[scores={turn=24000,govType=1}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] houses
+execute as @a[scores={turn=24000,govType=1}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] house
 execute as @a[scores={turn=24000,govType=1}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] field
 execute as @a[scores={turn=24000,govType=1}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] field
 execute as @a[scores={turn=24000,govType=1}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] field
@@ -134,13 +134,13 @@ execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a
 execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] production += @e[tag=empire,scores={turn=24000}] port
 execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] production += @e[tag=empire,scores={turn=24000}] port
 execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] production += @e[tag=empire,scores={turn=24000}] port
-execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] houses
+execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] house
 execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] port
 execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] port
 execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] port
@@ -162,46 +162,46 @@ execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a
 execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] port
 execute as @a[scores={turn=24000,govType=3}] run scoreboard players operation @a[scores={turn=24000}] money -= @e[tag=empire,scores={turn=24000}] port
 #monarchy
-execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] production += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness -= @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
+execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] production += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness -= @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=4}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
 #democracy
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] houses
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] house
 execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] production += @e[tag=empire,scores={turn=24000}] field
 execute as @a[scores={turn=24000,govType=5}] run scoreboard players operation @a[scores={turn=24000}] production += @e[tag=empire,scores={turn=24000}] field
 #chiefdom
@@ -211,12 +211,12 @@ execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @e
 execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] temple
 execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] temple
 execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness += @e[tag=empire,scores={turn=24000}] temple
-execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] houses
-execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness -= @e[tag=empire,scores={turn=24000}] houses
+execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @a[scores={turn=24000}] money += @e[tag=empire,scores={turn=24000}] house
+execute as @a[scores={turn=24000,govType=6}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness -= @e[tag=empire,scores={turn=24000}] house
 #feudalism
 execute as @a[scores={turn=24000,govType=7}] run scoreboard players operation @a[scores={turn=24000}] production += @e[tag=empire,scores={turn=24000}] stable
 execute as @a[scores={turn=24000,govType=7}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] happiness -= @e[tag=empire,scores={turn=24000}] field
@@ -627,7 +627,7 @@ execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] granary
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] granary
 
-execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] houses
+execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] granaryPH += @e[tag=empire,scores={turn=24000}] house
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food < @e[tag=empire,scores={turn=24000}] granaryPH
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players operation @e[tag=empire,scores={turn=24000}] food > @e[tag=empire,scores={turn=24000}] zero
 execute as @e[tag=empire,scores={turn=24000}] run scoreboard players reset @e[tag=empire,scores={turn=24000}] granaryPH
