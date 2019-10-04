@@ -33,16 +33,16 @@ execute as @e[scores={placeOLeaves=1..}] run scoreboard players reset @s placeDO
 execute at @a[scores={placeRail=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] rail 1
 execute as @e[scores={placeRail=1..}] run scoreboard players reset @s placeRail
 #Farmland
-execute at @a[scores={placeWheat=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] farmland 1
+execute at @a[scores={placeWheat=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] crop 1
 execute as @e[scores={placeWheat=1..}] run scoreboard players reset @s placeWheat
 
-execute at @a[scores={placeCarrot=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] farmland 1
+execute at @a[scores={placeCarrot=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] crop 1
 execute as @e[scores={placeCarrot=1..}] run scoreboard players reset @s placeCarrot
 
-execute at @a[scores={placeBeetroot=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] farmland 1
+execute at @a[scores={placeBeetroot=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] crop 1
 execute as @e[scores={placeBeetroot=1..}] run scoreboard players reset @s placeBeetroot
 
-execute at @a[scores={placePotato=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] farmland 1
+execute at @a[scores={placePotato=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] crop 1
 execute as @e[scores={placePotato=1..}] run scoreboard players reset @s placePotato
 #Flowers
 execute at @a[scores={placePoppy=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] flowers 1
@@ -84,5 +84,11 @@ execute as @e[scores={placeLilac=1..}] run scoreboard players reset @s placeLila
 execute at @a[scores={placePeony=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] flowers 1
 execute as @e[scores={placePeony=1..}] run scoreboard players reset @s placePeony
 
-execute at @a[scores={placeSunflower=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] flowers 1
-execute as @e[scores={placeSunflower=1..}] run scoreboard players reset @s placeSunflower
+execute at @a[scores={placeLily=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] flowers 1
+execute as @e[scores={placeLily=1..}] run scoreboard players reset @s placeLily
+
+execute at @a[scores={placeWither=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] flowers 1
+execute as @e[scores={placeWither=1..}] run scoreboard players reset @s placeWither
+
+execute at @a[scores={placeCF=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] flowers 1
+execute as @e[scores={placeCF=1..}] run scoreboard players reset @s placeCF

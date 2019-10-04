@@ -1,4 +1,6 @@
 scoreboard objectives add food dummy
+scoreboard objectives add foodStorage dummy
+scoreboard objectives add foodStoragePH dummy
 scoreboard objectives add foodPH dummy
 scoreboard objectives add fertilizerBonus dummy
 scoreboard objectives add serfdomPH dummy
@@ -9,6 +11,7 @@ scoreboard objectives add population dummy
 scoreboard objectives add happiness dummy
 scoreboard objectives add ports dummy
 scoreboard objectives add money dummy
+scoreboard objectives add moneyPH dummy
 scoreboard objectives add production dummy
 scoreboard objectives add taxamount trigger
 scoreboard objectives add popPH dummy
@@ -16,7 +19,13 @@ scoreboard objectives add totalHousing dummy
 scoreboard objectives add zero dummy
 scoreboard objectives add three dummy
 scoreboard objectives add five dummy
+scoreboard objectives add ten dummy
 scoreboard objectives add onehundred dummy
+scoreboard players set @e[tag=empire] zero 0
+scoreboard players set @e[tag=empire] three 3
+scoreboard players set @e[tag=empire] five 5
+scoreboard players set @e[tag=empire] ten 10
+scoreboard players set @e[tag=empire] onehundred 100
 scoreboard objectives add turn dummy
 scoreboard objectives add turnCount dummy
 scoreboard objectives add shopTierBlocks trigger
@@ -24,10 +33,11 @@ scoreboard objectives add shopBuildings1 trigger
 scoreboard objectives add shopDecoration trigger
 scoreboard objectives add shopMisc trigger
 scoreboard objectives add shopcities trigger
-scoreboard objectives add displaybossbar trigger
+scoreboard objectives add empiresgui trigger
 scoreboard objectives add particledisplay trigger
 scoreboard objectives add drachmacount dummy
 scoreboard objectives add sidebar trigger
+scoreboard objectives add startgame trigger
 scoreboard objectives add messagewait dummy
 
 scoreboard objectives add transferCity trigger
@@ -44,8 +54,6 @@ scoreboard objectives add teamOpen trigger
 scoreboard objectives add teamLeave trigger
 
 scoreboard objectives add stats trigger
-
-scoreboard objectives add govType trigger
 
 scoreboard objectives add mesaCity dummy
 scoreboard objectives add beachCity dummy
@@ -67,15 +75,8 @@ scoreboard objectives add techwheel dummy
 scoreboard objectives add techmachinery dummy
 scoreboard objectives add techprinting dummy
 scoreboard objectives add techsteampower dummy
-scoreboard objectives add techindustry dummy
-scoreboard objectives add techstruggle dummy
-scoreboard objectives add techright dummy
-scoreboard objectives add technationalism dummy
 
 scoreboard objectives add techagriculture dummy
-scoreboard objectives add techmilitary dummy
-scoreboard objectives add techgunpowder dummy
-scoreboard objectives add techballistics dummy
 scoreboard objectives add techirrigation dummy
 scoreboard objectives add techwriting dummy
 scoreboard objectives add techfertilizer dummy

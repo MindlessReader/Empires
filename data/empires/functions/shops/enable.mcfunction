@@ -5,6 +5,8 @@ scoreboard players enable @a shopBuildings1
 scoreboard players enable @a shopcities
 scoreboard players enable @a convert
 scoreboard players enable @a taxamount
-scoreboard players enable @a displaybossbar
+scoreboard players enable @a empiresgui
+scoreboard players enable @a startgame
 scoreboard players enable @a particledisplay
 scoreboard players enable @a transferCity
+scoreboard players enable @a help

@@ -1,7 +1,6 @@
 function empires:cities/owncity
 function empires:cities/incity
 function empires:cities/teamfixer
-function empires:scripts/turn
 #Blocks
 function empires:blocks/blocks
 function empires:blocks/halfblock
@@ -18,8 +17,11 @@ function empires:flight/flight
 function empires:flight/hover
 function empires:flight/enable
 
-#Stats
+#Stats and Turn
 function empires:statcalculations/tech
+function empires:scripts/turn
+function empires:startgame
+scoreboard players set @e[tag=empire,scores={turn=24000..}] turn 24000
 execute as @e[tag=empire,scores={turn=24000}] run function empires:statcalculations/mastercalc
 function empires:statcalculations/add
 function empires:statcalculations/achievements
@@ -42,6 +44,7 @@ function empires:cities/particles
 
 function empires:display/displays
 function empires:display/sidebar
+function empires:display/help
 scoreboard players enable @a sidebar
 execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,sort=nearest] ~ ~ ~ ~8 ~
 
@@ -56,4 +59,3 @@ function empires:display/citynullfixer
 function empires:display/stats
 
 function empires:scripts/detectorglobes
-function empires:government/trigger

@@ -1,0 +1,2 @@
+tellraw @a[scores={help=1..}] ["",{"text":"[Click to open Guide]","color":"green","bold":true,"italic":true,"underlined":true,"clickEvent":{"action":"open_url","value":"https://docs.google.com/document/d/14xB8DLylCcZJxLUGYyTNVfFgrXIW5YIN4gNfc0-y-Cc/edit?usp=sharing"}}]
+scoreboard players reset @a[scores={help=1..}] help

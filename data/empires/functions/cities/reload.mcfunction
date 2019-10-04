@@ -1,6 +1,6 @@
 execute as @a[scores={cityreload=1},tag=owncity] at @s run tag @e[tag=city,distance=..75,sort=nearest,limit=1] add reloading
 
-execute as @e[tag=reloading] run scoreboard players set @s houses 0
+execute as @e[tag=reloading] run scoreboard players set @s house 0
 execute as @e[tag=reloading] run scoreboard players set @s zengarden 0
 execute as @e[tag=reloading] run scoreboard players set @s garden 0
 execute as @e[tag=reloading] run scoreboard players set @s watermill 0
@@ -38,7 +38,7 @@ execute as @e[tag=reloading] run scoreboard players set @s well 0
 execute as @e[tag=reloading] run scoreboard players set @s windmill 0
 execute as @e[tag=reloading] run scoreboard players set @s temple 0
 
-execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=house] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] houses 1
+execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=house] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] house 1
 execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=zengarden] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] zengarden 1
 execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=garden] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] garden 1
 execute at @e[tag=reloading] positioned ~-80 ~ ~-80 as @e[dx=160,dz=160,y=0,dy=255,tag=watermill] run scoreboard players add @e[tag=reloading,sort=nearest,limit=1,dx=160,dz=160,y=0,dy=255] watermill 1

@@ -34,7 +34,7 @@ execute at @a[scores={transferCity=1},team=lightpurple] run tag @e[team=lightpur
 execute at @a[scores={transferCity=1},team=red] run tag @e[team=red,tag=empire,sort=random,limit=1] add transferring
 execute at @a[scores={transferCity=1},team=yellow] run tag @e[team=yellow,tag=empire,sort=random,limit=1] add transferring
 #Subtracting Buildings
-execute at @a[scores={transferCity=1}] run scoreboard players operation @e[tag=empire,tag=transferring,sort=random,limit=1] houses -= @e[tag=city,tag=transferring,sort=random,limit=1] houses
+execute at @a[scores={transferCity=1}] run scoreboard players operation @e[tag=empire,tag=transferring,sort=random,limit=1] house -= @e[tag=city,tag=transferring,sort=random,limit=1] house
 execute at @a[scores={transferCity=1}] run scoreboard players operation @e[tag=empire,tag=transferring,sort=random,limit=1] temple -= @e[tag=city,tag=transferring,sort=random,limit=1] temple
 execute at @a[scores={transferCity=1}] run scoreboard players operation @e[tag=empire,tag=transferring,sort=random,limit=1] academia -= @e[tag=city,tag=transferring,sort=random,limit=1] academia
 execute at @a[scores={transferCity=1}] run scoreboard players operation @e[tag=empire,tag=transferring,sort=random,limit=1] amphitheatre -= @e[tag=city,tag=transferring,sort=random,limit=1] amphitheatre
@@ -109,7 +109,7 @@ execute at @a[scores={transferCity=2},team=lightpurple] run tag @e[team=lightpur
 execute at @a[scores={transferCity=2},team=red] run tag @e[team=red,tag=empire,sort=random,limit=1] add claim
 execute at @a[scores={transferCity=2},team=yellow] run tag @e[team=yellow,tag=empire,sort=random,limit=1] add claim
 #Adding Buildings
-execute at @a[scores={transferCity=2}] run scoreboard players operation @e[tag=empire,tag=claim,sort=random,limit=1] houses += @e[tag=city,tag=claim,sort=nearest,limit=1] houses
+execute at @a[scores={transferCity=2}] run scoreboard players operation @e[tag=empire,tag=claim,sort=random,limit=1] house += @e[tag=city,tag=claim,sort=nearest,limit=1] house
 execute at @a[scores={transferCity=2}] run scoreboard players operation @e[tag=empire,tag=claim,sort=random,limit=1] temple += @e[tag=city,tag=claim,sort=random,limit=1] temple
 execute at @a[scores={transferCity=2}] run scoreboard players operation @e[tag=empire,tag=claim,sort=random,limit=1] academia += @e[tag=city,tag=claim,sort=random,limit=1] academia
 execute at @a[scores={transferCity=2}] run scoreboard players operation @e[tag=empire,tag=claim,sort=random,limit=1] amphitheatre += @e[tag=city,tag=claim,sort=random,limit=1] amphitheatre
@@ -146,8 +146,6 @@ execute at @a[scores={transferCity=2}] run scoreboard players operation @e[tag=e
 execute at @a[scores={transferCity=2}] run scoreboard players operation @e[tag=empire,tag=claim,sort=random,limit=1] windmill += @e[tag=city,tag=claim,sort=random,limit=1] windmill
 execute at @a[scores={transferCity=2}] run scoreboard players operation @e[tag=empire,tag=claim,sort=random,limit=1] workshop += @e[tag=city,tag=claim,sort=random,limit=1] workshop
 execute at @a[scores={transferCity=2}] run scoreboard players operation @e[tag=empire,tag=claim,sort=random,limit=1] zengarden += @e[tag=city,tag=claim,sort=random,limit=1] zengarden
-execute at @a[scores={transferCity=2}] run scoreboard players operation @e[tag=empire,tag=claim,sort=random,limit=1] academia += @e[tag=city,tag=claim,sort=random,limit=1] academia
-execute at @a[scores={transferCity=2}] run scoreboard players operation @e[tag=empire,tag=claim,sort=random,limit=1] academia += @e[tag=city,tag=claim,sort=random,limit=1] academia
 
 execute as @a[scores={transferCity=2},team=aqua] at @s run team join aqua @e[team=open,tag=city,distance=..75,limit=1,sort=nearest]
 execute as @a[scores={transferCity=2},team=black] at @s run team join black @e[team=open,tag=city,distance=..75,limit=1,sort=nearest]

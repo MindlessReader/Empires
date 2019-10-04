@@ -2,7 +2,7 @@ scoreboard objectives add block dummy
 scoreboard objectives add halfblock dummy
 scoreboard objectives add craftingtable dummy
 scoreboard objectives add anvil dummy
-scoreboard objectives add farmland dummy
+scoreboard objectives add crop dummy
 scoreboard objectives add cauldron dummy
 scoreboard objectives add flower_pot dummy
 scoreboard objectives add rail dummy

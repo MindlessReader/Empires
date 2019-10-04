@@ -50,6 +50,7 @@ scoreboard objectives add placeBrickSl minecraft.used:minecraft.brick_slab
 scoreboard objectives add placeCobbleSl minecraft.used:minecraft.cobblestone_slab
 scoreboard objectives add placeQSl minecraft.used:minecraft.quartz_slab
 scoreboard objectives add placeStoneSl minecraft.used:minecraft.stone_slab
+scoreboard objectives add placeSStoneSl minecraft.used:minecraft.smooth_stone_slab
 
 #Stones
 scoreboard objectives add placePAndesite minecraft.used:minecraft.polished_andesite
@@ -86,9 +87,27 @@ scoreboard objectives add placecyTC minecraft.used:minecraft.cyan_terracotta
 scoreboard objectives add placeppTC minecraft.used:minecraft.purple_terracotta
 scoreboard objectives add placebuTC minecraft.used:minecraft.blue_terracotta
 scoreboard objectives add placebrTC minecraft.used:minecraft.brown_terracotta
-scoreboard objectives add placegrTC minecraft.used:minecraft.gray_terracotta
+scoreboard objectives add placegyTC minecraft.used:minecraft.gray_terracotta
+scoreboard objectives add placegrTC minecraft.used:minecraft.green_concrete
 scoreboard objectives add placerdTC minecraft.used:minecraft.red_terracotta
 scoreboard objectives add placebkTC minecraft.used:minecraft.black_terracotta
+scoreboard objectives add placewhCC minecraft.used:minecraft.white_concrete
+scoreboard objectives add placeorCC minecraft.used:minecraft.orange_concrete
+scoreboard objectives add placemgCC minecraft.used:minecraft.magenta_concrete
+scoreboard objectives add placelbCC minecraft.used:minecraft.light_blue_concrete
+scoreboard objectives add placeywCC minecraft.used:minecraft.yellow_concrete
+scoreboard objectives add placelmCC minecraft.used:minecraft.lime_concrete
+scoreboard objectives add placepkCC minecraft.used:minecraft.pink_concrete
+scoreboard objectives add placegyCC minecraft.used:minecraft.gray_concrete
+scoreboard objectives add placelgyCC minecraft.used:minecraft.light_gray_concrete
+scoreboard objectives add placecyCC minecraft.used:minecraft.cyan_concrete
+scoreboard objectives add placeppCC minecraft.used:minecraft.purple_concrete
+scoreboard objectives add placebuCC minecraft.used:minecraft.blue_concrete
+scoreboard objectives add placebrCC minecraft.used:minecraft.brown_concrete
+scoreboard objectives add placegyCC minecraft.used:minecraft.gray_concrete
+scoreboard objectives add placegrCC minecraft.used:minecraft.green_concrete
+scoreboard objectives add placerdCC minecraft.used:minecraft.red_concrete
+scoreboard objectives add placebkCC minecraft.used:minecraft.black_concrete
 #Sand, Gravel
 scoreboard objectives add placeRedSand minecraft.used:minecraft.red_sand
 scoreboard objectives add placeSand minecraft.used:minecraft.sand
@@ -132,3 +151,6 @@ scoreboard objectives add placeRoseBush minecraft.used:minecraft.rose_bush
 scoreboard objectives add placeLilac minecraft.used:minecraft.lilac
 scoreboard objectives add placePeony minecraft.used:minecraft.peony
 scoreboard objectives add placeSunflower minecraft.used:minecraft.sunflower
+scoreboard objectives add placeLily minecraft.used:minecraft.lily_of_the_valley
+scoreboard objectives add placeWither minecraft.used:minecraft.wither_rose
+scoreboard objectives add placeCF minecraft.used:minecraft.cornflower

@@ -3,7 +3,7 @@ Release v0.3.0-beta
  - Start now runs on /reloading
  - Added Terracotta Variants
  - Removed Block Shops
- - Houses now require a door and two torches rather than a crafting table
+ - House now require a door and two torches rather than a crafting table
  - Blocks are now placed normally, not with spawn eggs
  - Empire Armor Stands are now forceloaded
  - Cities now encompass 160x160 blocks, from y0 to y255 (unfinished)

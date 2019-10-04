@@ -17,7 +17,7 @@
         },
         "show_toast": true,
         "title": {
-            "text": "Irrigation (75)"
+            "text": "Irrigation (25)"
         }
     },
     "parent": "empires:technology/agriculture"

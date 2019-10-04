@@ -3,8 +3,8 @@
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] population 0
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] happiness 0
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] ports 0
-#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] houses 0
-#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] housesTotalPH 0
+#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] house 0
+#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] houseTotalPH 0
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] amenities 0
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] farms 0
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] money 0
@@ -24,11 +24,11 @@
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] five 0
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] workshopPH 0
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] blacksmithPH 0
-#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t1houses 0
-#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t2houses 0
-#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t3houses 0
-#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t4houses 0
-#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t5houses 0
+#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t1house 0
+#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t2house 0
+#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t3house 0
+#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t4house 0
+#scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] t5house 0
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] blacksmith 0
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] zengarden 0
 #scoreboard players set @a[tag=empiresEnabled,scores={turnCount=0,turn=1}] garden 0

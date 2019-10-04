@@ -49,8 +49,59 @@ execute as @e[scores={placeSB=1..}] run scoreboard players reset @s placeSB
 execute at @a[scores={placeStone=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
 execute as @e[scores={placeStone=1..}] run scoreboard players reset @s placeStone
 
-execute at @a[scores={placeTC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
-execute as @e[scores={placeTC=1..}] run scoreboard players reset @s placeTC
+execute at @a[scores={placeCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placeCC=1..}] run scoreboard players reset @s placeCC
+
+execute at @a[scores={placewhCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placewhCC=1..}] run scoreboard players reset @s placewhCC
+
+execute at @a[scores={placeorCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placeorCC=1..}] run scoreboard players reset @s placeorCC
+
+execute at @a[scores={placemgCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placemgCC=1..}] run scoreboard players reset @s placemgCC
+
+execute at @a[scores={placelbCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placelbCC=1..}] run scoreboard players reset @s placelbCC
+
+execute at @a[scores={placeywCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placeywCC=1..}] run scoreboard players reset @s placeywCC
+
+execute at @a[scores={placelmCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placelmCC=1..}] run scoreboard players reset @s placelmCC
+
+execute at @a[scores={placepkCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placepkCC=1..}] run scoreboard players reset @s placepkCC
+
+execute at @a[scores={placegyCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placegyCC=1..}] run scoreboard players reset @s placegyCC
+
+execute at @a[scores={placelgyCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placelgyCC=1..}] run scoreboard players reset @s placelgyCC
+
+execute at @a[scores={placecyCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placecyCC=1..}] run scoreboard players reset @s placecyCC
+
+execute at @a[scores={placeppCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placeppCC=1..}] run scoreboard players reset @s placeppCC
+
+execute at @a[scores={placebuCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placebuCC=1..}] run scoreboard players reset @s placebuCC
+
+execute at @a[scores={placebrCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placebrCC=1..}] run scoreboard players reset @s placebrCC
+
+execute at @a[scores={placegrCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placegrCC=1..}] run scoreboard players reset @s placegrCC
+
+execute at @a[scores={placegyCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placegyCC=1..}] run scoreboard players reset @s placegyCC
+
+execute at @a[scores={placerdCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placerdCC=1..}] run scoreboard players reset @s placerdCC
+
+execute at @a[scores={placebkCC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placebkCC=1..}] run scoreboard players reset @s placebkCC
 
 execute at @a[scores={placewhTC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
 execute as @e[scores={placewhTC=1..}] run scoreboard players reset @s placewhTC
@@ -90,6 +141,9 @@ execute as @e[scores={placebuTC=1..}] run scoreboard players reset @s placebuTC
 
 execute at @a[scores={placebrTC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
 execute as @e[scores={placebrTC=1..}] run scoreboard players reset @s placebrTC
+
+execute at @a[scores={placegyTC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
+execute as @e[scores={placegyTC=1..}] run scoreboard players reset @s placegyTC
 
 execute at @a[scores={placegrTC=1..}] run scoreboard players add @e[tag=detector,distance=0..25,sort=nearest,limit=1] block 1
 execute as @e[scores={placegrTC=1..}] run scoreboard players reset @s placegrTC
