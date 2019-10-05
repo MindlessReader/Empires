@@ -1,19 +1,19 @@
-execute as @a[scores={shopBuildings1=1..}] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=aqua] as @e[tag=empire,team=aqua] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=black] as @e[tag=empire,team=black] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=blue] as @e[tag=empire,team=blue] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=darkaqua] as @e[tag=empire,team=darkaqua] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=darkblue] as @e[tag=empire,team=darkblue] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=darkgray] as @e[tag=empire,team=darkgray] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=darkgreen] as @e[tag=empire,team=darkgreen] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=darkpurple] as @e[tag=empire,team=darkpurple] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=darkred] as @e[tag=empire,team=darkred] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=gold] as @e[tag=empire,team=gold] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=gray] as @e[tag=empire,team=gray] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=green] as @e[tag=empire,team=green] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=lightpurple] as @e[tag=empire,team=lightpurple] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=red] as @e[tag=empire,team=red] run tag @s add buying
-execute if entity @e[scores={shopBuildings1=1..},team=yellow] as @e[tag=empire,team=yellow] run tag @s add buying
+tag @a[scores={shopBuildings1=1..}] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=aqua] run tag @e[tag=empire,team=aqua] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=black] run tag @e[tag=empire,team=black] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=blue] run tag @e[tag=empire,team=blue] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=darkaqua] run tag @e[tag=empire,team=darkaqua] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=darkblue] run tag @e[tag=empire,team=darkblue] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=darkgray] run tag @e[tag=empire,team=darkgray] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=darkgreen] run tag @e[tag=empire,team=darkgreen] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=darkpurple] run tag @e[tag=empire,team=darkpurple] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=darkred] run tag @e[tag=empire,team=darkred] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=gold] run tag @e[tag=empire,team=gold] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=gray] run tag @e[tag=empire,team=gray] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=green] run tag @e[tag=empire,team=green] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=lightpurple] run tag @e[tag=empire,team=lightpurple] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=red] run tag @e[tag=empire,team=red] add buying
+execute if entity @a[scores={shopBuildings1=1..},team=yellow] run tag @e[tag=empire,team=yellow] add buying
 
 scoreboard players operation @e[tag=empire,tag=buying] shopBuildings1 = @a[tag=buying] shopBuildings1
 execute as @e[tag=empire,tag=buying] run function empires:shops/shopbuildings
