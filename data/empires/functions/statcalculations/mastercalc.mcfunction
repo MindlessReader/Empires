@@ -138,12 +138,15 @@ function empires:statcalculations/buildings/zengarden
 
 #stuff
 scoreboard players operation @s happiness < @s population
-function empires:statcalculations/food
+scoreboard players operation @s food -= @s population
+execute if entity @s[scores={food=..0}] run scoreboard players operation @s population += @s food
 scoreboard players operation @s food < @s foodStorage
+
 #production
-scoreboard players operation @s popPH *= @s three
 scoreboard players operation @s production < @s popPH
-scoreboard players reset @s popPH
+
+scoreboard players operation @s happiness -= @s population
+execute if entity @s[scores={happiness=..0}] run scoreboard players operation @s population += @s happiness
 
 #Technology
 scoreboard players operation @s techwheel += @s potter 
