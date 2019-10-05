@@ -51,8 +51,9 @@ execute as @s run scoreboard players reset @s housePH
 
 #Food Storage Buildings
 scoreboard players reset @s foodStorage
-function empires:statcalculations/buildings/storage/house
+
 function empires:statcalculations/buildings/storage/granary
+function empires:statcalculations/buildings/storage/house
 
 #Food Bonuses
 execute as @s run scoreboard players operation @s onehundred += @s fertilizerBonus
