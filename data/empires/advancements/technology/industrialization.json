@@ -8,7 +8,7 @@
     "display": {
         "announce_to_chat": true,
         "description": {
-            "text": "Unlocked by Textile Factory\n\nUnlocks Capitalism"
+            "text": "Unlocked by Blimp"
         },
         "frame": "task",
         "hidden": false,
@@ -20,5 +20,5 @@
             "text": "Industrialization (225)"
         }
     },
-    "parent": "empires:technology/industrialization"
+    "parent": "empires:technology/steampower"
 }
