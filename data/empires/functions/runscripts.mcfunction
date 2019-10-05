@@ -33,10 +33,7 @@ function empires:cities/reload
 
 #Shops
 function empires:shops/enable
-function empires:shops/shoptierblocks
-function empires:shops/shopmisc
-function empires:shops/shopdecoration
-function empires:shops/shopbuildings
+function empires:shops/shopforwarder
 function empires:shops/cities
 function empires:shops/convert
 
