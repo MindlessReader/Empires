@@ -126,9 +126,9 @@ execute as @a[scores={shopBuildings1=130,production=10..},advancements={empires:
 execute as @a[scores={shopBuildings1=130,production=10..},advancements={empires:technology/horsebackriding=true}] at @s run tellraw @p {"text":"[Shop] You bought (1) Stable.","color":"yellow","italic":"true"}
 execute as @a[scores={shopBuildings1=130,production=10..},advancements={empires:technology/horsebackriding=true}] at @s run scoreboard players remove @p production 10
 
-execute as @a[scores={shopBuildings1=131,production=10..},advancements={empires:technology/stonemasonry=true}] at @s run give @p husk_spawn_egg{display:{Name:"\"Wall Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Wall Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["wallsdetector","detector"]}}
-execute as @a[scores={shopBuildings1=131,production=10..},advancements={empires:technology/stonemasonry=true}] at @s run tellraw @p {"text":"[Shop] You bought (1) Wall.","color":"yellow","italic":"true"}
-execute as @a[scores={shopBuildings1=131,production=10..},advancements={empires:technology/stonemasonry=true}] at @s run scoreboard players remove @p production 10
+execute as @s[scores={shopBuildings1=131,production=10..},tag=techstonemasonry] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Windmill Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Wall Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["walldetector","detector"]}}
+execute as @s[scores={shopBuildings1=131,production=10..},tag=techstonemasonry] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Wall.","color":"yellow","italic":"true"}
+execute as @s[scores={shopBuildings1=131,production=10..},tag=techstonemasonry] run scoreboard players remove @s production 10
 
 execute as @s[scores={shopBuildings1=132,production=40..},tag=techmachinery] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Windmill Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Windmill Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["windmilldetector","detector"]}}
 execute as @s[scores={shopBuildings1=132,production=40..},tag=techmachinery] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Windmill.","color":"yellow","italic":"true"}
@@ -138,5 +138,7 @@ execute as @s[scores={shopBuildings1=132,production=40..},tag=techmachinery] run
 #execute as @a[scores={shopBuildings1=133,production=10..},advancements={empires:technology/statemilitary=true}] at @s run tellraw @p {"text":"[Shop] You bought (1) Barracks.","color":"yellow","italic":"true"}
 #execute as @a[scores={shopBuildings1=133,production=10..},advancements={empires:technology/statemilitary=true}] at @s run scoreboard players remove @p production 10
 
-#End
+
+
+tag @e[tag=buying] remove buying
 scoreboard players reset @e[scores={shopBuildings1=1..}] shopBuildings1

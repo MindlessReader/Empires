@@ -17,6 +17,3 @@ execute if entity @a[scores={shopBuildings1=1..},team=yellow] run tag @e[tag=emp
 
 scoreboard players operation @e[tag=empire,tag=buying] shopBuildings1 = @a[tag=buying] shopBuildings1
 execute as @e[tag=empire,tag=buying] run function empires:shops/shopbuildings
-
-execute as @a[tag=buying] run tag @s remove buying
-execute as @e[scores={shopBuildings1=1..}] run scoreboard players set @s shopBuildings1 0
