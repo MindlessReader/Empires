@@ -174,6 +174,37 @@ scoreboard players operation @s techironworking += @s workshop
 scoreboard players operation @s techcurrency += @s workshop
 scoreboard players operation @s techguilds += @s market
 
+#khbfd
+execute as @s[scores={techwheel=75..}] run tag @s add techwheel
+execute as @s[scores={techmachinery=225..}] run tag @s add techmachinery
+execute as @s[scores={techprinting=220..}] run tag @s add techprinting
+execute as @s[scores={techsteampower=300..}] run tag @s add techsteampower
+execute as @s[scores={techhorseriding=45..}] run tag @s add techhorseriding
+execute as @s[scores={techrecreation=125..}] run tag @s add techrecreation
+execute as @s[scores={techirrigation=25..}] run tag @s add techirrigation
+execute as @s[scores={techwriting=65..}] run tag @s add techwriting
+
+execute as @s[scores={techfertilizer=255..}] run tag @s add techfertilizer
+
+execute as @s[scores={techcroprotation=500..}] run tag @s add techcroprotation
+
+execute as @s[scores={techphilosphy=125..}] run tag @s add techphilosphy
+execute as @s[scores={techdrama=120..}] run tag @s add techdrama
+execute as @s[scores={techhumanism=265..}] run tag @s add techhumanism
+execute as @s[scores={technavigation=75..}] run tag @s add technavigation
+execute as @s[scores={techcartography=225..}] run tag @s add techcartography
+execute as @s[scores={techcolonialism=425..}] run tag @s add techcolonialism
+execute as @s[scores={techmercantilism=100..}] run tag @s add techmercantilism
+execute as @s[scores={techindustrialization=225..}] run tag @s add techindustrialization
+execute as @s[scores={techstonemasonry=50..}] run tag @s add techstonemasonry
+execute as @s[scores={techconstruction=150..}] run tag @s add techconstruction
+execute as @s[scores={techbronze=55..}] run tag @s add techbronze
+execute as @s[scores={techironworking=115..}] run tag @s add techironworking
+execute as @s[scores={techcurrency=65..}] run tag @s add techcurrency
+execute as @s[scores={techguilds=275..}] run tag @s add techguilds
+
+#fff
+
 execute as @s[scores={techwheel=75..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/wheel
 execute as @s[scores={techmachinery=225..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/machinery
 execute as @s[scores={techprinting=220..}] run advancement grant @a[scores={turn=24000..}] only empires:technology/printing
