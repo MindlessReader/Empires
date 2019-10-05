@@ -142,7 +142,7 @@ function empires:statcalculations/food
 scoreboard players operation @s food < @s foodStorage
 #production
 scoreboard players operation @s popPH *= @s three
-scoreboard players operation @a[scores={turn=24000..}] production < @s popPH
+scoreboard players operation @s production < @s popPH
 scoreboard players reset @s popPH
 
 #Technology
