@@ -7,6 +7,16 @@ Release v0.3.0-beta
  - Blocks are now placed normally, not with spawn eggs
  - Empire Armor Stands are now forceloaded
  - Cities now encompass 160x160 blocks, from y0 to y255 (unfinished)
+ - Help Trigger Added- links to guide document
+ - Cities now indicate where to place your new city
+ - Turn # displays in chat
+ - Speed Mode added (Developer use only)
+ - 1.14 flowers now count towards Gardens
+ - Temples rebalanced
+ - Condensed EmpiresGUI Trigger
+ - “/trigger startgame” now starts the game once on a team
+ - Production and money are now centralized on empires, not players
+
 
 
 Release v0.2.1-beta
