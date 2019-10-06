@@ -19,6 +19,7 @@ scoreboard objectives add harbor dummy
 scoreboard objectives add market dummy
 #scoreboard objectives add barracks dummy
 scoreboard objectives add stable dummy
+scoreboard objectives add plantation dummy
 #scoreboard objectives add armory dummy
 scoreboard objectives add lighthouse dummy
 scoreboard objectives add shippingyard dummy
