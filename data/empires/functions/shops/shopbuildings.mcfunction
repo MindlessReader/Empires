@@ -38,9 +38,9 @@ execute as @s[scores={shopBuildings1=107,production=30..},tag=techmachinery] as 
 execute as @s[scores={shopBuildings1=107,production=30..},tag=techmachinery] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Lumber Mill.","color":"yellow","italic":"true"}
 execute as @s[scores={shopBuildings1=107,production=30..},tag=techmachinery] run scoreboard players remove @s production 30
 
-execute as @s[scores={shopBuildings1=108,production=25..},tag=techbronzeworking] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Workshop Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Workshop Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["workshopdetector","detector"]}}
-execute as @s[scores={shopBuildings1=108,production=25..},tag=techbronzeworking] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Workshop.","color":"yellow","italic":"true"}
-execute as @s[scores={shopBuildings1=108,production=25..},tag=techbronzeworking] run scoreboard players remove @s production 25
+execute as @s[scores={shopBuildings1=108,production=25..},tag=techbronze] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Workshop Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Workshop Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["workshopdetector","detector"]}}
+execute as @s[scores={shopBuildings1=108,production=25..},tag=techbronze] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Workshop.","color":"yellow","italic":"true"}
+execute as @s[scores={shopBuildings1=108,production=25..},tag=techbronze] run scoreboard players remove @s production 25
 
 execute as @s[scores={shopBuildings1=109,production=15..},tag=techwriting] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Library Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Library Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["librarydetector","detector"]}}
 execute as @s[scores={shopBuildings1=109,production=15..},tag=techwriting] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Library.","color":"yellow","italic":"true"}
@@ -58,9 +58,9 @@ execute as @s[scores={shopBuildings1=113,production=5..}] as @a[tag=buying] at @
 execute as @s[scores={shopBuildings1=113,production=5..}] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Port.","color":"yellow","italic":"true"}
 execute as @s[scores={shopBuildings1=113,production=5..}] run scoreboard players remove @s production 5
 
-execute as @s[scores={shopBuildings1=114,production=100..},tag=techindustrialization] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Factory Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Factory Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["factorydetector","detector"]}}
-execute as @s[scores={shopBuildings1=114,production=100..},tag=techindustrialization] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Factory.","color":"yellow","italic":"true"}
-execute as @s[scores={shopBuildings1=114,production=100..},tag=techindustrialization] run scoreboard players remove @s production 100
+execute as @s[scores={shopBuildings1=114,production=100..},tag=techindustry] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Factory Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Factory Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["factorydetector","detector"]}}
+execute as @s[scores={shopBuildings1=114,production=100..},tag=techindustry] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Factory.","color":"yellow","italic":"true"}
+execute as @s[scores={shopBuildings1=114,production=100..},tag=techindustry] run scoreboard players remove @s production 100
 
 execute as @s[scores={shopBuildings1=115,production=10..},tag=techirrigation] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Granary Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Granary Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["granarydetector","detector"]}}
 execute as @s[scores={shopBuildings1=115,production=10..},tag=techirrigation] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Granary.","color":"yellow","italic":"true"}
@@ -122,17 +122,21 @@ execute as @s[scores={shopBuildings1=129,production=100..},tag=techmercantilism]
 execute as @s[scores={shopBuildings1=129,production=100..},tag=techmercantilism] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Shipping Yard.","color":"yellow","italic":"true"}
 execute as @s[scores={shopBuildings1=129,production=100..},tag=techmercantilism] run scoreboard players remove @s production 100
 
-execute as @s[scores={shopBuildings1=130,production=10..},tag=techhorsebackriding] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Stable Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Stable Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["stabledetector","detector"]}}
-execute as @s[scores={shopBuildings1=130,production=10..},tag=techhorsebackriding] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Stable.","color":"yellow","italic":"true"}
-execute as @s[scores={shopBuildings1=130,production=10..},tag=techhorsebackriding] run scoreboard players remove @s production 10
+execute as @s[scores={shopBuildings1=130,production=10..},tag=techhorseriding] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Stable Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Stable Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["stabledetector","detector"]}}
+execute as @s[scores={shopBuildings1=130,production=10..},tag=techhorseriding] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Stable.","color":"yellow","italic":"true"}
+execute as @s[scores={shopBuildings1=130,production=10..},tag=techhorseriding] run scoreboard players remove @s production 10
 
-execute as @s[scores={shopBuildings1=131,production=10..},tag=techstonemasonry] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Windmill Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Wall Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["walldetector","detector"]}}
+execute as @s[scores={shopBuildings1=131,production=10..},tag=techstonemasonry] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Wall Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Wall Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["wallsdetector","detector"]}}
 execute as @s[scores={shopBuildings1=131,production=10..},tag=techstonemasonry] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Wall.","color":"yellow","italic":"true"}
 execute as @s[scores={shopBuildings1=131,production=10..},tag=techstonemasonry] run scoreboard players remove @s production 10
 
 execute as @s[scores={shopBuildings1=132,production=40..},tag=techmachinery] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Windmill Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Windmill Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["windmilldetector","detector"]}}
 execute as @s[scores={shopBuildings1=132,production=40..},tag=techmachinery] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Windmill.","color":"yellow","italic":"true"}
 execute as @s[scores={shopBuildings1=132,production=40..},tag=techmachinery] run scoreboard players remove @s production 40
+
+execute as @s[scores={shopBuildings1=133,production=30..},tag=techcolonialism] as @a[tag=buying] at @s run give @p husk_spawn_egg{display:{Name:"\"Plantation Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Plantation Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["plantationdetector","detector"]}}
+execute as @s[scores={shopBuildings1=133,production=30..},tag=techcolonialism] as @a[tag=buying] at @s run tellraw @p {"text":"[Shop] You bought (1) Plantation.","color":"yellow","italic":"true"}
+execute as @s[scores={shopBuildings1=133,production=30..},tag=techcolonialism] run scoreboard players remove @s production 30
 
 #execute as @s[scores={shopBuildings1=133,production=10..},tag=techstatemilitary] at @s run give @p husk_spawn_egg{display:{Name:"\"Barracks Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Barracks Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["barracksdetector","detector"]}}
 #execute as @s[scores={shopBuildings1=133,production=10..},tag=techstatemilitary] at @s run tellraw @p {"text":"[Shop] You bought (1) Barracks.","color":"yellow","italic":"true"}
@@ -141,4 +145,4 @@ execute as @s[scores={shopBuildings1=132,production=40..},tag=techmachinery] run
 
 
 tag @e[tag=buying] remove buying
-scoreboard players reset @e[scores={shopBuildings1=1..}] shopBuildings1
+scoreboard players set @e[scores={shopBuildings1=1..}] shopBuildings1 0

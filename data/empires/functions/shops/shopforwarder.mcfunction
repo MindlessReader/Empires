@@ -16,4 +16,5 @@ execute if entity @a[scores={shopBuildings1=1..},team=red] run tag @e[tag=empire
 execute if entity @a[scores={shopBuildings1=1..},team=yellow] run tag @e[tag=empire,team=yellow] add buying
 
 scoreboard players operation @e[tag=empire,tag=buying] shopBuildings1 = @a[tag=buying] shopBuildings1
+
 execute as @e[tag=empire,tag=buying] run function empires:shops/shopbuildings

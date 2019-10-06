@@ -72,6 +72,7 @@ scoreboard objectives add techwheel dummy
 scoreboard objectives add techmachinery dummy
 scoreboard objectives add techprinting dummy
 scoreboard objectives add techsteampower dummy
+scoreboard objectives add techindustry dummy
 
 scoreboard objectives add techagriculture dummy
 scoreboard objectives add techirrigation dummy
@@ -96,7 +97,7 @@ scoreboard objectives add techconstruction dummy
 scoreboard objectives add techbronze dummy
 scoreboard objectives add techironworking dummy
 scoreboard objectives add techcurrency dummy
-scoreboard objectives add techguilds 
+scoreboard objectives add techguilds dummy
 
 scoreboard objectives add academiaPH dummy
 scoreboard objectives add ampitheatrePH dummy
