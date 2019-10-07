@@ -1,9 +1,9 @@
 function empires:cities/owncity
-function empires:cities/incity
+execute as @a run function empires:cities/incity
 function empires:cities/teamfixer
 #Blocks
 function empires:blocks/blocks
-function empires:blocks/halfblock
+execute as @e[type=bat,tag=detector,scores={halfblock=10}] run function empires:blocks/halfblock
 
 #Biomes
 #function empires:biomes/tagging/tagging
@@ -21,15 +21,15 @@ function empires:flight/enable
 function empires:statcalculations/tech
 function empires:scripts/turn
 function empires:startgame
-scoreboard players set @e[tag=empire,scores={turn=24000..}] turn 24000
-execute as @e[tag=empire,scores={turn=24000}] run function empires:statcalculations/mastercalc
+scoreboard players set @e[type=armor_stand,tag=empire,scores={turn=24000..}] turn 24000
+execute as @e[type=armor_stand,tag=empire,scores={turn=24000}] run function empires:statcalculations/mastercalc
 
 #Cities
 function empires:cities/particletoggle
 function empires:cities/transfer
-execute as @a[scores={cityreload=1},tag=owncity] at @s run tag @e[tag=city,distance=..75,sort=nearest,limit=1] add reloading
-execute as @e[tag=reloading] run function empires:cities/reloading
-execute as @e[tag=reloading] run function empires:cities/reseting
+execute as @a[scores={cityreload=1},tag=owncity] at @s run tag @e[type=armor_stand,tag=city,distance=..75,sort=nearest,limit=1] add reloading
+execute as @e[type=armor_stand,tag=reloading] run function empires:cities/reloading
+execute as @e[type=armor_stand,tag=reloading] run function empires:cities/reseting
 
 #Shops
 function empires:shops/enable

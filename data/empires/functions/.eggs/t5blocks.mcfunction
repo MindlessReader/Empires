@@ -1,5 +1,0 @@
-give @p vindicator_spawn_egg{display:{Name:"\"Concrete\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Concrete\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["concrete"]}}
-give @p vindicator_spawn_egg{display:{Name:"\"Glass\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Glass\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["glass"]}}
-give @p vindicator_spawn_egg{display:{Name:"\"Red Velvet Carpet\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Red Velvet Carpet\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["red_carpet"]}}
-give @p vindicator_spawn_egg{display:{Name:"\"Purple Velvet Carpet\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Purple Velvet Carpet\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["purple_carpet"]}}
-give @p vindicator_spawn_egg{display:{Name:"\"Redstone Lamp\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Redstone Lamp\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["redstone_lamp"]}}
