@@ -6,7 +6,7 @@ function empires:blocks/blocks
 function empires:blocks/halfblock
 
 #Biomes
-function empires:biomes/tagging/tagging
+#function empires:biomes/tagging/tagging
 
 #Detectors
 execute if entity @e[type=bat,tag=detector] run function empires:buildings/houses/hdetectors
@@ -23,19 +23,18 @@ function empires:scripts/turn
 function empires:startgame
 scoreboard players set @e[tag=empire,scores={turn=24000..}] turn 24000
 execute as @e[tag=empire,scores={turn=24000}] run function empires:statcalculations/mastercalc
-function empires:statcalculations/add
-function empires:statcalculations/achievements
 
 #Cities
 function empires:cities/particletoggle
 function empires:cities/transfer
-function empires:cities/reload
+execute as @a[scores={cityreload=1},tag=owncity] at @s run tag @e[tag=city,distance=..75,sort=nearest,limit=1] add reloading
+execute as @e[tag=reloading] run function empires:cities/reloading
+execute as @e[tag=reloading] run function empires:cities/reseting
 
 #Shops
 function empires:shops/enable
 function empires:shops/shopforwarder
 function empires:shops/cities
-function empires:shops/convert
 
 function empires:cities/particles
 
@@ -51,8 +50,8 @@ function empires:teams/leave
 
 #Random Stuff (Pls sort)
 scoreboard players enable @a transferCity
-function empires:display/detectornullfixer
-function empires:display/citynullfixer
+execute as @e[tag=detector,type=bat] run function empires:display/detectornullfixer
+execute as @e[tag=city,type=armor_stand] run function empires:display/citynullfixer
 function empires:display/stats
 
-function empires:scripts/detectorglobes
+execute at @e[tag=globe] run function empires:scripts/detectorglobes
