@@ -3,7 +3,6 @@ scoreboard objectives add foodStorage dummy
 scoreboard objectives add foodStoragePH dummy
 scoreboard objectives add foodPH dummy
 scoreboard objectives add fertilizerBonus dummy
-scoreboard objectives add serfdomPH dummy
 scoreboard objectives add cropBonus dummy
 scoreboard objectives add sanitation dummy
 scoreboard objectives add disease dummy
@@ -32,6 +31,7 @@ scoreboard objectives add shopBuildings1 trigger
 scoreboard objectives add shopcities trigger
 scoreboard objectives add empiresgui trigger
 scoreboard objectives add particledisplay trigger
+scoreboard objectives add seeallborders trigger
 scoreboard objectives add drachmacount dummy
 scoreboard objectives add sidebar trigger
 scoreboard objectives add startgame trigger
@@ -51,21 +51,6 @@ scoreboard objectives add teamOpen trigger
 scoreboard objectives add teamLeave trigger
 
 scoreboard objectives add stats trigger
-
-scoreboard objectives add mesaCity dummy
-scoreboard objectives add beachCity dummy
-scoreboard objectives add birchforestCity dummy
-scoreboard objectives add darkforestCity dummy
-scoreboard objectives add desertCity dummy
-scoreboard objectives add forestCity dummy
-scoreboard objectives add jungleCity dummy
-scoreboard objectives add mountainsCity dummy
-scoreboard objectives add plainsCity dummy
-scoreboard objectives add riverCity dummy
-scoreboard objectives add savannaCity dummy
-scoreboard objectives add swampCity dummy
-scoreboard objectives add taigaCity dummy
-
 
 scoreboard objectives add techpottery dummy
 scoreboard objectives add techwheel dummy

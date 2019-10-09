@@ -5,5 +5,6 @@ scoreboard players enable @a taxamount
 scoreboard players enable @a empiresgui
 scoreboard players enable @a startgame
 scoreboard players enable @a particledisplay
+scoreboard players enable @a seeallborders
 scoreboard players enable @a transferCity
 scoreboard players enable @a help

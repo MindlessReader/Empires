@@ -29,3 +29,5 @@ execute as @a[scores={startgame=1..},team=green] as @e[tag=empire,team=green,tag
 execute as @a[scores={startgame=1..},team=lightpurple] as @e[tag=empire,team=lightpurple,tag=!enabled] run tag @s add enabled
 execute as @a[scores={startgame=1..},team=red] as @e[tag=empire,team=red,tag=!enabled] run tag @s add enabled
 execute as @a[scores={startgame=1..},team=yellow] as @e[tag=empire,team=yellow,tag=!enabled] run tag @s add enabled
+
+scoreboard players reset @a[scores={startgame=1..}] startgame
