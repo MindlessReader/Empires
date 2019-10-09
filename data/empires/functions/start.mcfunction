@@ -7,4 +7,4 @@ function empires:startup/teams
 function empires:startup/help
 function empires:startup/place
 function empires:startup/resources
-say Loaded Empires v0.3.0-beta by MindlessReader and atricard
+say Loaded Empires v0.3.1-beta by MindlessReader and atricard
