@@ -1,4 +1,4 @@
-scoreboard players enable @a shopBuildings1
+scoreboard players enable @a shopBuildings
 scoreboard players enable @a shopcities
 scoreboard players enable @a convert
 scoreboard players enable @a taxamount
