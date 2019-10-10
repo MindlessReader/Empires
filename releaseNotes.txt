@@ -1,3 +1,8 @@
+Release v0.3.1-beta
+ - Optimized to lower lag
+ - Fixed terracotta not being a valid building block
+ - Fixed startgame trigger
+
 Release v0.3.0-beta
  - Added reloading message
  - Start now runs on /reloading
