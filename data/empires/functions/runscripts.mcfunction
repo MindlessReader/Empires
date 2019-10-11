@@ -33,7 +33,8 @@ execute as @e[type=armor_stand,tag=reloading] run function empires:cities/reseti
 
 #Shops
 function empires:shops/enable
-function empires:shops/shopforwarder
+function empires:shops/exchanging
+#function empires:shops/shopforwarder
 function empires:shops/cities
 
 function empires:cities/particles

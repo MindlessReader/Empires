@@ -1,0 +1,2 @@
+give @s husk_spawn_egg{display:{Name:"\"Port Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Port Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["portdetector","detector"]}}
+scoreboard players remove @e[type=armor_stand,tag=empire,tag=buying] production 5
