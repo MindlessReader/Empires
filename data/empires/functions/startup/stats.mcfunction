@@ -27,6 +27,7 @@ scoreboard players set @e[tag=empire] ten 10
 scoreboard players set @e[tag=empire] onehundred 100
 scoreboard objectives add turn dummy
 scoreboard objectives add turnCount dummy
+scoreboard objectives add shopkeeper trigger
 scoreboard objectives add shopBuildings trigger
 scoreboard objectives add shopcities trigger
 scoreboard objectives add empiresgui trigger

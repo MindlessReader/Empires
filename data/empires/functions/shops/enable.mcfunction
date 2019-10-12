@@ -1,3 +1,4 @@
+scoreboard players enable @a shopkeeper
 scoreboard players enable @a shopBuildings
 scoreboard players enable @a shopcities
 scoreboard players enable @a convert

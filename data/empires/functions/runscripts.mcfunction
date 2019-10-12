@@ -33,6 +33,8 @@ execute as @e[type=armor_stand,tag=reloading] run function empires:cities/reseti
 
 #Shops
 function empires:shops/enable
+execute as @a[scores={shopkeeper=1}] run function empires:shops/summoning/openshop
+execute as @a[scores={shopkeeper=2}] run function empires:shops/summoning/closeshop
 function empires:shops/exchanging
 #function empires:shops/shopforwarder
 function empires:shops/cities
