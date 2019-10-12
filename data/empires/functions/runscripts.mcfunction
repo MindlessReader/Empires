@@ -5,17 +5,10 @@ function empires:cities/teamfixer
 function empires:blocks/blocks
 execute as @e[type=bat,tag=detector,scores={halfblock=10}] run function empires:blocks/halfblock
 
-#Biomes
-#function empires:biomes/tagging/tagging
-
 #Detectors
-execute if entity @e[type=bat,tag=detector] run function empires:buildings/houses/hdetectors
-execute if entity @e[type=bat,tag=detector] run function empires:buildings/misc/.otherdetectors
-execute if entity @e[type=bat,tag=detector] run function empires:buildings/temples/temple
-#Flight System
-function empires:flight/flight
-function empires:flight/hover
-function empires:flight/enable
+execute if entity @e[type=bat,tag=detector] run function empires:buildings/all
+execute as @e[type=bat,tag=detector,tag=completed] at @s run function empires:buildings/complete
+execute as @e[type=firework_rocket,tag=boom] at @s run effect give @a[distance=..3] minecraft:resistance 1 5 true
 
 #Stats and Turn
 function empires:statcalculations/tech
@@ -45,7 +38,6 @@ function empires:display/displays
 function empires:display/sidebar
 function empires:display/help
 scoreboard players enable @a sidebar
-execute at @e[tag=globe] as @e[tag=globe] run tp @e[tag=globe,distance=0..0.1,sort=nearest] ~ ~ ~ ~8 ~
 
 #Teams
 function empires:teams/join
@@ -57,4 +49,6 @@ execute as @e[tag=detector,type=bat] run function empires:display/detectornullfi
 execute as @e[tag=city,type=armor_stand] run function empires:display/citynullfixer
 function empires:display/stats
 
-execute at @e[tag=globe] run function empires:scripts/detectorglobes
+execute as @e[type=armor_stand,tag=city] at @s run tp @s ~ ~ ~ ~2 ~
+execute as @e[type=bat,tag=detector] run function empires:scripts/thing
+execute as @e[type=armor_stand,tag=detectorvisual] at @s unless entity @e[type=bat,tag=detector,distance=..5,limit=1,sort=nearest] run kill @s

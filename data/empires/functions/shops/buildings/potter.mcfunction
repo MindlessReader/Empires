@@ -1,2 +1,2 @@
-give @s husk_spawn_egg{display:{Name:"\"Potter Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Potter Detector\"",CustomNameVisible:1,NoAI:1b,Silent:1,Invulnerable:1,Tags:["potterdetector","detector"]}}
+give @s bat_spawn_egg{display:{Name:"\"Potter Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Potter Detector\"",CustomNameVisible:1,NoAI:1b,BatFlags:1b,Silent:1b,Invulnerable:1,Tags:["potterdetector","detector"]}}
 scoreboard players remove @e[type=armor_stand,tag=empire,tag=buying] production 2

@@ -1,4 +1,4 @@
-execute at @e[tag=city,type=armor_stand] as @e[tag=city,type=armor_stand] run tp @e[tag=city,type=armor_stand,limit=1,sort=nearest] ~ ~ ~ ~8 ~
+execute at @e[tag=city,type=armor_stand] as @s run tp @e[tag=city,type=armor_stand,limit=1,sort=nearest] ~ ~ ~ ~8 ~
 #execute at @e[tag=particlestoggled,tag=city,type=armor_stand,team=aqua] run particle dust 0.122 0.973 1.000 4 ^ ^1 ^80 0 0 0 0 1 force @a[tag=seeparticles]
 #execute at @e[tag=particlestoggled,tag=city,type=armor_stand,team=black] run particle dust 0.000 0.000 0.000 4 ^ ^1 ^80 0 0 0 0 1 force @a[tag=seeparticles]
 #execute at @e[tag=particlestoggled,tag=city,type=armor_stand,team=blue] run particle dust 0.031 0.420 1.000 4 ^ ^1 ^80 0 0 0 0 1 force @a[tag=seeparticles]
