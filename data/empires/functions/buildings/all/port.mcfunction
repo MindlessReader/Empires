@@ -14,6 +14,7 @@ execute at @e[tag=portdetector,scores={block=150..}] positioned ~-80 ~ ~-80 if e
 execute at @e[tag=portdetector,scores={block=150..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=lightpurple] run scoreboard players add @e[tag=empire,team=lightpurple,sort=random,limit=1] port 1
 execute at @e[tag=portdetector,scores={block=150..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=red] run scoreboard players add @e[tag=empire,team=red,sort=random,limit=1] port 1
 execute at @e[tag=portdetector,scores={block=150..}] positioned ~-80 ~ ~-80 if entity @e[tag=city,dx=160,dz=160,y=0,dy=255,sort=nearest,limit=1,team=yellow] run scoreboard players add @e[tag=empire,team=yellow,sort=random,limit=1] port 1
-execute at @e[tag=portdetector,tag=detector,scores={block=150..}] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["building","port"]}
+#Village
+execute as @e[tag=portdetector,tag=detector,scores={block=150..}] at @s positioned ~-80 ~ ~-80 run function empires:buildings/portadd
 execute as @e[tag=portdetector,tag=detector,scores={block=150..}] run tag @s add completed
 execute at @e[tag=portdetector] run title @a[distance=..25] actionbar ["",{"selector":"@e[tag=detector,sort=nearest,limit=1]","underlined":true},{"text":" has: ","underlined":false},{"text":"Block: ","color":"gold"},{"score":{"name":"@e[tag=detector,sort=nearest,limit=1]","objective":"block"},"color":"light_purple"}]

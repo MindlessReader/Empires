@@ -7,6 +7,7 @@ scoreboard objectives add cropBonus dummy
 scoreboard objectives add sanitation dummy
 scoreboard objectives add disease dummy
 scoreboard objectives add population dummy
+scoreboard objectives add villagePop dummy
 scoreboard objectives add happiness dummy
 scoreboard objectives add ports dummy
 scoreboard objectives add money dummy
@@ -17,10 +18,12 @@ scoreboard objectives add popPH dummy
 scoreboard objectives add totalHousing dummy
 scoreboard objectives add zero dummy
 scoreboard objectives add three dummy
+scoreboard objectives add two dummy
 scoreboard objectives add five dummy
 scoreboard objectives add ten dummy
 scoreboard objectives add onehundred dummy
 scoreboard players set @e[tag=empire] zero 0
+scoreboard players set @e[tag=empire] two 2
 scoreboard players set @e[tag=empire] three 3
 scoreboard players set @e[tag=empire] five 5
 scoreboard players set @e[tag=empire] ten 10

@@ -42,6 +42,7 @@ execute unless entity @s[type=armor_stand,scores={temple=..0,temple=0..}] run sc
 
 #Stats
 execute unless entity @s[type=armor_stand,scores={population=..0,population=0..}] run scoreboard players set @s population 0
+execute unless entity @s[type=armor_stand,scores={villagePop=..0,villagePop=0..}] run scoreboard players set @s villagePop 0
 execute unless entity @s[type=armor_stand,scores={food=..0,food=0..}] run scoreboard players set @s food 0
 execute unless entity @s[type=armor_stand,scores={foodStorage=..0,foodStorage=0..}] run scoreboard players set @s foodStorage 0
 execute unless entity @s[type=armor_stand,scores={happiness=..0,happiness=0..}] run scoreboard players set @s happiness 0

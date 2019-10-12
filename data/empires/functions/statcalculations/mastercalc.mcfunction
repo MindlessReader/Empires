@@ -38,20 +38,18 @@ scoreboard players operation @s popPH = @s population
 #Money
 scoreboard players operation @s money += @s population
 
-#Population Adding Buildings (ALL BUILDINGS THAT PRODUCE POPULATION **MUST** BE HERE)
-function empires:statcalculations/buildings/population/blimp
-function empires:statcalculations/buildings/population/harbor
-function empires:statcalculations/buildings/population/lighthouse
-function empires:statcalculations/buildings/population/port
+#Villagers
+execute as @e[type=armor_stand,tag=building,tag=port] at @s run function empires:village/port
+execute as @e[type=armor_stand,tag=building,tag=lighthouse] at @s run function empires:village/port
+execute as @e[type=armor_stand,tag=building,tag=harbor] at @s run function empires:village/port
+execute as @e[type=armor_stand,tag=building,tag=blimp] at @s run function empires:village/port
+function empires:village/recount
 
 #House Population
-execute as @s run scoreboard players operation @s housePH *= @s three
-scoreboard players operation @s population < @s housePH
-execute as @s run scoreboard players reset @s housePH
+function empires:statcalculations/villagers/housing
 
 #Food Storage Buildings
 scoreboard players reset @s foodStorage
-
 function empires:statcalculations/buildings/storage/granary
 function empires:statcalculations/buildings/storage/house
 
@@ -140,14 +138,16 @@ function empires:statcalculations/buildings/zengarden
 #stuff
 scoreboard players operation @s happiness < @s population
 scoreboard players operation @s food -= @s population
-execute if entity @s[scores={food=..0}] run scoreboard players operation @s population += @s food
+execute if entity @s[scores={food=..0}] run function empires:statcalculations/villagers/starving
 scoreboard players operation @s food < @s foodStorage
 
 #production
-scoreboard players operation @s production < @s popPH
+execute as @s run scoreboard players operation @s popPH *= @s three
+scoreboard players operation @s population < @s popPH
+execute as @s run scoreboard players reset @s popPH
 
 scoreboard players operation @s happiness -= @s population
-execute if entity @s[scores={happiness=..0}] run scoreboard players operation @s population += @s happiness
+execute if entity @s[scores={happiness=..0}] run function empires:statcalculations/villagers/leaving
 
 #Technology
 scoreboard players operation @s techwheel += @s potter 

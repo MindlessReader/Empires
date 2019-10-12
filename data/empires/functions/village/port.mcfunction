@@ -1,0 +1,15 @@
+execute as @e[type=armor_stand,tag=port,team=aqua] run summon villager ~ ~ ~ {Team:"aqua",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=black] run summon villager ~ ~ ~ {Team:"black",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=blue] run summon villager ~ ~ ~ {Team:"blue",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=darkaqua] run summon villager ~ ~ ~ {Team:"darkaqua",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=darkblue] run summon villager ~ ~ ~ {Team:"darkblue",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=darkgray] run summon villager ~ ~ ~ {Team:"darkgray",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=darkgreen] run summon villager ~ ~ ~ {Team:"darkgreen",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=darkpurple] run summon villager ~ ~ ~ {Team:"darkpurple",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=darkred] run summon villager ~ ~ ~ {Team:"darkred",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=gold] run summon villager ~ ~ ~ {Team:"gold",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=gray] run summon villager ~ ~ ~ {Team:"gray",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=green] run summon villager ~ ~ ~ {Team:"green",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=lightpurple] run summon villager ~ ~ ~ {Team:"lightpurple",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=red] run summon villager ~ ~ ~ {Team:"red",Tags:["citizen"]}
+execute as @e[type=armor_stand,tag=port,team=yellow] run summon villager ~ ~ ~ {Team:"yellow",Tags:["citizen"]}
