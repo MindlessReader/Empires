@@ -1,4 +1,5 @@
 playsound minecraft:block.note_block.pling player @s ~ ~ ~ 1 2 1
+give @s minecraft:emerald{display:{Name:'{"text":"Shop Token","color":"green","italic":false}',Lore:['{"text":"Use this with the Empires Shopkeeper!","italic":false}']}} 1
 tellraw @s {"text":"Summoned the Shopkeeper!","color":"green","italic":false}
 particle minecraft:firework ~ ~ ~ 0.5 0.75 0.5 0.01 20
 #Villager

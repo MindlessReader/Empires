@@ -4,6 +4,7 @@ execute unless entity @s[scores={anvil=..0,anvil=0..}] run scoreboard players se
 execute unless entity @s[scores={crop=..0,crop=0..}] run scoreboard players set @s crop 0
 execute unless entity @s[scores={door=..0,door=0..}] run scoreboard players set @s door 0
 execute unless entity @s[scores={torch=..0,torch=0..}] run scoreboard players set @s torch 0
+execute unless entity @s[scores={bed=..0,bed=0..}] run scoreboard players set @s bed 0
 execute unless entity @s[scores={cauldron=..0,cauldron=0..}] run scoreboard players set @s cauldron 0
 execute unless entity @s[scores={flower_pot=..0,flower_pot=0..}] run scoreboard players set @s flower_pot 0
 execute unless entity @s[scores={rail=..0,rail=0..}] run scoreboard players set @s rail 0

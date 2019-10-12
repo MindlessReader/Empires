@@ -14,3 +14,4 @@ scoreboard objectives add haybale dummy
 scoreboard objectives add bookshelf dummy
 scoreboard objectives add door dummy
 scoreboard objectives add torch dummy
+scoreboard objectives add bed dummy
