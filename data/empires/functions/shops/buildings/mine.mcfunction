@@ -1,2 +1,2 @@
-give @s bat_spawn_egg{display:{Name:"\"Mine Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Mine Detector\"",CustomNameVisible:1,NoAI:1b,BatFlags:1b,Silent:1b,Invulnerable:1,Tags:["minedetector","detector"]}}
+give @s bat_spawn_egg{display:{Name:"\"Mine Detector\":\"\""},EntityTag:{id:"minecraft:bat",CustomName:"\"Mine Detector\"",CustomNameVisible:1,NoAI:1b,BatFlags:0b,Silent:1b,Invulnerable:1,Tags:["minedetector","detector"]}}
 scoreboard players remove @e[type=armor_stand,tag=empire,tag=buying] production 4

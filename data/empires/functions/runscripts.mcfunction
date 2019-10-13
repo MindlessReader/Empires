@@ -49,6 +49,4 @@ execute as @e[tag=detector,type=bat] run function empires:display/detectornullfi
 execute as @e[tag=city,type=armor_stand] run function empires:display/citynullfixer
 function empires:display/stats
 
-execute as @e[type=armor_stand,tag=city] at @s run tp @s ~ ~ ~ ~2 ~
-execute as @e[type=bat,tag=detector] run function empires:scripts/thing
-execute as @e[type=armor_stand,tag=detectorvisual] at @s unless entity @e[type=bat,tag=detector,distance=..5,limit=1,sort=nearest] run kill @s
+execute as @e[type=armor_stand,tag=city] at @s run tp @e[type=armor_stand,tag=city,sort=nearest,limit=1] ~ ~ ~ ~2 ~
