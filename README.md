@@ -2,7 +2,7 @@
 
 Empires by MindlessReader and atricard
 
-LINK TO OFFICIAL DISCORD: https://discord.gg/PAGhaJU
+LINK TO OFFICIAL DISCORD: https://discord.gg/stndQuc
 
 How to install:<br />
 Download as zip<br />
